@@ -467,17 +467,17 @@ namespace Dota2.GC.Dota.Internal
       get { return _party_builder_start_time; }
       set { _party_builder_start_time = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"State", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"State")]
     public enum State
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UI", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UI")]
       UI = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FINDING_MATCH", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FINDING_MATCH")]
       FINDING_MATCH = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"IN_MATCH", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"IN_MATCH")]
       IN_MATCH = 2
     }
   
@@ -2038,70 +2038,70 @@ namespace Dota2.GC.Dota.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"State", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"State")]
     public enum State
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UI", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UI")]
       UI = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"READYUP", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"READYUP")]
       READYUP = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SERVERSETUP", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SERVERSETUP")]
       SERVERSETUP = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"RUN", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"RUN")]
       RUN = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"POSTGAME", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"POSTGAME")]
       POSTGAME = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"NOTREADY", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"NOTREADY")]
       NOTREADY = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SERVERASSIGN", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SERVERASSIGN")]
       SERVERASSIGN = 6
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"LobbyType", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"LobbyType")]
     public enum LobbyType
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"INVALID", Value=-1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"INVALID")]
       INVALID = -1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CASUAL_MATCH", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CASUAL_MATCH")]
       CASUAL_MATCH = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PRACTICE", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PRACTICE")]
       PRACTICE = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TOURNAMENT", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TOURNAMENT")]
       TOURNAMENT = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"COOP_BOT_MATCH", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"COOP_BOT_MATCH")]
       COOP_BOT_MATCH = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"LEGACY_TEAM_MATCH", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"LEGACY_TEAM_MATCH")]
       LEGACY_TEAM_MATCH = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"LEGACY_SOLO_QUEUE_MATCH", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"LEGACY_SOLO_QUEUE_MATCH")]
       LEGACY_SOLO_QUEUE_MATCH = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"COMPETITIVE_MATCH", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"COMPETITIVE_MATCH")]
       COMPETITIVE_MATCH = 7,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CASUAL_1V1_MATCH", Value=8)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CASUAL_1V1_MATCH")]
       CASUAL_1V1_MATCH = 8,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"WEEKEND_TOURNEY", Value=9)]
+      [global::ProtoBuf.ProtoEnum(Name=@"WEEKEND_TOURNEY")]
       WEEKEND_TOURNEY = 9,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"LOCAL_BOT_MATCH", Value=10)]
+      [global::ProtoBuf.ProtoEnum(Name=@"LOCAL_BOT_MATCH")]
       LOCAL_BOT_MATCH = 10,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SPECTATOR", Value=11)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SPECTATOR")]
       SPECTATOR = 11
     }
   
@@ -2129,31 +2129,31 @@ namespace Dota2.GC.Dota.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"LobbyDotaTVDelay", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"LobbyDotaTVDelay")]
     public enum LobbyDotaTVDelay
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"LobbyDotaTV_10", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"LobbyDotaTV_10")]
       LobbyDotaTV_10 = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"LobbyDotaTV_120", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"LobbyDotaTV_120")]
       LobbyDotaTV_120 = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"LobbyDotaTV_300", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"LobbyDotaTV_300")]
       LobbyDotaTV_300 = 2
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"LobbyDotaPauseSetting", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"LobbyDotaPauseSetting")]
     public enum LobbyDotaPauseSetting
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"LobbyDotaPauseSetting_Unlimited", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"LobbyDotaPauseSetting_Unlimited")]
       LobbyDotaPauseSetting_Unlimited = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"LobbyDotaPauseSetting_Limited", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"LobbyDotaPauseSetting_Limited")]
       LobbyDotaPauseSetting_Limited = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"LobbyDotaPauseSetting_Disabled", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"LobbyDotaPauseSetting_Disabled")]
       LobbyDotaPauseSetting_Disabled = 2
     }
   

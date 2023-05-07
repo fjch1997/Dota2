@@ -474,38 +474,38 @@ namespace Dota2.GC.Dota.Internal
       get { return _errors; }
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EError", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EError")]
     public enum EError
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UNSPECIFIED", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UNSPECIFIED")]
       UNSPECIFIED = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"NAME_EMPTY", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"NAME_EMPTY")]
       NAME_EMPTY = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"NAME_BAD_CHARACTERS", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"NAME_BAD_CHARACTERS")]
       NAME_BAD_CHARACTERS = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"NAME_TOO_LONG", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"NAME_TOO_LONG")]
       NAME_TOO_LONG = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"NAME_TAKEN", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"NAME_TAKEN")]
       NAME_TAKEN = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TAG_EMPTY", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TAG_EMPTY")]
       TAG_EMPTY = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TAG_BAD_CHARACTERS", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TAG_BAD_CHARACTERS")]
       TAG_BAD_CHARACTERS = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TAG_TOO_LONG", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TAG_TOO_LONG")]
       TAG_TOO_LONG = 7,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACCOUNT_TOO_MANY_GUILDS", Value=8)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACCOUNT_TOO_MANY_GUILDS")]
       ACCOUNT_TOO_MANY_GUILDS = 8,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"LOGO_UPLOAD_FAILED", Value=9)]
+      [global::ProtoBuf.ProtoEnum(Name=@"LOGO_UPLOAD_FAILED")]
       LOGO_UPLOAD_FAILED = 9
     }
   
@@ -565,26 +565,26 @@ namespace Dota2.GC.Dota.Internal
       get { return _result; }
       set { _result = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED")]
       ERROR_UNSPECIFIED = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION")]
       ERROR_NO_PERMISSION = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_OTHER_LEADER", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_OTHER_LEADER")]
       ERROR_NO_OTHER_LEADER = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_ACCOUNT_TOO_MANY_GUILDS", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_ACCOUNT_TOO_MANY_GUILDS")]
       ERROR_ACCOUNT_TOO_MANY_GUILDS = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_GUILD_TOO_MANY_MEMBERS", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_GUILD_TOO_MANY_MEMBERS")]
       ERROR_GUILD_TOO_MANY_MEMBERS = 5
     }
   
@@ -635,32 +635,32 @@ namespace Dota2.GC.Dota.Internal
       get { return _result; }
       set { _result = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED")]
       ERROR_UNSPECIFIED = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION")]
       ERROR_NO_PERMISSION = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_ACCOUNT_ALREADY_INVITED", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_ACCOUNT_ALREADY_INVITED")]
       ERROR_ACCOUNT_ALREADY_INVITED = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_ACCOUNT_ALREADY_IN_GUILD", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_ACCOUNT_ALREADY_IN_GUILD")]
       ERROR_ACCOUNT_ALREADY_IN_GUILD = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_ACCOUNT_TOO_MANY_INVITES", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_ACCOUNT_TOO_MANY_INVITES")]
       ERROR_ACCOUNT_TOO_MANY_INVITES = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_GUILD_TOO_MANY_INVITES", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_GUILD_TOO_MANY_INVITES")]
       ERROR_GUILD_TOO_MANY_INVITES = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_ACCOUNT_TOO_MANY_GUILDS", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_ACCOUNT_TOO_MANY_GUILDS")]
       ERROR_ACCOUNT_TOO_MANY_GUILDS = 7
     }
   
@@ -711,17 +711,17 @@ namespace Dota2.GC.Dota.Internal
       get { return _result; }
       set { _result = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED")]
       ERROR_UNSPECIFIED = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION")]
       ERROR_NO_PERMISSION = 2
     }
   
@@ -790,17 +790,17 @@ namespace Dota2.GC.Dota.Internal
       get { return _result; }
       set { _result = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED")]
       ERROR_UNSPECIFIED = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION")]
       ERROR_NO_PERMISSION = 2
     }
   
@@ -952,14 +952,14 @@ namespace Dota2.GC.Dota.Internal
       get { return _result; }
       set { _result = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED")]
       ERROR_UNSPECIFIED = 1
     }
   
@@ -1001,14 +1001,14 @@ namespace Dota2.GC.Dota.Internal
       get { return _result; }
       set { _result = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED")]
       ERROR_UNSPECIFIED = 1
     }
   
@@ -1258,20 +1258,20 @@ namespace Dota2.GC.Dota.Internal
       get { return _result; }
       set { _result = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"NO_PERMISSION", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"NO_PERMISSION")]
       NO_PERMISSION = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"LOGO_UPLOAD_FAILED", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"LOGO_UPLOAD_FAILED")]
       LOGO_UPLOAD_FAILED = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UNSPECIFIED_ERROR", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UNSPECIFIED_ERROR")]
       UNSPECIFIED_ERROR = 3
     }
   

@@ -125,7 +125,7 @@ namespace Dota2.GC
         /// <summary>
         ///     Last invitation to the game.
         /// </summary>
-        public CMsgClientUDSInviteToGame Invitation { get; private set; }
+        public CMsgClientInviteToGame Invitation { get; private set; }
 
         /// <summary>
         ///     The underlying SteamClient.
@@ -280,7 +280,7 @@ namespace Dota2.GC
         public void SayHello()
         {
             if (!_running) return;
-            var clientHello = new ClientGCMsgProtobuf<CMsgClientHello>((uint) EGCBaseClientMsg.k_EMsgGCClientHello);
+            var clientHello = new ClientGCMsgProtobuf<Internal.CMsgClientHello>((uint) EGCBaseClientMsg.k_EMsgGCClientHello);
             clientHello.Body.client_launcher = PartnerAccountType.PARTNER_NONE;
             clientHello.Body.engine = Engine;
             clientHello.Body.secret_key = "";
@@ -538,7 +538,7 @@ namespace Dota2.GC
             }
             if (Party != null)
             {
-                var invite = new ClientMsgProtobuf<CMsgClientUDSInviteToGame>(EMsg.ClientUDSInviteToGame);
+                var invite = new ClientMsgProtobuf<CMsgClientInviteToGame>(EMsg.ClientUDSInviteToGame);
                 invite.Body.connect_string = "+invite " + Party.party_id;
                 if (Engine == ESourceEngine.k_ESE_Source2) invite.Body.connect_string += " -launchsource2";
                 invite.Body.steam_id_dest = steam_id;
@@ -561,7 +561,7 @@ namespace Dota2.GC
             }
             if (Lobby != null)
             {
-                var invite = new ClientMsgProtobuf<CMsgClientUDSInviteToGame>(EMsg.ClientUDSInviteToGame);
+                var invite = new ClientMsgProtobuf<CMsgClientInviteToGame>(EMsg.ClientInviteToGame);
                 invite.Body.steam_id_dest = steam_id;
                 invite.Body.connect_string = "+invite " + Lobby.lobby_id;
                 if (Engine == ESourceEngine.k_ESE_Source2) invite.Body.connect_string += " -launchsource2";
@@ -866,7 +866,7 @@ namespace Dota2.GC
             {
                 if (packetMsg.IsProto && packetMsg.MsgType == EMsg.ClientUDSInviteToGame)
                 {
-                    var msg = new ClientMsgProtobuf<CMsgClientUDSInviteToGame>(packetMsg);
+                    var msg = new ClientMsgProtobuf<CMsgClientInviteToGame>(packetMsg);
                     Invitation = msg.Body;
                     Client.PostCallback(new SteamPartyInvite(Invitation));
                 }

@@ -2567,80 +2567,80 @@ namespace Dota2.GC.Dota.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EStartFindingMatchResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EStartFindingMatchResult")]
     public enum EStartFindingMatchResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_Invalid", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_Invalid")]
       k_EStartFindingMatchResult_Invalid = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_OK", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_OK")]
       k_EStartFindingMatchResult_OK = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_AlreadySearching", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_AlreadySearching")]
       k_EStartFindingMatchResult_AlreadySearching = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_FailGeneric", Value=100)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_FailGeneric")]
       k_EStartFindingMatchResult_FailGeneric = 100,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_FailedIgnore", Value=101)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_FailedIgnore")]
       k_EStartFindingMatchResult_FailedIgnore = 101,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_MatchmakingDisabled", Value=102)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_MatchmakingDisabled")]
       k_EStartFindingMatchResult_MatchmakingDisabled = 102,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_RegionOffline", Value=103)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_RegionOffline")]
       k_EStartFindingMatchResult_RegionOffline = 103,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_MatchmakingCooldown", Value=104)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_MatchmakingCooldown")]
       k_EStartFindingMatchResult_MatchmakingCooldown = 104,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_ClientOutOfDate", Value=105)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_ClientOutOfDate")]
       k_EStartFindingMatchResult_ClientOutOfDate = 105,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_CompetitiveNoLowPriority", Value=106)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_CompetitiveNoLowPriority")]
       k_EStartFindingMatchResult_CompetitiveNoLowPriority = 106,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_CompetitiveNotUnlocked", Value=107)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_CompetitiveNotUnlocked")]
       k_EStartFindingMatchResult_CompetitiveNotUnlocked = 107,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_GameModeNotUnlocked", Value=108)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_GameModeNotUnlocked")]
       k_EStartFindingMatchResult_GameModeNotUnlocked = 108,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_CompetitiveNotEnoughSkillData", Value=109)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_CompetitiveNotEnoughSkillData")]
       k_EStartFindingMatchResult_CompetitiveNotEnoughSkillData = 109,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_MissingInitialSkill", Value=110)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_MissingInitialSkill")]
       k_EStartFindingMatchResult_MissingInitialSkill = 110,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_CompetitiveRankSpreadTooLarge", Value=111)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_CompetitiveRankSpreadTooLarge")]
       k_EStartFindingMatchResult_CompetitiveRankSpreadTooLarge = 111,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_MemberAlreadyInLobby", Value=112)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_MemberAlreadyInLobby")]
       k_EStartFindingMatchResult_MemberAlreadyInLobby = 112,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_MemberNotVACVerified", Value=113)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_MemberNotVACVerified")]
       k_EStartFindingMatchResult_MemberNotVACVerified = 113,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_WeekendTourneyBadPartySize", Value=114)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_WeekendTourneyBadPartySize")]
       k_EStartFindingMatchResult_WeekendTourneyBadPartySize = 114,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_WeekendTourneyTeamBuyInTooSmall", Value=115)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_WeekendTourneyTeamBuyInTooSmall")]
       k_EStartFindingMatchResult_WeekendTourneyTeamBuyInTooSmall = 115,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_WeekendTourneyIndividualBuyInTooLarge", Value=116)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_WeekendTourneyIndividualBuyInTooLarge")]
       k_EStartFindingMatchResult_WeekendTourneyIndividualBuyInTooLarge = 116,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_WeekendTourneyTeamBuyInTooLarge", Value=117)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_WeekendTourneyTeamBuyInTooLarge")]
       k_EStartFindingMatchResult_WeekendTourneyTeamBuyInTooLarge = 117,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_MemberMissingEventOwnership", Value=118)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_MemberMissingEventOwnership")]
       k_EStartFindingMatchResult_MemberMissingEventOwnership = 118,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_WeekendTourneyNotUnlocked", Value=119)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_WeekendTourneyNotUnlocked")]
       k_EStartFindingMatchResult_WeekendTourneyNotUnlocked = 119,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_WeekendTourneyRecentParticipation", Value=120)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EStartFindingMatchResult_WeekendTourneyRecentParticipation")]
       k_EStartFindingMatchResult_WeekendTourneyRecentParticipation = 120
     }
   

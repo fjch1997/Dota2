@@ -496,9 +496,9 @@ namespace Dota2.GC
             /// <summary>
             /// The invitation payload.
             /// </summary>
-            public CMsgClientUDSInviteToGame result;
+            public CMsgClientInviteToGame result;
 
-            internal SteamPartyInvite(CMsgClientUDSInviteToGame msg)
+            internal SteamPartyInvite(CMsgClientInviteToGame msg)
             {
                 result = msg;
             }

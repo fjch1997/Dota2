@@ -41,107 +41,107 @@ namespace Dota2.GC.Dota.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EGCEconBaseMsg", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EGCEconBaseMsg")]
     public enum EGCEconBaseMsg
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCGenericResult", Value=2579)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCGenericResult")]
       k_EMsgGCGenericResult = 2579
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EGCMsgResponse", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EGCMsgResponse")]
     public enum EGCMsgResponse
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgResponseOK", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgResponseOK")]
       k_EGCMsgResponseOK = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgResponseDenied", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgResponseDenied")]
       k_EGCMsgResponseDenied = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgResponseServerError", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgResponseServerError")]
       k_EGCMsgResponseServerError = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgResponseTimeout", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgResponseTimeout")]
       k_EGCMsgResponseTimeout = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgResponseInvalid", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgResponseInvalid")]
       k_EGCMsgResponseInvalid = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgResponseNoMatch", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgResponseNoMatch")]
       k_EGCMsgResponseNoMatch = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgResponseUnknownError", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgResponseUnknownError")]
       k_EGCMsgResponseUnknownError = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgResponseNotLoggedOn", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgResponseNotLoggedOn")]
       k_EGCMsgResponseNotLoggedOn = 7,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgFailedToCreate", Value=8)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgFailedToCreate")]
       k_EGCMsgFailedToCreate = 8
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EGCPartnerRequestResponse", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EGCPartnerRequestResponse")]
     public enum EGCPartnerRequestResponse
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EPartnerRequestOK", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EPartnerRequestOK")]
       k_EPartnerRequestOK = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EPartnerRequestBadAccount", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EPartnerRequestBadAccount")]
       k_EPartnerRequestBadAccount = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EPartnerRequestNotLinked", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EPartnerRequestNotLinked")]
       k_EPartnerRequestNotLinked = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EPartnerRequestUnsupportedPartnerType", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EPartnerRequestUnsupportedPartnerType")]
       k_EPartnerRequestUnsupportedPartnerType = 4
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EGCMsgUseItemResponse", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EGCMsgUseItemResponse")]
     public enum EGCMsgUseItemResponse
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgUseItemResponse_ItemUsed", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgUseItemResponse_ItemUsed")]
       k_EGCMsgUseItemResponse_ItemUsed = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgUseItemResponse_GiftNoOtherPlayers", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgUseItemResponse_GiftNoOtherPlayers")]
       k_EGCMsgUseItemResponse_GiftNoOtherPlayers = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgUseItemResponse_ServerError", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgUseItemResponse_ServerError")]
       k_EGCMsgUseItemResponse_ServerError = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgUseItemResponse_MiniGameAlreadyStarted", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgUseItemResponse_MiniGameAlreadyStarted")]
       k_EGCMsgUseItemResponse_MiniGameAlreadyStarted = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgUseItemResponse_ItemUsed_ItemsGranted", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgUseItemResponse_ItemUsed_ItemsGranted")]
       k_EGCMsgUseItemResponse_ItemUsed_ItemsGranted = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgUseItemResponse_DropRateBonusAlreadyGranted", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgUseItemResponse_DropRateBonusAlreadyGranted")]
       k_EGCMsgUseItemResponse_DropRateBonusAlreadyGranted = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgUseItemResponse_NotInLowPriorityPool", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgUseItemResponse_NotInLowPriorityPool")]
       k_EGCMsgUseItemResponse_NotInLowPriorityPool = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgUseItemResponse_NotHighEnoughLevel", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgUseItemResponse_NotHighEnoughLevel")]
       k_EGCMsgUseItemResponse_NotHighEnoughLevel = 7,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgUseItemResponse_EventNotActive", Value=8)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgUseItemResponse_EventNotActive")]
       k_EGCMsgUseItemResponse_EventNotActive = 8,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgUseItemResponse_ItemUsed_EventPointsGranted", Value=9)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgUseItemResponse_ItemUsed_EventPointsGranted")]
       k_EGCMsgUseItemResponse_ItemUsed_EventPointsGranted = 9,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgUseItemResponse_MissingRequirement", Value=10)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgUseItemResponse_MissingRequirement")]
       k_EGCMsgUseItemResponse_MissingRequirement = 10,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgUseItemResponse_EmoticonUnlock_NoNew", Value=11)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgUseItemResponse_EmoticonUnlock_NoNew")]
       k_EGCMsgUseItemResponse_EmoticonUnlock_NoNew = 11,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgUseItemResponse_EmoticonUnlock_Complete", Value=12)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgUseItemResponse_EmoticonUnlock_Complete")]
       k_EGCMsgUseItemResponse_EmoticonUnlock_Complete = 12,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgUseItemResponse_ItemUsed_Compendium", Value=13)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgUseItemResponse_ItemUsed_Compendium")]
       k_EGCMsgUseItemResponse_ItemUsed_Compendium = 13
     }
   

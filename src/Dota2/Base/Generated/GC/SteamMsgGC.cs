@@ -2649,23 +2649,23 @@ namespace Dota2.GC.Internal
       get { return _response; }
       set { _response = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"EExtractGems", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EExtractGems")]
     public enum EExtractGems
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ExtractGems_Succeeded", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ExtractGems_Succeeded")]
       k_ExtractGems_Succeeded = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ExtractGems_Failed_ToolIsInvalid", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ExtractGems_Failed_ToolIsInvalid")]
       k_ExtractGems_Failed_ToolIsInvalid = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ExtractGems_Failed_ItemIsInvalid", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ExtractGems_Failed_ItemIsInvalid")]
       k_ExtractGems_Failed_ItemIsInvalid = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ExtractGems_Failed_ToolCannotRemoveGem", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ExtractGems_Failed_ToolCannotRemoveGem")]
       k_ExtractGems_Failed_ToolCannotRemoveGem = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ExtractGems_Failed_FailedToRemoveGem", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ExtractGems_Failed_FailedToRemoveGem")]
       k_ExtractGems_Failed_FailedToRemoveGem = 4
     }
   
@@ -2741,20 +2741,20 @@ namespace Dota2.GC.Internal
       get { return _response; }
       set { _response = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"EAddSocket", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EAddSocket")]
     public enum EAddSocket
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_AddSocket_Succeeded", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_AddSocket_Succeeded")]
       k_AddSocket_Succeeded = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_AddSocket_Failed_ToolIsInvalid", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_AddSocket_Failed_ToolIsInvalid")]
       k_AddSocket_Failed_ToolIsInvalid = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_AddSocket_Failed_ItemCannotBeSocketed", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_AddSocket_Failed_ItemCannotBeSocketed")]
       k_AddSocket_Failed_ItemCannotBeSocketed = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_AddSocket_Failed_FailedToAddSocket", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_AddSocket_Failed_FailedToAddSocket")]
       k_AddSocket_Failed_FailedToAddSocket = 3
     }
   
@@ -2847,32 +2847,32 @@ namespace Dota2.GC.Internal
       get { return _response; }
       set { _response = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"EAddGem", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EAddGem")]
     public enum EAddGem
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_AddGem_Succeeded", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_AddGem_Succeeded")]
       k_AddGem_Succeeded = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_AddGem_Failed_GemIsInvalid", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_AddGem_Failed_GemIsInvalid")]
       k_AddGem_Failed_GemIsInvalid = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_AddGem_Failed_ItemIsInvalid", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_AddGem_Failed_ItemIsInvalid")]
       k_AddGem_Failed_ItemIsInvalid = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_AddGem_Failed_FailedToAddGem", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_AddGem_Failed_FailedToAddGem")]
       k_AddGem_Failed_FailedToAddGem = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_AddGem_Failed_InvalidGemTypeForSocket", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_AddGem_Failed_InvalidGemTypeForSocket")]
       k_AddGem_Failed_InvalidGemTypeForSocket = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_AddGem_Failed_InvalidGemTypeForHero", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_AddGem_Failed_InvalidGemTypeForHero")]
       k_AddGem_Failed_InvalidGemTypeForHero = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_AddGem_Failed_InvalidGemTypeForSlot", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_AddGem_Failed_InvalidGemTypeForSlot")]
       k_AddGem_Failed_InvalidGemTypeForSlot = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_AddGem_Failed_SocketContainsUnremovableGem", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_AddGem_Failed_SocketContainsUnremovableGem")]
       k_AddGem_Failed_SocketContainsUnremovableGem = 7
     }
   
@@ -2923,23 +2923,23 @@ namespace Dota2.GC.Internal
       get { return _response; }
       set { _response = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"EResetGem", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResetGem")]
     public enum EResetGem
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ResetGem_Succeeded", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ResetGem_Succeeded")]
       k_ResetGem_Succeeded = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ResetGem_Failed_FailedToResetGem", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ResetGem_Failed_FailedToResetGem")]
       k_ResetGem_Failed_FailedToResetGem = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ResetGem_Failed_ItemIsInvalid", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ResetGem_Failed_ItemIsInvalid")]
       k_ResetGem_Failed_ItemIsInvalid = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ResetGem_Failed_InvalidSocketId", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ResetGem_Failed_InvalidSocketId")]
       k_ResetGem_Failed_InvalidSocketId = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ResetGem_Failed_SocketCannotBeReset", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ResetGem_Failed_SocketCannotBeReset")]
       k_ResetGem_Failed_SocketCannotBeReset = 4
     }
   
@@ -2948,110 +2948,110 @@ namespace Dota2.GC.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EGCBaseMsg", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EGCBaseMsg")]
     public enum EGCBaseMsg
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCSystemMessage", Value=4001)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCSystemMessage")]
       k_EMsgGCSystemMessage = 4001,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCReplicateConVars", Value=4002)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCReplicateConVars")]
       k_EMsgGCReplicateConVars = 4002,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCConVarUpdated", Value=4003)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCConVarUpdated")]
       k_EMsgGCConVarUpdated = 4003,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCInviteToParty", Value=4501)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCInviteToParty")]
       k_EMsgGCInviteToParty = 4501,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCInvitationCreated", Value=4502)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCInvitationCreated")]
       k_EMsgGCInvitationCreated = 4502,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCPartyInviteResponse", Value=4503)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCPartyInviteResponse")]
       k_EMsgGCPartyInviteResponse = 4503,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCKickFromParty", Value=4504)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCKickFromParty")]
       k_EMsgGCKickFromParty = 4504,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCLeaveParty", Value=4505)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCLeaveParty")]
       k_EMsgGCLeaveParty = 4505,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCServerAvailable", Value=4506)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCServerAvailable")]
       k_EMsgGCServerAvailable = 4506,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCClientConnectToServer", Value=4507)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCClientConnectToServer")]
       k_EMsgGCClientConnectToServer = 4507,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCGameServerInfo", Value=4508)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCGameServerInfo")]
       k_EMsgGCGameServerInfo = 4508,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCError", Value=4509)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCError")]
       k_EMsgGCError = 4509,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCLANServerAvailable", Value=4511)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCLANServerAvailable")]
       k_EMsgGCLANServerAvailable = 4511,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCInviteToLobby", Value=4512)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCInviteToLobby")]
       k_EMsgGCInviteToLobby = 4512,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCLobbyInviteResponse", Value=4513)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCLobbyInviteResponse")]
       k_EMsgGCLobbyInviteResponse = 4513
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EGCBaseProtoObjectTypes", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EGCBaseProtoObjectTypes")]
     public enum EGCBaseProtoObjectTypes
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EProtoObjectPartyInvite", Value=1001)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EProtoObjectPartyInvite")]
       k_EProtoObjectPartyInvite = 1001,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EProtoObjectLobbyInvite", Value=1002)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EProtoObjectLobbyInvite")]
       k_EProtoObjectLobbyInvite = 1002
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"ECustomGameInstallStatus", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"ECustomGameInstallStatus")]
     public enum ECustomGameInstallStatus
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ECustomGameInstallStatus_Unknown", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ECustomGameInstallStatus_Unknown")]
       k_ECustomGameInstallStatus_Unknown = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ECustomGameInstallStatus_Ready", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ECustomGameInstallStatus_Ready")]
       k_ECustomGameInstallStatus_Ready = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ECustomGameInstallStatus_Busy", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ECustomGameInstallStatus_Busy")]
       k_ECustomGameInstallStatus_Busy = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ECustomGameInstallStatus_FailedGeneric", Value=101)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ECustomGameInstallStatus_FailedGeneric")]
       k_ECustomGameInstallStatus_FailedGeneric = 101,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ECustomGameInstallStatus_FailedInternalError", Value=102)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ECustomGameInstallStatus_FailedInternalError")]
       k_ECustomGameInstallStatus_FailedInternalError = 102,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ECustomGameInstallStatus_RequestedTimestampTooOld", Value=103)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ECustomGameInstallStatus_RequestedTimestampTooOld")]
       k_ECustomGameInstallStatus_RequestedTimestampTooOld = 103,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ECustomGameInstallStatus_RequestedTimestampTooNew", Value=104)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ECustomGameInstallStatus_RequestedTimestampTooNew")]
       k_ECustomGameInstallStatus_RequestedTimestampTooNew = 104,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ECustomGameInstallStatus_CRCMismatch", Value=105)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ECustomGameInstallStatus_CRCMismatch")]
       k_ECustomGameInstallStatus_CRCMismatch = 105,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ECustomGameInstallStatus_FailedSteam", Value=106)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ECustomGameInstallStatus_FailedSteam")]
       k_ECustomGameInstallStatus_FailedSteam = 106,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ECustomGameInstallStatus_FailedCanceled", Value=107)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ECustomGameInstallStatus_FailedCanceled")]
       k_ECustomGameInstallStatus_FailedCanceled = 107
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"GC_BannedWordType", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"GC_BannedWordType")]
     public enum GC_BannedWordType
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GC_BANNED_WORD_DISABLE_WORD", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GC_BANNED_WORD_DISABLE_WORD")]
       GC_BANNED_WORD_DISABLE_WORD = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GC_BANNED_WORD_ENABLE_WORD", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GC_BANNED_WORD_ENABLE_WORD")]
       GC_BANNED_WORD_ENABLE_WORD = 1
     }
   

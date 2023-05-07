@@ -20,7 +20,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
-    <PackageReference Include="SteamKit2" Version="2.1.0" />
+    <PackageReference Include="SteamKit2" Version="2.4.0-CI-20230506.3" />
     <PackageReference Include="System.ComponentModel.TypeConverter" Version="4.3.0" />
     <PackageReference Include="System.Threading.Timer" Version="4.3.0" />
   </ItemGroup>

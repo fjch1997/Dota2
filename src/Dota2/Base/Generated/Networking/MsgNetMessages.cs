@@ -2454,23 +2454,23 @@ namespace Dota2.GC.Dota.Internal
       get { return _additionalHops; }
       set { _additionalHops = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"Operation_t", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"Operation_t")]
     public enum Operation_t
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"RIO_REQUEST_RELAY", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"RIO_REQUEST_RELAY")]
       RIO_REQUEST_RELAY = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"RIO_WILL_RELAY", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"RIO_WILL_RELAY")]
       RIO_WILL_RELAY = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"RIO_NO_ROUTE", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"RIO_NO_ROUTE")]
       RIO_NO_ROUTE = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"RIO_REJECT_RELAY", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"RIO_REJECT_RELAY")]
       RIO_REJECT_RELAY = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"RIO_ESTABLISH_CONNECTION", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"RIO_ESTABLISH_CONNECTION")]
       RIO_ESTABLISH_CONNECTION = 4
     }
   
@@ -2904,247 +2904,247 @@ namespace Dota2.GC.Dota.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"CLC_Messages", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"CLC_Messages")]
     public enum CLC_Messages
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"clc_ClientInfo", Value=20)]
+      [global::ProtoBuf.ProtoEnum(Name=@"clc_ClientInfo")]
       clc_ClientInfo = 20,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"clc_Move", Value=21)]
+      [global::ProtoBuf.ProtoEnum(Name=@"clc_Move")]
       clc_Move = 21,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"clc_VoiceData", Value=22)]
+      [global::ProtoBuf.ProtoEnum(Name=@"clc_VoiceData")]
       clc_VoiceData = 22,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"clc_BaselineAck", Value=23)]
+      [global::ProtoBuf.ProtoEnum(Name=@"clc_BaselineAck")]
       clc_BaselineAck = 23,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"clc_ListenEvents", Value=24)]
+      [global::ProtoBuf.ProtoEnum(Name=@"clc_ListenEvents")]
       clc_ListenEvents = 24,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"clc_RespondCvarValue", Value=25)]
+      [global::ProtoBuf.ProtoEnum(Name=@"clc_RespondCvarValue")]
       clc_RespondCvarValue = 25,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"clc_FileCRCCheck", Value=26)]
+      [global::ProtoBuf.ProtoEnum(Name=@"clc_FileCRCCheck")]
       clc_FileCRCCheck = 26,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"clc_LoadingProgress", Value=27)]
+      [global::ProtoBuf.ProtoEnum(Name=@"clc_LoadingProgress")]
       clc_LoadingProgress = 27,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"clc_SplitPlayerConnect", Value=28)]
+      [global::ProtoBuf.ProtoEnum(Name=@"clc_SplitPlayerConnect")]
       clc_SplitPlayerConnect = 28,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"clc_ClientMessage", Value=29)]
+      [global::ProtoBuf.ProtoEnum(Name=@"clc_ClientMessage")]
       clc_ClientMessage = 29,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"clc_SplitPlayerDisconnect", Value=30)]
+      [global::ProtoBuf.ProtoEnum(Name=@"clc_SplitPlayerDisconnect")]
       clc_SplitPlayerDisconnect = 30,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"clc_ServerStatus", Value=31)]
+      [global::ProtoBuf.ProtoEnum(Name=@"clc_ServerStatus")]
       clc_ServerStatus = 31,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"clc_ServerPing", Value=32)]
+      [global::ProtoBuf.ProtoEnum(Name=@"clc_ServerPing")]
       clc_ServerPing = 32,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"clc_RequestPause", Value=33)]
+      [global::ProtoBuf.ProtoEnum(Name=@"clc_RequestPause")]
       clc_RequestPause = 33,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"clc_CmdKeyValues", Value=34)]
+      [global::ProtoBuf.ProtoEnum(Name=@"clc_CmdKeyValues")]
       clc_CmdKeyValues = 34
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"SVC_Messages", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"SVC_Messages")]
     public enum SVC_Messages
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"svc_ServerInfo", Value=40)]
+      [global::ProtoBuf.ProtoEnum(Name=@"svc_ServerInfo")]
       svc_ServerInfo = 40,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"svc_FlattenedSerializer", Value=41)]
+      [global::ProtoBuf.ProtoEnum(Name=@"svc_FlattenedSerializer")]
       svc_FlattenedSerializer = 41,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"svc_ClassInfo", Value=42)]
+      [global::ProtoBuf.ProtoEnum(Name=@"svc_ClassInfo")]
       svc_ClassInfo = 42,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"svc_SetPause", Value=43)]
+      [global::ProtoBuf.ProtoEnum(Name=@"svc_SetPause")]
       svc_SetPause = 43,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"svc_CreateStringTable", Value=44)]
+      [global::ProtoBuf.ProtoEnum(Name=@"svc_CreateStringTable")]
       svc_CreateStringTable = 44,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"svc_UpdateStringTable", Value=45)]
+      [global::ProtoBuf.ProtoEnum(Name=@"svc_UpdateStringTable")]
       svc_UpdateStringTable = 45,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"svc_VoiceInit", Value=46)]
+      [global::ProtoBuf.ProtoEnum(Name=@"svc_VoiceInit")]
       svc_VoiceInit = 46,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"svc_VoiceData", Value=47)]
+      [global::ProtoBuf.ProtoEnum(Name=@"svc_VoiceData")]
       svc_VoiceData = 47,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"svc_Print", Value=48)]
+      [global::ProtoBuf.ProtoEnum(Name=@"svc_Print")]
       svc_Print = 48,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"svc_Sounds", Value=49)]
+      [global::ProtoBuf.ProtoEnum(Name=@"svc_Sounds")]
       svc_Sounds = 49,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"svc_SetView", Value=50)]
+      [global::ProtoBuf.ProtoEnum(Name=@"svc_SetView")]
       svc_SetView = 50,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"svc_ClearAllStringTables", Value=51)]
+      [global::ProtoBuf.ProtoEnum(Name=@"svc_ClearAllStringTables")]
       svc_ClearAllStringTables = 51,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"svc_CmdKeyValues", Value=52)]
+      [global::ProtoBuf.ProtoEnum(Name=@"svc_CmdKeyValues")]
       svc_CmdKeyValues = 52,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"svc_BSPDecal", Value=53)]
+      [global::ProtoBuf.ProtoEnum(Name=@"svc_BSPDecal")]
       svc_BSPDecal = 53,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"svc_SplitScreen", Value=54)]
+      [global::ProtoBuf.ProtoEnum(Name=@"svc_SplitScreen")]
       svc_SplitScreen = 54,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"svc_PacketEntities", Value=55)]
+      [global::ProtoBuf.ProtoEnum(Name=@"svc_PacketEntities")]
       svc_PacketEntities = 55,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"svc_Prefetch", Value=56)]
+      [global::ProtoBuf.ProtoEnum(Name=@"svc_Prefetch")]
       svc_Prefetch = 56,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"svc_Menu", Value=57)]
+      [global::ProtoBuf.ProtoEnum(Name=@"svc_Menu")]
       svc_Menu = 57,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"svc_GetCvarValue", Value=58)]
+      [global::ProtoBuf.ProtoEnum(Name=@"svc_GetCvarValue")]
       svc_GetCvarValue = 58,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"svc_StopSound", Value=59)]
+      [global::ProtoBuf.ProtoEnum(Name=@"svc_StopSound")]
       svc_StopSound = 59,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"svc_PeerList", Value=60)]
+      [global::ProtoBuf.ProtoEnum(Name=@"svc_PeerList")]
       svc_PeerList = 60,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"svc_PacketReliable", Value=61)]
+      [global::ProtoBuf.ProtoEnum(Name=@"svc_PacketReliable")]
       svc_PacketReliable = 61,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"svc_HLTVStatus", Value=62)]
+      [global::ProtoBuf.ProtoEnum(Name=@"svc_HLTVStatus")]
       svc_HLTVStatus = 62,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"svc_ServerSteamID", Value=63)]
+      [global::ProtoBuf.ProtoEnum(Name=@"svc_ServerSteamID")]
       svc_ServerSteamID = 63,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"svc_FullFrameSplit", Value=70)]
+      [global::ProtoBuf.ProtoEnum(Name=@"svc_FullFrameSplit")]
       svc_FullFrameSplit = 70
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"VoiceDataFormat_t", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"VoiceDataFormat_t")]
     public enum VoiceDataFormat_t
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"VOICEDATA_FORMAT_STEAM", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"VOICEDATA_FORMAT_STEAM")]
       VOICEDATA_FORMAT_STEAM = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"VOICEDATA_FORMAT_ENGINE", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"VOICEDATA_FORMAT_ENGINE")]
       VOICEDATA_FORMAT_ENGINE = 1
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"RequestPause_t", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"RequestPause_t")]
     public enum RequestPause_t
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"RP_PAUSE", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"RP_PAUSE")]
       RP_PAUSE = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"RP_UNPAUSE", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"RP_UNPAUSE")]
       RP_UNPAUSE = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"RP_TOGGLEPAUSE", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"RP_TOGGLEPAUSE")]
       RP_TOGGLEPAUSE = 2
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"PrefetchType", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"PrefetchType")]
     public enum PrefetchType
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PFT_SOUND", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PFT_SOUND")]
       PFT_SOUND = 0
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"ESplitScreenMessageType", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"ESplitScreenMessageType")]
     public enum ESplitScreenMessageType
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"MSG_SPLITSCREEN_ADDUSER", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"MSG_SPLITSCREEN_ADDUSER")]
       MSG_SPLITSCREEN_ADDUSER = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"MSG_SPLITSCREEN_REMOVEUSER", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"MSG_SPLITSCREEN_REMOVEUSER")]
       MSG_SPLITSCREEN_REMOVEUSER = 1
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EQueryCvarValueStatus", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EQueryCvarValueStatus")]
     public enum EQueryCvarValueStatus
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"eQueryCvarValueStatus_ValueIntact", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"eQueryCvarValueStatus_ValueIntact")]
       eQueryCvarValueStatus_ValueIntact = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"eQueryCvarValueStatus_CvarNotFound", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"eQueryCvarValueStatus_CvarNotFound")]
       eQueryCvarValueStatus_CvarNotFound = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"eQueryCvarValueStatus_NotACvar", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"eQueryCvarValueStatus_NotACvar")]
       eQueryCvarValueStatus_NotACvar = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"eQueryCvarValueStatus_CvarProtected", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"eQueryCvarValueStatus_CvarProtected")]
       eQueryCvarValueStatus_CvarProtected = 3
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"DIALOG_TYPE", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"DIALOG_TYPE")]
     public enum DIALOG_TYPE
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DIALOG_MSG", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DIALOG_MSG")]
       DIALOG_MSG = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DIALOG_MENU", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DIALOG_MENU")]
       DIALOG_MENU = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DIALOG_TEXT", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DIALOG_TEXT")]
       DIALOG_TEXT = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DIALOG_ENTRY", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DIALOG_ENTRY")]
       DIALOG_ENTRY = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DIALOG_ASKCONNECT", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DIALOG_ASKCONNECT")]
       DIALOG_ASKCONNECT = 4
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"SVC_Messages_LowFrequency", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"SVC_Messages_LowFrequency")]
     public enum SVC_Messages_LowFrequency
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"svc_dummy", Value=600)]
+      [global::ProtoBuf.ProtoEnum(Name=@"svc_dummy")]
       svc_dummy = 600
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"Bidirectional_Messages", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"Bidirectional_Messages")]
     public enum Bidirectional_Messages
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"bi_RebroadcastGameEvent", Value=16)]
+      [global::ProtoBuf.ProtoEnum(Name=@"bi_RebroadcastGameEvent")]
       bi_RebroadcastGameEvent = 16,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"bi_RebroadcastSource", Value=17)]
+      [global::ProtoBuf.ProtoEnum(Name=@"bi_RebroadcastSource")]
       bi_RebroadcastSource = 17,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"bi_GameEvent", Value=18)]
+      [global::ProtoBuf.ProtoEnum(Name=@"bi_GameEvent")]
       bi_GameEvent = 18
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"Bidirectional_Messages_LowFrequency", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"Bidirectional_Messages_LowFrequency")]
     public enum Bidirectional_Messages_LowFrequency
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"bi_RelayInfo", Value=700)]
+      [global::ProtoBuf.ProtoEnum(Name=@"bi_RelayInfo")]
       bi_RelayInfo = 700,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"bi_RelayPacket", Value=701)]
+      [global::ProtoBuf.ProtoEnum(Name=@"bi_RelayPacket")]
       bi_RelayPacket = 701
     }
   

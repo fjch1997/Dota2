@@ -1110,76 +1110,76 @@ namespace Dota2.GC.Dota.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"NET_Messages", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"NET_Messages")]
     public enum NET_Messages
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"net_NOP", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"net_NOP")]
       net_NOP = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"net_Disconnect", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"net_Disconnect")]
       net_Disconnect = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"net_SplitScreenUser", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"net_SplitScreenUser")]
       net_SplitScreenUser = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"net_Tick", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"net_Tick")]
       net_Tick = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"net_StringCmd", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"net_StringCmd")]
       net_StringCmd = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"net_SetConVar", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"net_SetConVar")]
       net_SetConVar = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"net_SignonState", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"net_SignonState")]
       net_SignonState = 7,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"net_SpawnGroup_Load", Value=8)]
+      [global::ProtoBuf.ProtoEnum(Name=@"net_SpawnGroup_Load")]
       net_SpawnGroup_Load = 8,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"net_SpawnGroup_ManifestUpdate", Value=9)]
+      [global::ProtoBuf.ProtoEnum(Name=@"net_SpawnGroup_ManifestUpdate")]
       net_SpawnGroup_ManifestUpdate = 9,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"net_SpawnGroup_SetCreationTick", Value=11)]
+      [global::ProtoBuf.ProtoEnum(Name=@"net_SpawnGroup_SetCreationTick")]
       net_SpawnGroup_SetCreationTick = 11,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"net_SpawnGroup_Unload", Value=12)]
+      [global::ProtoBuf.ProtoEnum(Name=@"net_SpawnGroup_Unload")]
       net_SpawnGroup_Unload = 12,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"net_SpawnGroup_LoadCompleted", Value=13)]
+      [global::ProtoBuf.ProtoEnum(Name=@"net_SpawnGroup_LoadCompleted")]
       net_SpawnGroup_LoadCompleted = 13
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"SpawnGroupFlags_t", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"SpawnGroupFlags_t")]
     public enum SpawnGroupFlags_t
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SPAWN_GROUP_LOAD_ENTITIES_FROM_SAVE", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SPAWN_GROUP_LOAD_ENTITIES_FROM_SAVE")]
       SPAWN_GROUP_LOAD_ENTITIES_FROM_SAVE = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SPAWN_GROUP_DONT_SPAWN_ENTITIES", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SPAWN_GROUP_DONT_SPAWN_ENTITIES")]
       SPAWN_GROUP_DONT_SPAWN_ENTITIES = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SPAWN_GROUP_SYNCHRONOUS_SPAWN", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SPAWN_GROUP_SYNCHRONOUS_SPAWN")]
       SPAWN_GROUP_SYNCHRONOUS_SPAWN = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SPAWN_GROUP_IS_INITIAL_SPAWN_GROUP", Value=8)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SPAWN_GROUP_IS_INITIAL_SPAWN_GROUP")]
       SPAWN_GROUP_IS_INITIAL_SPAWN_GROUP = 8,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SPAWN_GROUP_CREATE_CLIENT_ONLY_ENTITIES", Value=16)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SPAWN_GROUP_CREATE_CLIENT_ONLY_ENTITIES")]
       SPAWN_GROUP_CREATE_CLIENT_ONLY_ENTITIES = 16,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SPAWN_GROUP_SAVE_ENTITIES", Value=32)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SPAWN_GROUP_SAVE_ENTITIES")]
       SPAWN_GROUP_SAVE_ENTITIES = 32,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SPAWN_GROUP_BLOCK_UNTIL_LOADED", Value=64)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SPAWN_GROUP_BLOCK_UNTIL_LOADED")]
       SPAWN_GROUP_BLOCK_UNTIL_LOADED = 64,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SPAWN_GROUP_LOAD_STREAMING_DATA", Value=128)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SPAWN_GROUP_LOAD_STREAMING_DATA")]
       SPAWN_GROUP_LOAD_STREAMING_DATA = 128,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SPAWN_GROUP_CREATE_NEW_SCENE_WORLD", Value=256)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SPAWN_GROUP_CREATE_NEW_SCENE_WORLD")]
       SPAWN_GROUP_CREATE_NEW_SCENE_WORLD = 256
     }
   

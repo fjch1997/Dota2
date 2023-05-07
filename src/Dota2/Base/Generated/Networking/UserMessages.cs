@@ -2076,232 +2076,232 @@ namespace Dota2.GC.Dota.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EBaseUserMessages", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EBaseUserMessages")]
     public enum EBaseUserMessages
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_AchievementEvent", Value=101)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_AchievementEvent")]
       UM_AchievementEvent = 101,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_CloseCaption", Value=102)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_CloseCaption")]
       UM_CloseCaption = 102,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_CloseCaptionDirect", Value=103)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_CloseCaptionDirect")]
       UM_CloseCaptionDirect = 103,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_CurrentTimescale", Value=104)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_CurrentTimescale")]
       UM_CurrentTimescale = 104,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_DesiredTimescale", Value=105)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_DesiredTimescale")]
       UM_DesiredTimescale = 105,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_Fade", Value=106)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_Fade")]
       UM_Fade = 106,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_GameTitle", Value=107)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_GameTitle")]
       UM_GameTitle = 107,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_HintText", Value=109)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_HintText")]
       UM_HintText = 109,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_HudMsg", Value=110)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_HudMsg")]
       UM_HudMsg = 110,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_HudText", Value=111)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_HudText")]
       UM_HudText = 111,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_KeyHintText", Value=112)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_KeyHintText")]
       UM_KeyHintText = 112,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_ColoredText", Value=113)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_ColoredText")]
       UM_ColoredText = 113,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_RequestState", Value=114)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_RequestState")]
       UM_RequestState = 114,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_ResetHUD", Value=115)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_ResetHUD")]
       UM_ResetHUD = 115,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_Rumble", Value=116)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_Rumble")]
       UM_Rumble = 116,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_SayText", Value=117)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_SayText")]
       UM_SayText = 117,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_SayText2", Value=118)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_SayText2")]
       UM_SayText2 = 118,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_SayTextChannel", Value=119)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_SayTextChannel")]
       UM_SayTextChannel = 119,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_Shake", Value=120)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_Shake")]
       UM_Shake = 120,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_ShakeDir", Value=121)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_ShakeDir")]
       UM_ShakeDir = 121,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_TextMsg", Value=124)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_TextMsg")]
       UM_TextMsg = 124,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_ScreenTilt", Value=125)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_ScreenTilt")]
       UM_ScreenTilt = 125,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_Train", Value=126)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_Train")]
       UM_Train = 126,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_VGUIMenu", Value=127)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_VGUIMenu")]
       UM_VGUIMenu = 127,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_VoiceMask", Value=128)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_VoiceMask")]
       UM_VoiceMask = 128,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_VoiceSubtitle", Value=129)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_VoiceSubtitle")]
       UM_VoiceSubtitle = 129,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_SendAudio", Value=130)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_SendAudio")]
       UM_SendAudio = 130,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_ItemPickup", Value=131)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_ItemPickup")]
       UM_ItemPickup = 131,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_AmmoDenied", Value=132)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_AmmoDenied")]
       UM_AmmoDenied = 132,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_CrosshairAngle", Value=133)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_CrosshairAngle")]
       UM_CrosshairAngle = 133,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_ShowMenu", Value=134)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_ShowMenu")]
       UM_ShowMenu = 134,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_CreditsMsg", Value=135)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_CreditsMsg")]
       UM_CreditsMsg = 135,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_CloseCaptionPlaceholder", Value=142)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_CloseCaptionPlaceholder")]
       UM_CloseCaptionPlaceholder = 142,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_CameraTransition", Value=143)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_CameraTransition")]
       UM_CameraTransition = 143,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_AudioParameter", Value=144)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_AudioParameter")]
       UM_AudioParameter = 144,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_ParticleManager", Value=145)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_ParticleManager")]
       UM_ParticleManager = 145,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_HudError", Value=146)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_HudError")]
       UM_HudError = 146,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_CustomGameEvent", Value=148)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_CustomGameEvent")]
       UM_CustomGameEvent = 148,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_HandHapticPulse", Value=149)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_HandHapticPulse")]
       UM_HandHapticPulse = 149,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UM_MAX_BASE", Value=200)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UM_MAX_BASE")]
       UM_MAX_BASE = 200
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EBaseEntityMessages", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EBaseEntityMessages")]
     public enum EBaseEntityMessages
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"EM_PlayJingle", Value=136)]
+      [global::ProtoBuf.ProtoEnum(Name=@"EM_PlayJingle")]
       EM_PlayJingle = 136,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"EM_ScreenOverlay", Value=137)]
+      [global::ProtoBuf.ProtoEnum(Name=@"EM_ScreenOverlay")]
       EM_ScreenOverlay = 137,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"EM_RemoveAllDecals", Value=138)]
+      [global::ProtoBuf.ProtoEnum(Name=@"EM_RemoveAllDecals")]
       EM_RemoveAllDecals = 138,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"EM_PropagateForce", Value=139)]
+      [global::ProtoBuf.ProtoEnum(Name=@"EM_PropagateForce")]
       EM_PropagateForce = 139,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"EM_DoSpark", Value=140)]
+      [global::ProtoBuf.ProtoEnum(Name=@"EM_DoSpark")]
       EM_DoSpark = 140,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"EM_FixAngle", Value=141)]
+      [global::ProtoBuf.ProtoEnum(Name=@"EM_FixAngle")]
       EM_FixAngle = 141
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"eRollType", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"eRollType")]
     public enum eRollType
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ROLL_NONE", Value=-1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ROLL_NONE")]
       ROLL_NONE = -1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ROLL_STATS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ROLL_STATS")]
       ROLL_STATS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ROLL_CREDITS", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ROLL_CREDITS")]
       ROLL_CREDITS = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ROLL_LATE_JOIN_LOGO", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ROLL_LATE_JOIN_LOGO")]
       ROLL_LATE_JOIN_LOGO = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ROLL_OUTTRO", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ROLL_OUTTRO")]
       ROLL_OUTTRO = 3
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"PARTICLE_MESSAGE", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"PARTICLE_MESSAGE")]
     public enum PARTICLE_MESSAGE
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GAME_PARTICLE_MANAGER_EVENT_CREATE", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GAME_PARTICLE_MANAGER_EVENT_CREATE")]
       GAME_PARTICLE_MANAGER_EVENT_CREATE = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GAME_PARTICLE_MANAGER_EVENT_UPDATE", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GAME_PARTICLE_MANAGER_EVENT_UPDATE")]
       GAME_PARTICLE_MANAGER_EVENT_UPDATE = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GAME_PARTICLE_MANAGER_EVENT_UPDATE_FORWARD", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GAME_PARTICLE_MANAGER_EVENT_UPDATE_FORWARD")]
       GAME_PARTICLE_MANAGER_EVENT_UPDATE_FORWARD = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GAME_PARTICLE_MANAGER_EVENT_UPDATE_ORIENTATION", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GAME_PARTICLE_MANAGER_EVENT_UPDATE_ORIENTATION")]
       GAME_PARTICLE_MANAGER_EVENT_UPDATE_ORIENTATION = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GAME_PARTICLE_MANAGER_EVENT_UPDATE_FALLBACK", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GAME_PARTICLE_MANAGER_EVENT_UPDATE_FALLBACK")]
       GAME_PARTICLE_MANAGER_EVENT_UPDATE_FALLBACK = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENT", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENT")]
       GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENT = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GAME_PARTICLE_MANAGER_EVENT_UPDATE_OFFSET", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GAME_PARTICLE_MANAGER_EVENT_UPDATE_OFFSET")]
       GAME_PARTICLE_MANAGER_EVENT_UPDATE_OFFSET = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GAME_PARTICLE_MANAGER_EVENT_DESTROY", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GAME_PARTICLE_MANAGER_EVENT_DESTROY")]
       GAME_PARTICLE_MANAGER_EVENT_DESTROY = 7,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GAME_PARTICLE_MANAGER_EVENT_DESTROY_INVOLVING", Value=8)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GAME_PARTICLE_MANAGER_EVENT_DESTROY_INVOLVING")]
       GAME_PARTICLE_MANAGER_EVENT_DESTROY_INVOLVING = 8,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GAME_PARTICLE_MANAGER_EVENT_RELEASE", Value=9)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GAME_PARTICLE_MANAGER_EVENT_RELEASE")]
       GAME_PARTICLE_MANAGER_EVENT_RELEASE = 9,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GAME_PARTICLE_MANAGER_EVENT_LATENCY", Value=10)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GAME_PARTICLE_MANAGER_EVENT_LATENCY")]
       GAME_PARTICLE_MANAGER_EVENT_LATENCY = 10,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GAME_PARTICLE_MANAGER_EVENT_SHOULD_DRAW", Value=11)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GAME_PARTICLE_MANAGER_EVENT_SHOULD_DRAW")]
       GAME_PARTICLE_MANAGER_EVENT_SHOULD_DRAW = 11,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GAME_PARTICLE_MANAGER_EVENT_FROZEN", Value=12)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GAME_PARTICLE_MANAGER_EVENT_FROZEN")]
       GAME_PARTICLE_MANAGER_EVENT_FROZEN = 12,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT", Value=13)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT")]
       GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT = 13
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EHapticPulseType", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EHapticPulseType")]
     public enum EHapticPulseType
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"VR_HAND_HAPTIC_PULSE_LIGHT", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"VR_HAND_HAPTIC_PULSE_LIGHT")]
       VR_HAND_HAPTIC_PULSE_LIGHT = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"VR_HAND_HAPTIC_PULSE_MEDIUM", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"VR_HAND_HAPTIC_PULSE_MEDIUM")]
       VR_HAND_HAPTIC_PULSE_MEDIUM = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"VR_HAND_HAPTIC_PULSE_STRONG", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"VR_HAND_HAPTIC_PULSE_STRONG")]
       VR_HAND_HAPTIC_PULSE_STRONG = 2
     }
   

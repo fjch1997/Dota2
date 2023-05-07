@@ -355,44 +355,44 @@ namespace Dota2.GC.Dota.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"SendReason", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"SendReason")]
     public enum SendReason
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"INVALID", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"INVALID")]
       INVALID = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"HEARTBEAT", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"HEARTBEAT")]
       HEARTBEAT = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GAME_STATE", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GAME_STATE")]
       GAME_STATE = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FIRST_BLOOD", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FIRST_BLOOD")]
       FIRST_BLOOD = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PLAYER_CONNECTED", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PLAYER_CONNECTED")]
       PLAYER_CONNECTED = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PLAYER_HERO", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PLAYER_HERO")]
       PLAYER_HERO = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PLAYER_DISCONNECTED_CONSEQUENCES", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PLAYER_DISCONNECTED_CONSEQUENCES")]
       PLAYER_DISCONNECTED_CONSEQUENCES = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PLAYER_DISCONNECTED_NOCONSEQUENCES", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PLAYER_DISCONNECTED_NOCONSEQUENCES")]
       PLAYER_DISCONNECTED_NOCONSEQUENCES = 7,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GAMESTATE_TIMEOUT", Value=10)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GAMESTATE_TIMEOUT")]
       GAMESTATE_TIMEOUT = 10,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"MASS_DISCONNECT", Value=11)]
+      [global::ProtoBuf.ProtoEnum(Name=@"MASS_DISCONNECT")]
       MASS_DISCONNECT = 11,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"KILLS", Value=13)]
+      [global::ProtoBuf.ProtoEnum(Name=@"KILLS")]
       KILLS = 13,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"BUILDING_STATE", Value=14)]
+      [global::ProtoBuf.ProtoEnum(Name=@"BUILDING_STATE")]
       BUILDING_STATE = 14
     }
   
@@ -613,31 +613,31 @@ namespace Dota2.GC.Dota.Internal
       get { return _allow_custom_games; }
       set { _allow_custom_games = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"ServerType", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"ServerType")]
     public enum ServerType
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UNSPECIFIED", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UNSPECIFIED")]
       UNSPECIFIED = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GAME", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GAME")]
       GAME = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PROXY", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PROXY")]
       PROXY = 2
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"CustomGames", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"CustomGames")]
     public enum CustomGames
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"BOTH", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"BOTH")]
       BOTH = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"NONE", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"NONE")]
       NONE = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ONLY", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ONLY")]
       ONLY = 2
     }
   
@@ -2924,20 +2924,20 @@ namespace Dota2.GC.Dota.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"DOTAUltimateState", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"DOTAUltimateState")]
     public enum DOTAUltimateState
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAUltimateStateNotLearned", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAUltimateStateNotLearned")]
       k_EDOTAUltimateStateNotLearned = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAUltimateStateCooldown", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAUltimateStateCooldown")]
       k_EDOTAUltimateStateCooldown = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAUltimateStateNeedsMana", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAUltimateStateNeedsMana")]
       k_EDOTAUltimateStateNeedsMana = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAUltimateStateReady", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAUltimateStateReady")]
       k_EDOTAUltimateStateReady = 3
     }
   
@@ -3593,20 +3593,20 @@ namespace Dota2.GC.Dota.Internal
       get { return _result; }
       set { _result = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"Result", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"Result")]
     public enum Result
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SaveSuccessful", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SaveSuccessful")]
       SaveSuccessful = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SessionNotFound", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SessionNotFound")]
       SessionNotFound = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DatabaseError", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DatabaseError")]
       DatabaseError = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TooBig", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TooBig")]
       TooBig = 3
     }
   
@@ -4970,14 +4970,14 @@ namespace Dota2.GC.Dota.Internal
       get { return _granted_item_defs; }
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_eResult_ItemGranted", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_eResult_ItemGranted")]
       k_eResult_ItemGranted = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_eResult_Destroyed", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_eResult_Destroyed")]
       k_eResult_Destroyed = 2
     }
   
@@ -5600,14 +5600,14 @@ namespace Dota2.GC.Dota.Internal
       get { return _result; }
       set { _result = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"Result", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"Result")]
     public enum Result
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE")]
       FAILURE = 1
     }
   
@@ -5837,130 +5837,130 @@ namespace Dota2.GC.Dota.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EPoorNetworkConditionsType", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EPoorNetworkConditionsType")]
     public enum EPoorNetworkConditionsType
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EPoorNetworkConditions_None", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EPoorNetworkConditions_None")]
       k_EPoorNetworkConditions_None = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EPoorNetworkConditions_Unknown", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EPoorNetworkConditions_Unknown")]
       k_EPoorNetworkConditions_Unknown = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EPoorNetworkConditions_MassDisconnect", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EPoorNetworkConditions_MassDisconnect")]
       k_EPoorNetworkConditions_MassDisconnect = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EPoorNetworkConditions_ExcessBadQosIntervals", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EPoorNetworkConditions_ExcessBadQosIntervals")]
       k_EPoorNetworkConditions_ExcessBadQosIntervals = 3
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EAbilityAbuseType", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EAbilityAbuseType")]
     public enum EAbilityAbuseType
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EAbilityAbuseType_None", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EAbilityAbuseType_None")]
       k_EAbilityAbuseType_None = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EAbilityAbuseType_Io_Relocate", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EAbilityAbuseType_Io_Relocate")]
       k_EAbilityAbuseType_Io_Relocate = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EAbilityAbuseType_Chen_Test_Of_Faith", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EAbilityAbuseType_Chen_Test_Of_Faith")]
       k_EAbilityAbuseType_Chen_Test_Of_Faith = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EAbilityAbuseType_Bane_Nightmare", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EAbilityAbuseType_Bane_Nightmare")]
       k_EAbilityAbuseType_Bane_Nightmare = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EAbilityAbuseType_Bloodseeker_Bloodrage", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EAbilityAbuseType_Bloodseeker_Bloodrage")]
       k_EAbilityAbuseType_Bloodseeker_Bloodrage = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EAbilityAbuseType_Outworld_Astral_Imprisonment", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EAbilityAbuseType_Outworld_Astral_Imprisonment")]
       k_EAbilityAbuseType_Outworld_Astral_Imprisonment = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EAbilityAbuseType_Shadow_Demon_Disruption", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EAbilityAbuseType_Shadow_Demon_Disruption")]
       k_EAbilityAbuseType_Shadow_Demon_Disruption = 6
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EIntentionalFeedingType", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EIntentionalFeedingType")]
     public enum EIntentionalFeedingType
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EIntentionalFeedingType_None", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EIntentionalFeedingType_None")]
       k_EIntentionalFeedingType_None = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EIntentionalFeedingType_ExcessiveDeaths", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EIntentionalFeedingType_ExcessiveDeaths")]
       k_EIntentionalFeedingType_ExcessiveDeaths = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EIntentionalFeedingType_MultipleCourierPurchases", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EIntentionalFeedingType_MultipleCourierPurchases")]
       k_EIntentionalFeedingType_MultipleCourierPurchases = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EIntentionalFeedingType_MultipleCourierDeaths", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EIntentionalFeedingType_MultipleCourierDeaths")]
       k_EIntentionalFeedingType_MultipleCourierDeaths = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EIntentionalFeedingType_LowActivity", Value=8)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EIntentionalFeedingType_LowActivity")]
       k_EIntentionalFeedingType_LowActivity = 8,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EIntentionalFeedingType_LowDamage", Value=16)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EIntentionalFeedingType_LowDamage")]
       k_EIntentionalFeedingType_LowDamage = 16,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EIntentionalFeedingType_HighUnspentGold", Value=32)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EIntentionalFeedingType_HighUnspentGold")]
       k_EIntentionalFeedingType_HighUnspentGold = 32,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EIntentionalFeedingType_SoldTooMuchItemValue", Value=64)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EIntentionalFeedingType_SoldTooMuchItemValue")]
       k_EIntentionalFeedingType_SoldTooMuchItemValue = 64,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EIntentionalFeedingType_TooManyDroppedItems", Value=128)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EIntentionalFeedingType_TooManyDroppedItems")]
       k_EIntentionalFeedingType_TooManyDroppedItems = 128,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EIntentionalFeedingType_ExcessiveTowerDamage", Value=256)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EIntentionalFeedingType_ExcessiveTowerDamage")]
       k_EIntentionalFeedingType_ExcessiveTowerDamage = 256
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"ESuspiciousActivity", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"ESuspiciousActivity")]
     public enum ESuspiciousActivity
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ESuspiciousActivity_VAC_MultipleInstances", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ESuspiciousActivity_VAC_MultipleInstances")]
       k_ESuspiciousActivity_VAC_MultipleInstances = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ESuspiciousActivity_IntentionalFeeding", Value=100)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ESuspiciousActivity_IntentionalFeeding")]
       k_ESuspiciousActivity_IntentionalFeeding = 100,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ESuspiciousActivity_SuspectedBotFarming", Value=101)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ESuspiciousActivity_SuspectedBotFarming")]
       k_ESuspiciousActivity_SuspectedBotFarming = 101
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"ESuspiciousBuildType", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"ESuspiciousBuildType")]
     public enum ESuspiciousBuildType
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ESuspiciousBuildType_None", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ESuspiciousBuildType_None")]
       k_ESuspiciousBuildType_None = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ESuspiciousBuildType_NoGoldSpent", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ESuspiciousBuildType_NoGoldSpent")]
       k_ESuspiciousBuildType_NoGoldSpent = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ESuspiciousBuildType_NoItems", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ESuspiciousBuildType_NoItems")]
       k_ESuspiciousBuildType_NoItems = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ESuspiciousBuildType_NoSignificantItems", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ESuspiciousBuildType_NoSignificantItems")]
       k_ESuspiciousBuildType_NoSignificantItems = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ESuspiciousBuildType_TooManyBoots", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ESuspiciousBuildType_TooManyBoots")]
       k_ESuspiciousBuildType_TooManyBoots = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ESuspiciousBuildType_Bot1", Value=101)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ESuspiciousBuildType_Bot1")]
       k_ESuspiciousBuildType_Bot1 = 101,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ESuspiciousBuildType_Bot2", Value=102)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ESuspiciousBuildType_Bot2")]
       k_ESuspiciousBuildType_Bot2 = 102,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ESuspiciousBuildType_Bot3", Value=103)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ESuspiciousBuildType_Bot3")]
       k_ESuspiciousBuildType_Bot3 = 103,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ESuspiciousBuildType_Bot4", Value=104)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ESuspiciousBuildType_Bot4")]
       k_ESuspiciousBuildType_Bot4 = 104,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ESuspiciousBuildType_Bot5", Value=105)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ESuspiciousBuildType_Bot5")]
       k_ESuspiciousBuildType_Bot5 = 105
     }
   

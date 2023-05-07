@@ -13,234 +13,234 @@
 // Generated from: dota_client_enums.proto
 namespace Dota2.GC.Dota.Internal
 {
-    [global::ProtoBuf.ProtoContract(Name=@"ETournamentTemplate", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"ETournamentTemplate")]
     public enum ETournamentTemplate
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTemplate_None", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTemplate_None")]
       k_ETournamentTemplate_None = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTemplate_AutomatedWin3", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTemplate_AutomatedWin3")]
       k_ETournamentTemplate_AutomatedWin3 = 1
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"ETournamentGameState", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"ETournamentGameState")]
     public enum ETournamentGameState
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentGameState_Unknown", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentGameState_Unknown")]
       k_ETournamentGameState_Unknown = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentGameState_Canceled", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentGameState_Canceled")]
       k_ETournamentGameState_Canceled = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentGameState_Scheduled", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentGameState_Scheduled")]
       k_ETournamentGameState_Scheduled = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentGameState_Active", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentGameState_Active")]
       k_ETournamentGameState_Active = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentGameState_RadVictory", Value=20)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentGameState_RadVictory")]
       k_ETournamentGameState_RadVictory = 20,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentGameState_DireVictory", Value=21)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentGameState_DireVictory")]
       k_ETournamentGameState_DireVictory = 21,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentGameState_RadVictoryByForfeit", Value=22)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentGameState_RadVictoryByForfeit")]
       k_ETournamentGameState_RadVictoryByForfeit = 22,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentGameState_DireVictoryByForfeit", Value=23)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentGameState_DireVictoryByForfeit")]
       k_ETournamentGameState_DireVictoryByForfeit = 23,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentGameState_ServerFailure", Value=40)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentGameState_ServerFailure")]
       k_ETournamentGameState_ServerFailure = 40,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentGameState_NotNeeded", Value=41)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentGameState_NotNeeded")]
       k_ETournamentGameState_NotNeeded = 41
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"ETournamentTeamState", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"ETournamentTeamState")]
     public enum ETournamentTeamState
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Unknown", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Unknown")]
       k_ETournamentTeamState_Unknown = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Node1", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Node1")]
       k_ETournamentTeamState_Node1 = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_NodeMax", Value=1024)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_NodeMax")]
       k_ETournamentTeamState_NodeMax = 1024,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Eliminated", Value=14003)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Eliminated")]
       k_ETournamentTeamState_Eliminated = 14003,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Forfeited", Value=14004)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Forfeited")]
       k_ETournamentTeamState_Forfeited = 14004,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Finished1st", Value=15001)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Finished1st")]
       k_ETournamentTeamState_Finished1st = 15001,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Finished2nd", Value=15002)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Finished2nd")]
       k_ETournamentTeamState_Finished2nd = 15002,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Finished3rd", Value=15003)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Finished3rd")]
       k_ETournamentTeamState_Finished3rd = 15003,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Finished4th", Value=15004)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Finished4th")]
       k_ETournamentTeamState_Finished4th = 15004,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Finished5th", Value=15005)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Finished5th")]
       k_ETournamentTeamState_Finished5th = 15005,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Finished6th", Value=15006)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Finished6th")]
       k_ETournamentTeamState_Finished6th = 15006,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Finished7th", Value=15007)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Finished7th")]
       k_ETournamentTeamState_Finished7th = 15007,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Finished8th", Value=15008)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Finished8th")]
       k_ETournamentTeamState_Finished8th = 15008,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Finished9th", Value=15009)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Finished9th")]
       k_ETournamentTeamState_Finished9th = 15009,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Finished10th", Value=15010)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Finished10th")]
       k_ETournamentTeamState_Finished10th = 15010,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Finished11th", Value=15011)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Finished11th")]
       k_ETournamentTeamState_Finished11th = 15011,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Finished12th", Value=15012)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Finished12th")]
       k_ETournamentTeamState_Finished12th = 15012,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Finished13th", Value=15013)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Finished13th")]
       k_ETournamentTeamState_Finished13th = 15013,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Finished14th", Value=15014)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Finished14th")]
       k_ETournamentTeamState_Finished14th = 15014,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Finished15th", Value=15015)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Finished15th")]
       k_ETournamentTeamState_Finished15th = 15015,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Finished16th", Value=15016)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentTeamState_Finished16th")]
       k_ETournamentTeamState_Finished16th = 15016
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"ETournamentState", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"ETournamentState")]
     public enum ETournamentState
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentState_Unknown", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentState_Unknown")]
       k_ETournamentState_Unknown = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentState_CanceledByAdmin", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentState_CanceledByAdmin")]
       k_ETournamentState_CanceledByAdmin = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentState_Completed", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentState_Completed")]
       k_ETournamentState_Completed = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentState_Merged", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentState_Merged")]
       k_ETournamentState_Merged = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentState_ServerFailure", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentState_ServerFailure")]
       k_ETournamentState_ServerFailure = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentState_TeamAbandoned", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentState_TeamAbandoned")]
       k_ETournamentState_TeamAbandoned = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentState_TeamTimeoutForfeit", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentState_TeamTimeoutForfeit")]
       k_ETournamentState_TeamTimeoutForfeit = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentState_TeamTimeoutRefund", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentState_TeamTimeoutRefund")]
       k_ETournamentState_TeamTimeoutRefund = 7,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentState_InProgress", Value=100)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentState_InProgress")]
       k_ETournamentState_InProgress = 100,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentState_WaitingToMerge", Value=101)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentState_WaitingToMerge")]
       k_ETournamentState_WaitingToMerge = 101
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"ETournamentNodeState", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"ETournamentNodeState")]
     public enum ETournamentNodeState
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentNodeState_Unknown", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentNodeState_Unknown")]
       k_ETournamentNodeState_Unknown = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentNodeState_Canceled", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentNodeState_Canceled")]
       k_ETournamentNodeState_Canceled = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentNodeState_TeamsNotYetAssigned", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentNodeState_TeamsNotYetAssigned")]
       k_ETournamentNodeState_TeamsNotYetAssigned = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentNodeState_InBetweenGames", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentNodeState_InBetweenGames")]
       k_ETournamentNodeState_InBetweenGames = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentNodeState_GameInProgress", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentNodeState_GameInProgress")]
       k_ETournamentNodeState_GameInProgress = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentNodeState_A_Won", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentNodeState_A_Won")]
       k_ETournamentNodeState_A_Won = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentNodeState_B_Won", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentNodeState_B_Won")]
       k_ETournamentNodeState_B_Won = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentNodeState_A_WonByForfeit", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentNodeState_A_WonByForfeit")]
       k_ETournamentNodeState_A_WonByForfeit = 7,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentNodeState_B_WonByForfeit", Value=8)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentNodeState_B_WonByForfeit")]
       k_ETournamentNodeState_B_WonByForfeit = 8,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentNodeState_A_Bye", Value=9)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentNodeState_A_Bye")]
       k_ETournamentNodeState_A_Bye = 9,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentNodeState_A_Abandoned", Value=10)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentNodeState_A_Abandoned")]
       k_ETournamentNodeState_A_Abandoned = 10,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentNodeState_ServerFailure", Value=11)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentNodeState_ServerFailure")]
       k_ETournamentNodeState_ServerFailure = 11,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentNodeState_A_TimeoutForfeit", Value=12)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentNodeState_A_TimeoutForfeit")]
       k_ETournamentNodeState_A_TimeoutForfeit = 12,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentNodeState_A_TimeoutRefund", Value=13)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentNodeState_A_TimeoutRefund")]
       k_ETournamentNodeState_A_TimeoutRefund = 13
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EDOTAGroupMergeResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EDOTAGroupMergeResult")]
     public enum EDOTAGroupMergeResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGroupMergeResult_OK", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGroupMergeResult_OK")]
       k_EDOTAGroupMergeResult_OK = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGroupMergeResult_FAILED_GENERIC", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGroupMergeResult_FAILED_GENERIC")]
       k_EDOTAGroupMergeResult_FAILED_GENERIC = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGroupMergeResult_NOT_LEADER", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGroupMergeResult_NOT_LEADER")]
       k_EDOTAGroupMergeResult_NOT_LEADER = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGroupMergeResult_TOO_MANY_PLAYERS", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGroupMergeResult_TOO_MANY_PLAYERS")]
       k_EDOTAGroupMergeResult_TOO_MANY_PLAYERS = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGroupMergeResult_TOO_MANY_COACHES", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGroupMergeResult_TOO_MANY_COACHES")]
       k_EDOTAGroupMergeResult_TOO_MANY_COACHES = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGroupMergeResult_ENGINE_MISMATCH", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGroupMergeResult_ENGINE_MISMATCH")]
       k_EDOTAGroupMergeResult_ENGINE_MISMATCH = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGroupMergeResult_NO_SUCH_GROUP", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGroupMergeResult_NO_SUCH_GROUP")]
       k_EDOTAGroupMergeResult_NO_SUCH_GROUP = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGroupMergeResult_OTHER_GROUP_NOT_OPEN", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGroupMergeResult_OTHER_GROUP_NOT_OPEN")]
       k_EDOTAGroupMergeResult_OTHER_GROUP_NOT_OPEN = 7,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGroupMergeResult_ALREADY_INVITED", Value=8)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGroupMergeResult_ALREADY_INVITED")]
       k_EDOTAGroupMergeResult_ALREADY_INVITED = 8,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGroupMergeResult_NOT_INVITED", Value=9)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGroupMergeResult_NOT_INVITED")]
       k_EDOTAGroupMergeResult_NOT_INVITED = 9
     }
   

@@ -752,65 +752,65 @@ namespace Dota2.GC.Dota.Internal
       get { return _team_id; }
       set { _team_id = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"Result", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"Result")]
     public enum Result
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"INVALID", Value=-1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"INVALID")]
       INVALID = -1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"NAME_EMPTY", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"NAME_EMPTY")]
       NAME_EMPTY = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"NAME_BAD_CHARACTERS", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"NAME_BAD_CHARACTERS")]
       NAME_BAD_CHARACTERS = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"NAME_TAKEN", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"NAME_TAKEN")]
       NAME_TAKEN = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"NAME_TOO_LONG", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"NAME_TOO_LONG")]
       NAME_TOO_LONG = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TAG_EMPTY", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TAG_EMPTY")]
       TAG_EMPTY = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TAG_BAD_CHARACTERS", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TAG_BAD_CHARACTERS")]
       TAG_BAD_CHARACTERS = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TAG_TAKEN", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TAG_TAKEN")]
       TAG_TAKEN = 7,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TAG_TOO_LONG", Value=8)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TAG_TOO_LONG")]
       TAG_TOO_LONG = 8,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CREATOR_BUSY", Value=9)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CREATOR_BUSY")]
       CREATOR_BUSY = 9,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UNSPECIFIED_ERROR", Value=10)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UNSPECIFIED_ERROR")]
       UNSPECIFIED_ERROR = 10,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CREATOR_TEAM_LIMIT_REACHED", Value=11)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CREATOR_TEAM_LIMIT_REACHED")]
       CREATOR_TEAM_LIMIT_REACHED = 11,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"NO_LOGO", Value=12)]
+      [global::ProtoBuf.ProtoEnum(Name=@"NO_LOGO")]
       NO_LOGO = 12,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CREATOR_TEAM_CREATION_COOLDOWN", Value=13)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CREATOR_TEAM_CREATION_COOLDOWN")]
       CREATOR_TEAM_CREATION_COOLDOWN = 13,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"LOGO_UPLOAD_FAILED", Value=14)]
+      [global::ProtoBuf.ProtoEnum(Name=@"LOGO_UPLOAD_FAILED")]
       LOGO_UPLOAD_FAILED = 14,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"NAME_CHANGED_TOO_RECENTLY", Value=15)]
+      [global::ProtoBuf.ProtoEnum(Name=@"NAME_CHANGED_TOO_RECENTLY")]
       NAME_CHANGED_TOO_RECENTLY = 15,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CREATOR_INSUFFICIENT_LEVEL", Value=16)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CREATOR_INSUFFICIENT_LEVEL")]
       CREATOR_INSUFFICIENT_LEVEL = 16,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"INVALID_ACCOUNT_TYPE", Value=17)]
+      [global::ProtoBuf.ProtoEnum(Name=@"INVALID_ACCOUNT_TYPE")]
       INVALID_ACCOUNT_TYPE = 17
     }
   
@@ -933,23 +933,23 @@ namespace Dota2.GC.Dota.Internal
       get { return _result; }
       set { _result = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"Result", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"Result")]
     public enum Result
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_INVALID_ACCOUNT_TYPE", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_INVALID_ACCOUNT_TYPE")]
       FAILURE_INVALID_ACCOUNT_TYPE = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_NOT_MEMBER", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_NOT_MEMBER")]
       FAILURE_NOT_MEMBER = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_TEAM_LOCKED", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_TEAM_LOCKED")]
       FAILURE_TEAM_LOCKED = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_UNSPECIFIED_ERROR", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_UNSPECIFIED_ERROR")]
       FAILURE_UNSPECIFIED_ERROR = 4
     }
   
@@ -1314,26 +1314,26 @@ namespace Dota2.GC.Dota.Internal
       get { return _result; }
       set { _result = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"Result", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"Result")]
     public enum Result
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_INVALID_ACCOUNT_TYPE", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_INVALID_ACCOUNT_TYPE")]
       FAILURE_INVALID_ACCOUNT_TYPE = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_KICKER_NOT_ADMIN", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_KICKER_NOT_ADMIN")]
       FAILURE_KICKER_NOT_ADMIN = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_KICKEE_NOT_MEMBER", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_KICKEE_NOT_MEMBER")]
       FAILURE_KICKEE_NOT_MEMBER = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_TEAM_LOCKED", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_TEAM_LOCKED")]
       FAILURE_TEAM_LOCKED = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_UNSPECIFIED_ERROR", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_UNSPECIFIED_ERROR")]
       FAILURE_UNSPECIFIED_ERROR = 5
     }
   
@@ -1384,26 +1384,26 @@ namespace Dota2.GC.Dota.Internal
       get { return _result; }
       set { _result = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"Result", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"Result")]
     public enum Result
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_INVALID_ACCOUNT_TYPE", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_INVALID_ACCOUNT_TYPE")]
       FAILURE_INVALID_ACCOUNT_TYPE = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_NOT_ADMIN", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_NOT_ADMIN")]
       FAILURE_NOT_ADMIN = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_SAME_ACCOUNT", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_SAME_ACCOUNT")]
       FAILURE_SAME_ACCOUNT = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_NOT_MEMBER", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_NOT_MEMBER")]
       FAILURE_NOT_MEMBER = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_UNSPECIFIED_ERROR", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_UNSPECIFIED_ERROR")]
       FAILURE_UNSPECIFIED_ERROR = 5
     }
   
@@ -1463,32 +1463,32 @@ namespace Dota2.GC.Dota.Internal
       get { return _result; }
       set { _result = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"Result", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"Result")]
     public enum Result
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_INVALID_ACCOUNT_TYPE", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_INVALID_ACCOUNT_TYPE")]
       FAILURE_INVALID_ACCOUNT_TYPE = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_SAME_ACCOUNT", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_SAME_ACCOUNT")]
       FAILURE_SAME_ACCOUNT = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_NOT_ADMIN", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_NOT_ADMIN")]
       FAILURE_NOT_ADMIN = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_NOT_MEMBER", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_NOT_MEMBER")]
       FAILURE_NOT_MEMBER = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_NOT_SUB", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_NOT_SUB")]
       FAILURE_NOT_SUB = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_ALREADY_SUB", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_ALREADY_SUB")]
       FAILURE_ALREADY_SUB = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_UNSPECIFIED_ERROR", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_UNSPECIFIED_ERROR")]
       FAILURE_UNSPECIFIED_ERROR = 7
     }
   
@@ -1530,20 +1530,20 @@ namespace Dota2.GC.Dota.Internal
       get { return _result; }
       set { _result = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"Result", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"Result")]
     public enum Result
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_NOT_MEMBER", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_NOT_MEMBER")]
       FAILURE_NOT_MEMBER = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_TEAM_LOCKED", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_TEAM_LOCKED")]
       FAILURE_TEAM_LOCKED = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_UNSPECIFIED_ERROR", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_UNSPECIFIED_ERROR")]
       FAILURE_UNSPECIFIED_ERROR = 3
     }
   
@@ -1571,50 +1571,50 @@ namespace Dota2.GC.Dota.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"ETeamInviteResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"ETeamInviteResult")]
     public enum ETeamInviteResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TEAM_INVITE_SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TEAM_INVITE_SUCCESS")]
       TEAM_INVITE_SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TEAM_INVITE_FAILURE_INVITE_REJECTED", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TEAM_INVITE_FAILURE_INVITE_REJECTED")]
       TEAM_INVITE_FAILURE_INVITE_REJECTED = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TEAM_INVITE_FAILURE_INVITE_TIMEOUT", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TEAM_INVITE_FAILURE_INVITE_TIMEOUT")]
       TEAM_INVITE_FAILURE_INVITE_TIMEOUT = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TEAM_INVITE_ERROR_TEAM_AT_MEMBER_LIMIT", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TEAM_INVITE_ERROR_TEAM_AT_MEMBER_LIMIT")]
       TEAM_INVITE_ERROR_TEAM_AT_MEMBER_LIMIT = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TEAM_INVITE_ERROR_TEAM_LOCKED", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TEAM_INVITE_ERROR_TEAM_LOCKED")]
       TEAM_INVITE_ERROR_TEAM_LOCKED = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TEAM_INVITE_ERROR_INVITEE_NOT_AVAILABLE", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TEAM_INVITE_ERROR_INVITEE_NOT_AVAILABLE")]
       TEAM_INVITE_ERROR_INVITEE_NOT_AVAILABLE = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TEAM_INVITE_ERROR_INVITEE_BUSY", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TEAM_INVITE_ERROR_INVITEE_BUSY")]
       TEAM_INVITE_ERROR_INVITEE_BUSY = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TEAM_INVITE_ERROR_INVITEE_ALREADY_MEMBER", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TEAM_INVITE_ERROR_INVITEE_ALREADY_MEMBER")]
       TEAM_INVITE_ERROR_INVITEE_ALREADY_MEMBER = 7,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TEAM_INVITE_ERROR_INVITEE_AT_TEAM_LIMIT", Value=8)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TEAM_INVITE_ERROR_INVITEE_AT_TEAM_LIMIT")]
       TEAM_INVITE_ERROR_INVITEE_AT_TEAM_LIMIT = 8,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TEAM_INVITE_ERROR_INVITEE_INSUFFICIENT_LEVEL", Value=9)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TEAM_INVITE_ERROR_INVITEE_INSUFFICIENT_LEVEL")]
       TEAM_INVITE_ERROR_INVITEE_INSUFFICIENT_LEVEL = 9,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TEAM_INVITE_ERROR_INVITER_INVALID_ACCOUNT_TYPE", Value=10)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TEAM_INVITE_ERROR_INVITER_INVALID_ACCOUNT_TYPE")]
       TEAM_INVITE_ERROR_INVITER_INVALID_ACCOUNT_TYPE = 10,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TEAM_INVITE_ERROR_INVITER_NOT_ADMIN", Value=11)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TEAM_INVITE_ERROR_INVITER_NOT_ADMIN")]
       TEAM_INVITE_ERROR_INVITER_NOT_ADMIN = 11,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TEAM_INVITE_ERROR_INCORRECT_USER_RESPONDED", Value=12)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TEAM_INVITE_ERROR_INCORRECT_USER_RESPONDED")]
       TEAM_INVITE_ERROR_INCORRECT_USER_RESPONDED = 12,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TEAM_INVITE_ERROR_UNSPECIFIED", Value=13)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TEAM_INVITE_ERROR_UNSPECIFIED")]
       TEAM_INVITE_ERROR_UNSPECIFIED = 13
     }
   

@@ -348,390 +348,390 @@ namespace Dota2.GC.Dota.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EDOTAChatWheelMessage", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EDOTAChatWheelMessage")]
     public enum EDOTAChatWheelMessage
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Ok", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Ok")]
       k_EDOTA_CW_Ok = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Care", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Care")]
       k_EDOTA_CW_Care = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_GetBack", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_GetBack")]
       k_EDOTA_CW_GetBack = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_NeedWards", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_NeedWards")]
       k_EDOTA_CW_NeedWards = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Stun", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Stun")]
       k_EDOTA_CW_Stun = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Help", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Help")]
       k_EDOTA_CW_Help = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Push", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Push")]
       k_EDOTA_CW_Push = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_GoodJob", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_GoodJob")]
       k_EDOTA_CW_GoodJob = 7,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Missing", Value=8)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Missing")]
       k_EDOTA_CW_Missing = 8,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Missing_Top", Value=9)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Missing_Top")]
       k_EDOTA_CW_Missing_Top = 9,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Missing_Mid", Value=10)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Missing_Mid")]
       k_EDOTA_CW_Missing_Mid = 10,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Missing_Bottom", Value=11)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Missing_Bottom")]
       k_EDOTA_CW_Missing_Bottom = 11,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Go", Value=12)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Go")]
       k_EDOTA_CW_Go = 12,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Initiate", Value=13)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Initiate")]
       k_EDOTA_CW_Initiate = 13,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Follow", Value=14)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Follow")]
       k_EDOTA_CW_Follow = 14,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Group_Up", Value=15)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Group_Up")]
       k_EDOTA_CW_Group_Up = 15,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Spread_Out", Value=16)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Spread_Out")]
       k_EDOTA_CW_Spread_Out = 16,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Split_Farm", Value=17)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Split_Farm")]
       k_EDOTA_CW_Split_Farm = 17,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Attack", Value=18)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Attack")]
       k_EDOTA_CW_Attack = 18,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_BRB", Value=19)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_BRB")]
       k_EDOTA_CW_BRB = 19,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Dive", Value=20)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Dive")]
       k_EDOTA_CW_Dive = 20,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_OMW", Value=21)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_OMW")]
       k_EDOTA_CW_OMW = 21,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Get_Ready", Value=22)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Get_Ready")]
       k_EDOTA_CW_Get_Ready = 22,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Bait", Value=23)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Bait")]
       k_EDOTA_CW_Bait = 23,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Heal", Value=24)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Heal")]
       k_EDOTA_CW_Heal = 24,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Mana", Value=25)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Mana")]
       k_EDOTA_CW_Mana = 25,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_OOM", Value=26)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_OOM")]
       k_EDOTA_CW_OOM = 26,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Skill_Cooldown", Value=27)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Skill_Cooldown")]
       k_EDOTA_CW_Skill_Cooldown = 27,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Ulti_Ready", Value=28)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Ulti_Ready")]
       k_EDOTA_CW_Ulti_Ready = 28,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Enemy_Returned", Value=29)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Enemy_Returned")]
       k_EDOTA_CW_Enemy_Returned = 29,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_All_Missing", Value=30)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_All_Missing")]
       k_EDOTA_CW_All_Missing = 30,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Enemy_Incoming", Value=31)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Enemy_Incoming")]
       k_EDOTA_CW_Enemy_Incoming = 31,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Invis_Enemy", Value=32)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Invis_Enemy")]
       k_EDOTA_CW_Invis_Enemy = 32,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Enemy_Had_Rune", Value=33)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Enemy_Had_Rune")]
       k_EDOTA_CW_Enemy_Had_Rune = 33,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Split_Push", Value=34)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Split_Push")]
       k_EDOTA_CW_Split_Push = 34,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Coming_To_Gank", Value=35)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Coming_To_Gank")]
       k_EDOTA_CW_Coming_To_Gank = 35,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Request_Gank", Value=36)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Request_Gank")]
       k_EDOTA_CW_Request_Gank = 36,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Fight_Under_Tower", Value=37)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Fight_Under_Tower")]
       k_EDOTA_CW_Fight_Under_Tower = 37,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Deny_Tower", Value=38)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Deny_Tower")]
       k_EDOTA_CW_Deny_Tower = 38,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Buy_Courier", Value=39)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Buy_Courier")]
       k_EDOTA_CW_Buy_Courier = 39,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Upgrade_Courier", Value=40)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Upgrade_Courier")]
       k_EDOTA_CW_Upgrade_Courier = 40,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Need_Detection", Value=41)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Need_Detection")]
       k_EDOTA_CW_Need_Detection = 41,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_They_Have_Detection", Value=42)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_They_Have_Detection")]
       k_EDOTA_CW_They_Have_Detection = 42,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Buy_TP", Value=43)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Buy_TP")]
       k_EDOTA_CW_Buy_TP = 43,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Reuse_Courier", Value=44)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Reuse_Courier")]
       k_EDOTA_CW_Reuse_Courier = 44,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Deward", Value=45)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Deward")]
       k_EDOTA_CW_Deward = 45,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Building_Mek", Value=46)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Building_Mek")]
       k_EDOTA_CW_Building_Mek = 46,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Building_Pipe", Value=47)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Building_Pipe")]
       k_EDOTA_CW_Building_Pipe = 47,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Stack_And_Pull", Value=48)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Stack_And_Pull")]
       k_EDOTA_CW_Stack_And_Pull = 48,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Pull", Value=49)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Pull")]
       k_EDOTA_CW_Pull = 49,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Pulling", Value=50)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Pulling")]
       k_EDOTA_CW_Pulling = 50,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Stack", Value=51)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Stack")]
       k_EDOTA_CW_Stack = 51,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Jungling", Value=52)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Jungling")]
       k_EDOTA_CW_Jungling = 52,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Roshan", Value=53)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Roshan")]
       k_EDOTA_CW_Roshan = 53,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Affirmative", Value=54)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Affirmative")]
       k_EDOTA_CW_Affirmative = 54,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Wait", Value=55)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Wait")]
       k_EDOTA_CW_Wait = 55,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Pause", Value=56)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Pause")]
       k_EDOTA_CW_Pause = 56,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Current_Time", Value=57)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Current_Time")]
       k_EDOTA_CW_Current_Time = 57,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Check_Runes", Value=58)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Check_Runes")]
       k_EDOTA_CW_Check_Runes = 58,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Smoke_Gank", Value=59)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Smoke_Gank")]
       k_EDOTA_CW_Smoke_Gank = 59,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_GLHF", Value=60)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_GLHF")]
       k_EDOTA_CW_GLHF = 60,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Nice", Value=61)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Nice")]
       k_EDOTA_CW_Nice = 61,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Thanks", Value=62)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Thanks")]
       k_EDOTA_CW_Thanks = 62,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Sorry", Value=63)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Sorry")]
       k_EDOTA_CW_Sorry = 63,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_No_Give_Up", Value=64)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_No_Give_Up")]
       k_EDOTA_CW_No_Give_Up = 64,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Just_Happened", Value=65)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Just_Happened")]
       k_EDOTA_CW_Just_Happened = 65,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Game_Is_Hard", Value=66)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Game_Is_Hard")]
       k_EDOTA_CW_Game_Is_Hard = 66,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_New_Meta", Value=67)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_New_Meta")]
       k_EDOTA_CW_New_Meta = 67,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_My_Bad", Value=68)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_My_Bad")]
       k_EDOTA_CW_My_Bad = 68,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Regret", Value=69)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Regret")]
       k_EDOTA_CW_Regret = 69,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Relax", Value=70)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Relax")]
       k_EDOTA_CW_Relax = 70,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_MissingHero", Value=71)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_MissingHero")]
       k_EDOTA_CW_MissingHero = 71,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_ReturnedHero", Value=72)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_ReturnedHero")]
       k_EDOTA_CW_ReturnedHero = 72,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_GG", Value=73)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_GG")]
       k_EDOTA_CW_GG = 73,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_GGWP", Value=74)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_GGWP")]
       k_EDOTA_CW_GGWP = 74,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_All_GG", Value=75)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_All_GG")]
       k_EDOTA_CW_All_GG = 75,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_All_GGWP", Value=76)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_All_GGWP")]
       k_EDOTA_CW_All_GGWP = 76,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_What_To_Buy", Value=77)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_What_To_Buy")]
       k_EDOTA_CW_What_To_Buy = 77,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Im_Retreating", Value=78)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Im_Retreating")]
       k_EDOTA_CW_Im_Retreating = 78,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Space_Created", Value=79)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Space_Created")]
       k_EDOTA_CW_Space_Created = 79,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Whoops", Value=80)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Whoops")]
       k_EDOTA_CW_Whoops = 80,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Tower_then_Back", Value=81)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Tower_then_Back")]
       k_EDOTA_CW_Tower_then_Back = 81,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Barracks_then_Back", Value=82)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Barracks_then_Back")]
       k_EDOTA_CW_Barracks_then_Back = 82,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Ward_Bottom_Rune", Value=83)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Ward_Bottom_Rune")]
       k_EDOTA_CW_Ward_Bottom_Rune = 83,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Ward_Top_Rune", Value=84)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Ward_Top_Rune")]
       k_EDOTA_CW_Ward_Top_Rune = 84,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Zeus_Ult", Value=85)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_CW_Zeus_Ult")]
       k_EDOTA_CW_Zeus_Ult = 85
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EDOTAStatPopupTypes", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EDOTAStatPopupTypes")]
     public enum EDOTAStatPopupTypes
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_SPT_Textline", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_SPT_Textline")]
       k_EDOTA_SPT_Textline = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_SPT_Basic", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_SPT_Basic")]
       k_EDOTA_SPT_Basic = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_SPT_Poll", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_SPT_Poll")]
       k_EDOTA_SPT_Poll = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_SPT_Grid", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTA_SPT_Grid")]
       k_EDOTA_SPT_Grid = 3
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"dotaunitorder_t", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"dotaunitorder_t")]
     public enum dotaunitorder_t
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_NONE", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_NONE")]
       DOTA_UNIT_ORDER_NONE = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_MOVE_TO_POSITION", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_MOVE_TO_POSITION")]
       DOTA_UNIT_ORDER_MOVE_TO_POSITION = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_MOVE_TO_TARGET", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_MOVE_TO_TARGET")]
       DOTA_UNIT_ORDER_MOVE_TO_TARGET = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_ATTACK_MOVE", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_ATTACK_MOVE")]
       DOTA_UNIT_ORDER_ATTACK_MOVE = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_ATTACK_TARGET", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_ATTACK_TARGET")]
       DOTA_UNIT_ORDER_ATTACK_TARGET = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_CAST_POSITION", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_CAST_POSITION")]
       DOTA_UNIT_ORDER_CAST_POSITION = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_CAST_TARGET", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_CAST_TARGET")]
       DOTA_UNIT_ORDER_CAST_TARGET = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_CAST_TARGET_TREE", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_CAST_TARGET_TREE")]
       DOTA_UNIT_ORDER_CAST_TARGET_TREE = 7,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_CAST_NO_TARGET", Value=8)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_CAST_NO_TARGET")]
       DOTA_UNIT_ORDER_CAST_NO_TARGET = 8,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_CAST_TOGGLE", Value=9)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_CAST_TOGGLE")]
       DOTA_UNIT_ORDER_CAST_TOGGLE = 9,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_HOLD_POSITION", Value=10)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_HOLD_POSITION")]
       DOTA_UNIT_ORDER_HOLD_POSITION = 10,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_TRAIN_ABILITY", Value=11)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_TRAIN_ABILITY")]
       DOTA_UNIT_ORDER_TRAIN_ABILITY = 11,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_DROP_ITEM", Value=12)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_DROP_ITEM")]
       DOTA_UNIT_ORDER_DROP_ITEM = 12,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_GIVE_ITEM", Value=13)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_GIVE_ITEM")]
       DOTA_UNIT_ORDER_GIVE_ITEM = 13,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_PICKUP_ITEM", Value=14)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_PICKUP_ITEM")]
       DOTA_UNIT_ORDER_PICKUP_ITEM = 14,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_PICKUP_RUNE", Value=15)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_PICKUP_RUNE")]
       DOTA_UNIT_ORDER_PICKUP_RUNE = 15,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_PURCHASE_ITEM", Value=16)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_PURCHASE_ITEM")]
       DOTA_UNIT_ORDER_PURCHASE_ITEM = 16,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_SELL_ITEM", Value=17)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_SELL_ITEM")]
       DOTA_UNIT_ORDER_SELL_ITEM = 17,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_DISASSEMBLE_ITEM", Value=18)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_DISASSEMBLE_ITEM")]
       DOTA_UNIT_ORDER_DISASSEMBLE_ITEM = 18,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_MOVE_ITEM", Value=19)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_MOVE_ITEM")]
       DOTA_UNIT_ORDER_MOVE_ITEM = 19,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_CAST_TOGGLE_AUTO", Value=20)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_CAST_TOGGLE_AUTO")]
       DOTA_UNIT_ORDER_CAST_TOGGLE_AUTO = 20,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_STOP", Value=21)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_STOP")]
       DOTA_UNIT_ORDER_STOP = 21,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_TAUNT", Value=22)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_TAUNT")]
       DOTA_UNIT_ORDER_TAUNT = 22,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_BUYBACK", Value=23)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_BUYBACK")]
       DOTA_UNIT_ORDER_BUYBACK = 23,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_GLYPH", Value=24)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_GLYPH")]
       DOTA_UNIT_ORDER_GLYPH = 24,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_EJECT_ITEM_FROM_STASH", Value=25)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_EJECT_ITEM_FROM_STASH")]
       DOTA_UNIT_ORDER_EJECT_ITEM_FROM_STASH = 25,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_CAST_RUNE", Value=26)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_CAST_RUNE")]
       DOTA_UNIT_ORDER_CAST_RUNE = 26,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_PING_ABILITY", Value=27)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_PING_ABILITY")]
       DOTA_UNIT_ORDER_PING_ABILITY = 27,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_MOVE_TO_DIRECTION", Value=28)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_MOVE_TO_DIRECTION")]
       DOTA_UNIT_ORDER_MOVE_TO_DIRECTION = 28,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_PATROL", Value=29)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_PATROL")]
       DOTA_UNIT_ORDER_PATROL = 29,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_VECTOR_TARGET_POSITION", Value=30)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_VECTOR_TARGET_POSITION")]
       DOTA_UNIT_ORDER_VECTOR_TARGET_POSITION = 30,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_RADAR", Value=31)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_RADAR")]
       DOTA_UNIT_ORDER_RADAR = 31,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_SET_ITEM_COMBINE_LOCK", Value=32)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_SET_ITEM_COMBINE_LOCK")]
       DOTA_UNIT_ORDER_SET_ITEM_COMBINE_LOCK = 32,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_CONTINUE", Value=33)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ORDER_CONTINUE")]
       DOTA_UNIT_ORDER_CONTINUE = 33
     }
   

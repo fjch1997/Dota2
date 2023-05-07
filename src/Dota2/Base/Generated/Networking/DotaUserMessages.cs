@@ -1427,14 +1427,14 @@ namespace Dota2.GC.Dota.Internal
       get { return _granted_item_defs; }
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_eResult_ItemGranted", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_eResult_ItemGranted")]
       k_eResult_ItemGranted = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_eResult_Destroyed", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_eResult_Destroyed")]
       k_eResult_Destroyed = 2
     }
   
@@ -1497,14 +1497,14 @@ namespace Dota2.GC.Dota.Internal
       get { return _val_string; }
       set { _val_string = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"ValueType", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"ValueType")]
     public enum ValueType
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"NUMERIC", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"NUMERIC")]
       NUMERIC = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"STRING", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"STRING")]
       STRING = 2
     }
   
@@ -5125,997 +5125,997 @@ namespace Dota2.GC.Dota.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EDotaUserMessages", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EDotaUserMessages")]
     public enum EDotaUserMessages
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_AddUnitToSelection", Value=464)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_AddUnitToSelection")]
       DOTA_UM_AddUnitToSelection = 464,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_AIDebugLine", Value=465)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_AIDebugLine")]
       DOTA_UM_AIDebugLine = 465,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_ChatEvent", Value=466)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_ChatEvent")]
       DOTA_UM_ChatEvent = 466,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_CombatHeroPositions", Value=467)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_CombatHeroPositions")]
       DOTA_UM_CombatHeroPositions = 467,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_CombatLogData", Value=468)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_CombatLogData")]
       DOTA_UM_CombatLogData = 468,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_CombatLogShowDeath", Value=470)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_CombatLogShowDeath")]
       DOTA_UM_CombatLogShowDeath = 470,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_CreateLinearProjectile", Value=471)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_CreateLinearProjectile")]
       DOTA_UM_CreateLinearProjectile = 471,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_DestroyLinearProjectile", Value=472)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_DestroyLinearProjectile")]
       DOTA_UM_DestroyLinearProjectile = 472,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_DodgeTrackingProjectiles", Value=473)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_DodgeTrackingProjectiles")]
       DOTA_UM_DodgeTrackingProjectiles = 473,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_GlobalLightColor", Value=474)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_GlobalLightColor")]
       DOTA_UM_GlobalLightColor = 474,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_GlobalLightDirection", Value=475)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_GlobalLightDirection")]
       DOTA_UM_GlobalLightDirection = 475,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_InvalidCommand", Value=476)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_InvalidCommand")]
       DOTA_UM_InvalidCommand = 476,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_LocationPing", Value=477)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_LocationPing")]
       DOTA_UM_LocationPing = 477,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_MapLine", Value=478)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_MapLine")]
       DOTA_UM_MapLine = 478,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_MiniKillCamInfo", Value=479)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_MiniKillCamInfo")]
       DOTA_UM_MiniKillCamInfo = 479,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_MinimapDebugPoint", Value=480)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_MinimapDebugPoint")]
       DOTA_UM_MinimapDebugPoint = 480,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_MinimapEvent", Value=481)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_MinimapEvent")]
       DOTA_UM_MinimapEvent = 481,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_NevermoreRequiem", Value=482)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_NevermoreRequiem")]
       DOTA_UM_NevermoreRequiem = 482,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_OverheadEvent", Value=483)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_OverheadEvent")]
       DOTA_UM_OverheadEvent = 483,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_SetNextAutobuyItem", Value=484)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_SetNextAutobuyItem")]
       DOTA_UM_SetNextAutobuyItem = 484,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_SharedCooldown", Value=485)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_SharedCooldown")]
       DOTA_UM_SharedCooldown = 485,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_SpectatorPlayerClick", Value=486)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_SpectatorPlayerClick")]
       DOTA_UM_SpectatorPlayerClick = 486,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_TutorialTipInfo", Value=487)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_TutorialTipInfo")]
       DOTA_UM_TutorialTipInfo = 487,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_UnitEvent", Value=488)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_UnitEvent")]
       DOTA_UM_UnitEvent = 488,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_ParticleManager", Value=489)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_ParticleManager")]
       DOTA_UM_ParticleManager = 489,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_BotChat", Value=490)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_BotChat")]
       DOTA_UM_BotChat = 490,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_HudError", Value=491)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_HudError")]
       DOTA_UM_HudError = 491,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_ItemPurchased", Value=492)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_ItemPurchased")]
       DOTA_UM_ItemPurchased = 492,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_Ping", Value=493)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_Ping")]
       DOTA_UM_Ping = 493,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_ItemFound", Value=494)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_ItemFound")]
       DOTA_UM_ItemFound = 494,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_CharacterSpeakConcept", Value=495)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_CharacterSpeakConcept")]
       DOTA_UM_CharacterSpeakConcept = 495,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_SwapVerify", Value=496)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_SwapVerify")]
       DOTA_UM_SwapVerify = 496,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_WorldLine", Value=497)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_WorldLine")]
       DOTA_UM_WorldLine = 497,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_TournamentDrop", Value=498)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_TournamentDrop")]
       DOTA_UM_TournamentDrop = 498,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_ItemAlert", Value=499)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_ItemAlert")]
       DOTA_UM_ItemAlert = 499,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_HalloweenDrops", Value=500)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_HalloweenDrops")]
       DOTA_UM_HalloweenDrops = 500,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_ChatWheel", Value=501)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_ChatWheel")]
       DOTA_UM_ChatWheel = 501,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_ReceivedXmasGift", Value=502)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_ReceivedXmasGift")]
       DOTA_UM_ReceivedXmasGift = 502,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_UpdateSharedContent", Value=503)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_UpdateSharedContent")]
       DOTA_UM_UpdateSharedContent = 503,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_TutorialRequestExp", Value=504)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_TutorialRequestExp")]
       DOTA_UM_TutorialRequestExp = 504,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_TutorialPingMinimap", Value=505)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_TutorialPingMinimap")]
       DOTA_UM_TutorialPingMinimap = 505,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_GamerulesStateChanged", Value=506)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_GamerulesStateChanged")]
       DOTA_UM_GamerulesStateChanged = 506,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_ShowSurvey", Value=507)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_ShowSurvey")]
       DOTA_UM_ShowSurvey = 507,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_TutorialFade", Value=508)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_TutorialFade")]
       DOTA_UM_TutorialFade = 508,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_AddQuestLogEntry", Value=509)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_AddQuestLogEntry")]
       DOTA_UM_AddQuestLogEntry = 509,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_SendStatPopup", Value=510)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_SendStatPopup")]
       DOTA_UM_SendStatPopup = 510,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_TutorialFinish", Value=511)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_TutorialFinish")]
       DOTA_UM_TutorialFinish = 511,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_SendRoshanPopup", Value=512)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_SendRoshanPopup")]
       DOTA_UM_SendRoshanPopup = 512,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_SendGenericToolTip", Value=513)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_SendGenericToolTip")]
       DOTA_UM_SendGenericToolTip = 513,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_SendFinalGold", Value=514)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_SendFinalGold")]
       DOTA_UM_SendFinalGold = 514,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_CustomMsg", Value=515)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_CustomMsg")]
       DOTA_UM_CustomMsg = 515,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_CoachHUDPing", Value=516)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_CoachHUDPing")]
       DOTA_UM_CoachHUDPing = 516,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_ClientLoadGridNav", Value=517)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_ClientLoadGridNav")]
       DOTA_UM_ClientLoadGridNav = 517,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_TE_Projectile", Value=518)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_TE_Projectile")]
       DOTA_UM_TE_Projectile = 518,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_TE_ProjectileLoc", Value=519)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_TE_ProjectileLoc")]
       DOTA_UM_TE_ProjectileLoc = 519,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_TE_DotaBloodImpact", Value=520)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_TE_DotaBloodImpact")]
       DOTA_UM_TE_DotaBloodImpact = 520,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_TE_UnitAnimation", Value=521)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_TE_UnitAnimation")]
       DOTA_UM_TE_UnitAnimation = 521,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_TE_UnitAnimationEnd", Value=522)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_TE_UnitAnimationEnd")]
       DOTA_UM_TE_UnitAnimationEnd = 522,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_AbilityPing", Value=523)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_AbilityPing")]
       DOTA_UM_AbilityPing = 523,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_ShowGenericPopup", Value=524)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_ShowGenericPopup")]
       DOTA_UM_ShowGenericPopup = 524,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_VoteStart", Value=525)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_VoteStart")]
       DOTA_UM_VoteStart = 525,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_VoteUpdate", Value=526)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_VoteUpdate")]
       DOTA_UM_VoteUpdate = 526,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_VoteEnd", Value=527)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_VoteEnd")]
       DOTA_UM_VoteEnd = 527,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_BoosterState", Value=528)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_BoosterState")]
       DOTA_UM_BoosterState = 528,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_WillPurchaseAlert", Value=529)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_WillPurchaseAlert")]
       DOTA_UM_WillPurchaseAlert = 529,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_TutorialMinimapPosition", Value=530)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_TutorialMinimapPosition")]
       DOTA_UM_TutorialMinimapPosition = 530,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_PlayerMMR", Value=531)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_PlayerMMR")]
       DOTA_UM_PlayerMMR = 531,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_AbilitySteal", Value=532)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_AbilitySteal")]
       DOTA_UM_AbilitySteal = 532,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_CourierKilledAlert", Value=533)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_CourierKilledAlert")]
       DOTA_UM_CourierKilledAlert = 533,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_EnemyItemAlert", Value=534)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_EnemyItemAlert")]
       DOTA_UM_EnemyItemAlert = 534,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_StatsMatchDetails", Value=535)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_StatsMatchDetails")]
       DOTA_UM_StatsMatchDetails = 535,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_MiniTaunt", Value=536)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_MiniTaunt")]
       DOTA_UM_MiniTaunt = 536,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_BuyBackStateAlert", Value=537)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_BuyBackStateAlert")]
       DOTA_UM_BuyBackStateAlert = 537,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_SpeechBubble", Value=538)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_SpeechBubble")]
       DOTA_UM_SpeechBubble = 538,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_CustomHeaderMessage", Value=539)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_CustomHeaderMessage")]
       DOTA_UM_CustomHeaderMessage = 539,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_QuickBuyAlert", Value=540)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_QuickBuyAlert")]
       DOTA_UM_QuickBuyAlert = 540,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_StatsHeroDetails", Value=541)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_StatsHeroDetails")]
       DOTA_UM_StatsHeroDetails = 541,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_PredictionResult", Value=542)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_PredictionResult")]
       DOTA_UM_PredictionResult = 542,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_ModifierAlert", Value=543)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_ModifierAlert")]
       DOTA_UM_ModifierAlert = 543,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_HPManaAlert", Value=544)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_HPManaAlert")]
       DOTA_UM_HPManaAlert = 544,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_GlyphAlert", Value=545)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_GlyphAlert")]
       DOTA_UM_GlyphAlert = 545,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_BeastChat", Value=546)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_BeastChat")]
       DOTA_UM_BeastChat = 546,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_SpectatorPlayerUnitOrders", Value=547)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_SpectatorPlayerUnitOrders")]
       DOTA_UM_SpectatorPlayerUnitOrders = 547,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_CustomHudElement_Create", Value=548)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_CustomHudElement_Create")]
       DOTA_UM_CustomHudElement_Create = 548,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_CustomHudElement_Modify", Value=549)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_CustomHudElement_Modify")]
       DOTA_UM_CustomHudElement_Modify = 549,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_CustomHudElement_Destroy", Value=550)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_CustomHudElement_Destroy")]
       DOTA_UM_CustomHudElement_Destroy = 550,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_CompendiumState", Value=551)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_CompendiumState")]
       DOTA_UM_CompendiumState = 551,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_ProjectionAbility", Value=552)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_ProjectionAbility")]
       DOTA_UM_ProjectionAbility = 552,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_ProjectionEvent", Value=553)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_ProjectionEvent")]
       DOTA_UM_ProjectionEvent = 553,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_CombatLogDataHLTV", Value=554)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_CombatLogDataHLTV")]
       DOTA_UM_CombatLogDataHLTV = 554,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_XPAlert", Value=555)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_XPAlert")]
       DOTA_UM_XPAlert = 555,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_UpdateQuestProgress", Value=556)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_UpdateQuestProgress")]
       DOTA_UM_UpdateQuestProgress = 556,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_MatchMetadata", Value=557)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_MatchMetadata")]
       DOTA_UM_MatchMetadata = 557,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_MatchDetails", Value=558)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_MatchDetails")]
       DOTA_UM_MatchDetails = 558,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_QuestStatus", Value=559)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UM_QuestStatus")]
       DOTA_UM_QuestStatus = 559
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"DOTA_CHAT_MESSAGE", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"DOTA_CHAT_MESSAGE")]
     public enum DOTA_CHAT_MESSAGE
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_INVALID", Value=-1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_INVALID")]
       CHAT_MESSAGE_INVALID = -1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_HERO_KILL", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_HERO_KILL")]
       CHAT_MESSAGE_HERO_KILL = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_HERO_DENY", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_HERO_DENY")]
       CHAT_MESSAGE_HERO_DENY = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_BARRACKS_KILL", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_BARRACKS_KILL")]
       CHAT_MESSAGE_BARRACKS_KILL = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_TOWER_KILL", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_TOWER_KILL")]
       CHAT_MESSAGE_TOWER_KILL = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_TOWER_DENY", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_TOWER_DENY")]
       CHAT_MESSAGE_TOWER_DENY = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_FIRSTBLOOD", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_FIRSTBLOOD")]
       CHAT_MESSAGE_FIRSTBLOOD = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_STREAK_KILL", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_STREAK_KILL")]
       CHAT_MESSAGE_STREAK_KILL = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_BUYBACK", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_BUYBACK")]
       CHAT_MESSAGE_BUYBACK = 7,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_AEGIS", Value=8)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_AEGIS")]
       CHAT_MESSAGE_AEGIS = 8,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_ROSHAN_KILL", Value=9)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_ROSHAN_KILL")]
       CHAT_MESSAGE_ROSHAN_KILL = 9,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_COURIER_LOST", Value=10)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_COURIER_LOST")]
       CHAT_MESSAGE_COURIER_LOST = 10,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_COURIER_RESPAWNED", Value=11)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_COURIER_RESPAWNED")]
       CHAT_MESSAGE_COURIER_RESPAWNED = 11,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_GLYPH_USED", Value=12)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_GLYPH_USED")]
       CHAT_MESSAGE_GLYPH_USED = 12,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_ITEM_PURCHASE", Value=13)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_ITEM_PURCHASE")]
       CHAT_MESSAGE_ITEM_PURCHASE = 13,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_CONNECT", Value=14)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_CONNECT")]
       CHAT_MESSAGE_CONNECT = 14,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_DISCONNECT", Value=15)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_DISCONNECT")]
       CHAT_MESSAGE_DISCONNECT = 15,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_DISCONNECT_WAIT_FOR_RECONNECT", Value=16)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_DISCONNECT_WAIT_FOR_RECONNECT")]
       CHAT_MESSAGE_DISCONNECT_WAIT_FOR_RECONNECT = 16,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_DISCONNECT_TIME_REMAINING", Value=17)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_DISCONNECT_TIME_REMAINING")]
       CHAT_MESSAGE_DISCONNECT_TIME_REMAINING = 17,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_DISCONNECT_TIME_REMAINING_PLURAL", Value=18)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_DISCONNECT_TIME_REMAINING_PLURAL")]
       CHAT_MESSAGE_DISCONNECT_TIME_REMAINING_PLURAL = 18,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_RECONNECT", Value=19)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_RECONNECT")]
       CHAT_MESSAGE_RECONNECT = 19,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_PLAYER_LEFT", Value=20)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_PLAYER_LEFT")]
       CHAT_MESSAGE_PLAYER_LEFT = 20,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_SAFE_TO_LEAVE", Value=21)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_SAFE_TO_LEAVE")]
       CHAT_MESSAGE_SAFE_TO_LEAVE = 21,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_RUNE_PICKUP", Value=22)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_RUNE_PICKUP")]
       CHAT_MESSAGE_RUNE_PICKUP = 22,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_RUNE_BOTTLE", Value=23)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_RUNE_BOTTLE")]
       CHAT_MESSAGE_RUNE_BOTTLE = 23,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_INTHEBAG", Value=24)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_INTHEBAG")]
       CHAT_MESSAGE_INTHEBAG = 24,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_SECRETSHOP", Value=25)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_SECRETSHOP")]
       CHAT_MESSAGE_SECRETSHOP = 25,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_ITEM_AUTOPURCHASED", Value=26)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_ITEM_AUTOPURCHASED")]
       CHAT_MESSAGE_ITEM_AUTOPURCHASED = 26,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_ITEMS_COMBINED", Value=27)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_ITEMS_COMBINED")]
       CHAT_MESSAGE_ITEMS_COMBINED = 27,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_SUPER_CREEPS", Value=28)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_SUPER_CREEPS")]
       CHAT_MESSAGE_SUPER_CREEPS = 28,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_CANT_USE_ACTION_ITEM", Value=29)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_CANT_USE_ACTION_ITEM")]
       CHAT_MESSAGE_CANT_USE_ACTION_ITEM = 29,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_CHARGES_EXHAUSTED", Value=30)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_CHARGES_EXHAUSTED")]
       CHAT_MESSAGE_CHARGES_EXHAUSTED = 30,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_CANTPAUSE", Value=31)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_CANTPAUSE")]
       CHAT_MESSAGE_CANTPAUSE = 31,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_NOPAUSESLEFT", Value=32)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_NOPAUSESLEFT")]
       CHAT_MESSAGE_NOPAUSESLEFT = 32,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_CANTPAUSEYET", Value=33)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_CANTPAUSEYET")]
       CHAT_MESSAGE_CANTPAUSEYET = 33,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_PAUSED", Value=34)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_PAUSED")]
       CHAT_MESSAGE_PAUSED = 34,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_UNPAUSE_COUNTDOWN", Value=35)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_UNPAUSE_COUNTDOWN")]
       CHAT_MESSAGE_UNPAUSE_COUNTDOWN = 35,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_UNPAUSED", Value=36)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_UNPAUSED")]
       CHAT_MESSAGE_UNPAUSED = 36,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_AUTO_UNPAUSED", Value=37)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_AUTO_UNPAUSED")]
       CHAT_MESSAGE_AUTO_UNPAUSED = 37,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_YOUPAUSED", Value=38)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_YOUPAUSED")]
       CHAT_MESSAGE_YOUPAUSED = 38,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_CANTUNPAUSETEAM", Value=39)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_CANTUNPAUSETEAM")]
       CHAT_MESSAGE_CANTUNPAUSETEAM = 39,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_VOICE_TEXT_BANNED", Value=41)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_VOICE_TEXT_BANNED")]
       CHAT_MESSAGE_VOICE_TEXT_BANNED = 41,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_SPECTATORS_WATCHING_THIS_GAME", Value=42)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_SPECTATORS_WATCHING_THIS_GAME")]
       CHAT_MESSAGE_SPECTATORS_WATCHING_THIS_GAME = 42,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_REPORT_REMINDER", Value=43)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_REPORT_REMINDER")]
       CHAT_MESSAGE_REPORT_REMINDER = 43,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_ECON_ITEM", Value=44)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_ECON_ITEM")]
       CHAT_MESSAGE_ECON_ITEM = 44,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_TAUNT", Value=45)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_TAUNT")]
       CHAT_MESSAGE_TAUNT = 45,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_RANDOM", Value=46)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_RANDOM")]
       CHAT_MESSAGE_RANDOM = 46,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_RD_TURN", Value=47)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_RD_TURN")]
       CHAT_MESSAGE_RD_TURN = 47,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_DROP_RATE_BONUS", Value=49)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_DROP_RATE_BONUS")]
       CHAT_MESSAGE_DROP_RATE_BONUS = 49,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_NO_BATTLE_POINTS", Value=50)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_NO_BATTLE_POINTS")]
       CHAT_MESSAGE_NO_BATTLE_POINTS = 50,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_DENIED_AEGIS", Value=51)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_DENIED_AEGIS")]
       CHAT_MESSAGE_DENIED_AEGIS = 51,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_INFORMATIONAL", Value=52)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_INFORMATIONAL")]
       CHAT_MESSAGE_INFORMATIONAL = 52,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_AEGIS_STOLEN", Value=53)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_AEGIS_STOLEN")]
       CHAT_MESSAGE_AEGIS_STOLEN = 53,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_ROSHAN_CANDY", Value=54)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_ROSHAN_CANDY")]
       CHAT_MESSAGE_ROSHAN_CANDY = 54,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_ITEM_GIFTED", Value=55)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_ITEM_GIFTED")]
       CHAT_MESSAGE_ITEM_GIFTED = 55,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_HERO_KILL_WITH_GREEVIL", Value=56)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_HERO_KILL_WITH_GREEVIL")]
       CHAT_MESSAGE_HERO_KILL_WITH_GREEVIL = 56,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_HOLDOUT_TOWER_DESTROYED", Value=57)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_HOLDOUT_TOWER_DESTROYED")]
       CHAT_MESSAGE_HOLDOUT_TOWER_DESTROYED = 57,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_HOLDOUT_WALL_DESTROYED", Value=58)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_HOLDOUT_WALL_DESTROYED")]
       CHAT_MESSAGE_HOLDOUT_WALL_DESTROYED = 58,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_HOLDOUT_WALL_FINISHED", Value=59)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_HOLDOUT_WALL_FINISHED")]
       CHAT_MESSAGE_HOLDOUT_WALL_FINISHED = 59,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_PLAYER_LEFT_LIMITED_HERO", Value=62)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_PLAYER_LEFT_LIMITED_HERO")]
       CHAT_MESSAGE_PLAYER_LEFT_LIMITED_HERO = 62,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_ABANDON_LIMITED_HERO_EXPLANATION", Value=63)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_ABANDON_LIMITED_HERO_EXPLANATION")]
       CHAT_MESSAGE_ABANDON_LIMITED_HERO_EXPLANATION = 63,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_DISCONNECT_LIMITED_HERO", Value=64)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_DISCONNECT_LIMITED_HERO")]
       CHAT_MESSAGE_DISCONNECT_LIMITED_HERO = 64,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_LOW_PRIORITY_COMPLETED_EXPLANATION", Value=65)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_LOW_PRIORITY_COMPLETED_EXPLANATION")]
       CHAT_MESSAGE_LOW_PRIORITY_COMPLETED_EXPLANATION = 65,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_RECRUITMENT_DROP_RATE_BONUS", Value=66)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_RECRUITMENT_DROP_RATE_BONUS")]
       CHAT_MESSAGE_RECRUITMENT_DROP_RATE_BONUS = 66,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_FROSTIVUS_SHINING_BOOSTER_ACTIVE", Value=67)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_FROSTIVUS_SHINING_BOOSTER_ACTIVE")]
       CHAT_MESSAGE_FROSTIVUS_SHINING_BOOSTER_ACTIVE = 67,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_PLAYER_LEFT_AFK", Value=73)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_PLAYER_LEFT_AFK")]
       CHAT_MESSAGE_PLAYER_LEFT_AFK = 73,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_PLAYER_LEFT_DISCONNECTED_TOO_LONG", Value=74)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_PLAYER_LEFT_DISCONNECTED_TOO_LONG")]
       CHAT_MESSAGE_PLAYER_LEFT_DISCONNECTED_TOO_LONG = 74,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_PLAYER_ABANDONED", Value=75)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_PLAYER_ABANDONED")]
       CHAT_MESSAGE_PLAYER_ABANDONED = 75,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_PLAYER_ABANDONED_AFK", Value=76)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_PLAYER_ABANDONED_AFK")]
       CHAT_MESSAGE_PLAYER_ABANDONED_AFK = 76,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_PLAYER_ABANDONED_DISCONNECTED_TOO_LONG", Value=77)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_PLAYER_ABANDONED_DISCONNECTED_TOO_LONG")]
       CHAT_MESSAGE_PLAYER_ABANDONED_DISCONNECTED_TOO_LONG = 77,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_WILL_NOT_BE_SCORED", Value=78)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_WILL_NOT_BE_SCORED")]
       CHAT_MESSAGE_WILL_NOT_BE_SCORED = 78,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_WILL_NOT_BE_SCORED_RANKED", Value=79)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_WILL_NOT_BE_SCORED_RANKED")]
       CHAT_MESSAGE_WILL_NOT_BE_SCORED_RANKED = 79,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_WILL_NOT_BE_SCORED_NETWORK", Value=80)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_WILL_NOT_BE_SCORED_NETWORK")]
       CHAT_MESSAGE_WILL_NOT_BE_SCORED_NETWORK = 80,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_WILL_NOT_BE_SCORED_NETWORK_RANKED", Value=81)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_WILL_NOT_BE_SCORED_NETWORK_RANKED")]
       CHAT_MESSAGE_WILL_NOT_BE_SCORED_NETWORK_RANKED = 81,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_CAN_QUIT_WITHOUT_ABANDON", Value=82)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_CAN_QUIT_WITHOUT_ABANDON")]
       CHAT_MESSAGE_CAN_QUIT_WITHOUT_ABANDON = 82,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_RANKED_GAME_STILL_SCORED_LEAVERS_GET_LOSS", Value=83)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_RANKED_GAME_STILL_SCORED_LEAVERS_GET_LOSS")]
       CHAT_MESSAGE_RANKED_GAME_STILL_SCORED_LEAVERS_GET_LOSS = 83,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_ABANDON_RANKED_BEFORE_FIRST_BLOOD_PARTY", Value=84)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_ABANDON_RANKED_BEFORE_FIRST_BLOOD_PARTY")]
       CHAT_MESSAGE_ABANDON_RANKED_BEFORE_FIRST_BLOOD_PARTY = 84,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_COMPENDIUM_LEVEL", Value=85)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_COMPENDIUM_LEVEL")]
       CHAT_MESSAGE_COMPENDIUM_LEVEL = 85,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_VICTORY_PREDICTION_STREAK", Value=86)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_VICTORY_PREDICTION_STREAK")]
       CHAT_MESSAGE_VICTORY_PREDICTION_STREAK = 86,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_ASSASSIN_ANNOUNCE", Value=87)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_ASSASSIN_ANNOUNCE")]
       CHAT_MESSAGE_ASSASSIN_ANNOUNCE = 87,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_ASSASSIN_SUCCESS", Value=88)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_ASSASSIN_SUCCESS")]
       CHAT_MESSAGE_ASSASSIN_SUCCESS = 88,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_ASSASSIN_DENIED", Value=89)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_ASSASSIN_DENIED")]
       CHAT_MESSAGE_ASSASSIN_DENIED = 89,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_VICTORY_PREDICTION_SINGLE_USER_CONFIRM", Value=90)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_VICTORY_PREDICTION_SINGLE_USER_CONFIRM")]
       CHAT_MESSAGE_VICTORY_PREDICTION_SINGLE_USER_CONFIRM = 90,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_EFFIGY_KILL", Value=91)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_EFFIGY_KILL")]
       CHAT_MESSAGE_EFFIGY_KILL = 91,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_VOICE_TEXT_BANNED_OVERFLOW", Value=92)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_VOICE_TEXT_BANNED_OVERFLOW")]
       CHAT_MESSAGE_VOICE_TEXT_BANNED_OVERFLOW = 92,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_YEAR_BEAST_KILLED", Value=93)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_YEAR_BEAST_KILLED")]
       CHAT_MESSAGE_YEAR_BEAST_KILLED = 93,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_PAUSE_COUNTDOWN", Value=94)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_PAUSE_COUNTDOWN")]
       CHAT_MESSAGE_PAUSE_COUNTDOWN = 94,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_COINS_WAGERED", Value=95)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_COINS_WAGERED")]
       CHAT_MESSAGE_COINS_WAGERED = 95,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_HERO_NOMINATED_BAN", Value=96)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_HERO_NOMINATED_BAN")]
       CHAT_MESSAGE_HERO_NOMINATED_BAN = 96,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_HERO_BANNED", Value=97)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_HERO_BANNED")]
       CHAT_MESSAGE_HERO_BANNED = 97,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_HERO_BAN_COUNT", Value=98)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_HERO_BAN_COUNT")]
       CHAT_MESSAGE_HERO_BAN_COUNT = 98,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_RIVER_PAINTED", Value=99)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_RIVER_PAINTED")]
       CHAT_MESSAGE_RIVER_PAINTED = 99,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_SCAN_USED", Value=100)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHAT_MESSAGE_SCAN_USED")]
       CHAT_MESSAGE_SCAN_USED = 100
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"DOTA_NO_BATTLE_POINTS_REASONS", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"DOTA_NO_BATTLE_POINTS_REASONS")]
     public enum DOTA_NO_BATTLE_POINTS_REASONS
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"NO_BATTLE_POINTS_WRONG_LOBBY_TYPE", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"NO_BATTLE_POINTS_WRONG_LOBBY_TYPE")]
       NO_BATTLE_POINTS_WRONG_LOBBY_TYPE = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"NO_BATTLE_POINTS_PRACTICE_BOTS", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"NO_BATTLE_POINTS_PRACTICE_BOTS")]
       NO_BATTLE_POINTS_PRACTICE_BOTS = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"NO_BATTLE_POINTS_CHEATS_ENABLED", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"NO_BATTLE_POINTS_CHEATS_ENABLED")]
       NO_BATTLE_POINTS_CHEATS_ENABLED = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"NO_BATTLE_POINTS_LOW_PRIORITY", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"NO_BATTLE_POINTS_LOW_PRIORITY")]
       NO_BATTLE_POINTS_LOW_PRIORITY = 4
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"DOTA_CHAT_INFORMATIONAL", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"DOTA_CHAT_INFORMATIONAL")]
     public enum DOTA_CHAT_INFORMATIONAL
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"INFO_COOP_BATTLE_POINTS_RULES", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"INFO_COOP_BATTLE_POINTS_RULES")]
       INFO_COOP_BATTLE_POINTS_RULES = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"INFO_FROSTIVUS_ABANDON_REMINDER", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"INFO_FROSTIVUS_ABANDON_REMINDER")]
       INFO_FROSTIVUS_ABANDON_REMINDER = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"INFO_RANKED_REMINDER", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"INFO_RANKED_REMINDER")]
       INFO_RANKED_REMINDER = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"INFO_COOP_LOW_PRIORITY_PASSIVE_REMINDER", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"INFO_COOP_LOW_PRIORITY_PASSIVE_REMINDER")]
       INFO_COOP_LOW_PRIORITY_PASSIVE_REMINDER = 4
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"DOTA_ABILITY_PING_TYPE", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"DOTA_ABILITY_PING_TYPE")]
     public enum DOTA_ABILITY_PING_TYPE
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ABILITY_PING_READY", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ABILITY_PING_READY")]
       ABILITY_PING_READY = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ABILITY_PING_MANA", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ABILITY_PING_MANA")]
       ABILITY_PING_MANA = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ABILITY_PING_COOLDOWN", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ABILITY_PING_COOLDOWN")]
       ABILITY_PING_COOLDOWN = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ABILITY_PING_ENEMY", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ABILITY_PING_ENEMY")]
       ABILITY_PING_ENEMY = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ABILITY_PING_UNLEARNED", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ABILITY_PING_UNLEARNED")]
       ABILITY_PING_UNLEARNED = 5
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"DOTA_REPLAY_STATE_EVENT", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"DOTA_REPLAY_STATE_EVENT")]
     public enum DOTA_REPLAY_STATE_EVENT
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_REPLAY_STATE_EVENT_GAME_START", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_REPLAY_STATE_EVENT_GAME_START")]
       DOTA_REPLAY_STATE_EVENT_GAME_START = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_REPLAY_STATE_EVENT_STARTING_HORN", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_REPLAY_STATE_EVENT_STARTING_HORN")]
       DOTA_REPLAY_STATE_EVENT_STARTING_HORN = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_REPLAY_STATE_EVENT_FIRST_BLOOD", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_REPLAY_STATE_EVENT_FIRST_BLOOD")]
       DOTA_REPLAY_STATE_EVENT_FIRST_BLOOD = 3
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EDotaEntityMessages", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EDotaEntityMessages")]
     public enum EDotaEntityMessages
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_SPEECH", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_SPEECH")]
       DOTA_UNIT_SPEECH = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_SPEECH_MUTE", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_SPEECH_MUTE")]
       DOTA_UNIT_SPEECH_MUTE = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ADD_GESTURE", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_ADD_GESTURE")]
       DOTA_UNIT_ADD_GESTURE = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_REMOVE_GESTURE", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_REMOVE_GESTURE")]
       DOTA_UNIT_REMOVE_GESTURE = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_REMOVE_ALL_GESTURES", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_REMOVE_ALL_GESTURES")]
       DOTA_UNIT_REMOVE_ALL_GESTURES = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_FADE_GESTURE", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_FADE_GESTURE")]
       DOTA_UNIT_FADE_GESTURE = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_SPEECH_CLIENTSIDE_RULES", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_UNIT_SPEECH_CLIENTSIDE_RULES")]
       DOTA_UNIT_SPEECH_CLIENTSIDE_RULES = 7
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"DOTA_PARTICLE_MESSAGE", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"DOTA_PARTICLE_MESSAGE")]
     public enum DOTA_PARTICLE_MESSAGE
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_PARTICLE_MANAGER_EVENT_CREATE", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_PARTICLE_MANAGER_EVENT_CREATE")]
       DOTA_PARTICLE_MANAGER_EVENT_CREATE = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_PARTICLE_MANAGER_EVENT_UPDATE", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_PARTICLE_MANAGER_EVENT_UPDATE")]
       DOTA_PARTICLE_MANAGER_EVENT_UPDATE = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_PARTICLE_MANAGER_EVENT_UPDATE_FORWARD", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_PARTICLE_MANAGER_EVENT_UPDATE_FORWARD")]
       DOTA_PARTICLE_MANAGER_EVENT_UPDATE_FORWARD = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_PARTICLE_MANAGER_EVENT_UPDATE_ORIENTATION", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_PARTICLE_MANAGER_EVENT_UPDATE_ORIENTATION")]
       DOTA_PARTICLE_MANAGER_EVENT_UPDATE_ORIENTATION = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_PARTICLE_MANAGER_EVENT_UPDATE_FALLBACK", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_PARTICLE_MANAGER_EVENT_UPDATE_FALLBACK")]
       DOTA_PARTICLE_MANAGER_EVENT_UPDATE_FALLBACK = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_PARTICLE_MANAGER_EVENT_UPDATE_ENT", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_PARTICLE_MANAGER_EVENT_UPDATE_ENT")]
       DOTA_PARTICLE_MANAGER_EVENT_UPDATE_ENT = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_PARTICLE_MANAGER_EVENT_UPDATE_OFFSET", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_PARTICLE_MANAGER_EVENT_UPDATE_OFFSET")]
       DOTA_PARTICLE_MANAGER_EVENT_UPDATE_OFFSET = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_PARTICLE_MANAGER_EVENT_DESTROY", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_PARTICLE_MANAGER_EVENT_DESTROY")]
       DOTA_PARTICLE_MANAGER_EVENT_DESTROY = 7,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_PARTICLE_MANAGER_EVENT_DESTROY_INVOLVING", Value=8)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_PARTICLE_MANAGER_EVENT_DESTROY_INVOLVING")]
       DOTA_PARTICLE_MANAGER_EVENT_DESTROY_INVOLVING = 8,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_PARTICLE_MANAGER_EVENT_RELEASE", Value=9)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_PARTICLE_MANAGER_EVENT_RELEASE")]
       DOTA_PARTICLE_MANAGER_EVENT_RELEASE = 9,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_PARTICLE_MANAGER_EVENT_LATENCY", Value=10)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_PARTICLE_MANAGER_EVENT_LATENCY")]
       DOTA_PARTICLE_MANAGER_EVENT_LATENCY = 10,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_PARTICLE_MANAGER_EVENT_SHOULD_DRAW", Value=11)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_PARTICLE_MANAGER_EVENT_SHOULD_DRAW")]
       DOTA_PARTICLE_MANAGER_EVENT_SHOULD_DRAW = 11,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_PARTICLE_MANAGER_EVENT_FROZEN", Value=12)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_PARTICLE_MANAGER_EVENT_FROZEN")]
       DOTA_PARTICLE_MANAGER_EVENT_FROZEN = 12,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT", Value=13)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT")]
       DOTA_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT = 13,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION", Value=14)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION")]
       DOTA_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION = 14,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_PARTICLE_MANAGER_EVENT_SET_FOW_PROPERTIES", Value=15)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_PARTICLE_MANAGER_EVENT_SET_FOW_PROPERTIES")]
       DOTA_PARTICLE_MANAGER_EVENT_SET_FOW_PROPERTIES = 15
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"DOTA_OVERHEAD_ALERT", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"DOTA_OVERHEAD_ALERT")]
     public enum DOTA_OVERHEAD_ALERT
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"OVERHEAD_ALERT_GOLD", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"OVERHEAD_ALERT_GOLD")]
       OVERHEAD_ALERT_GOLD = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"OVERHEAD_ALERT_DENY", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"OVERHEAD_ALERT_DENY")]
       OVERHEAD_ALERT_DENY = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"OVERHEAD_ALERT_CRITICAL", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"OVERHEAD_ALERT_CRITICAL")]
       OVERHEAD_ALERT_CRITICAL = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"OVERHEAD_ALERT_XP", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"OVERHEAD_ALERT_XP")]
       OVERHEAD_ALERT_XP = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"OVERHEAD_ALERT_BONUS_SPELL_DAMAGE", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"OVERHEAD_ALERT_BONUS_SPELL_DAMAGE")]
       OVERHEAD_ALERT_BONUS_SPELL_DAMAGE = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"OVERHEAD_ALERT_MISS", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"OVERHEAD_ALERT_MISS")]
       OVERHEAD_ALERT_MISS = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"OVERHEAD_ALERT_DAMAGE", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"OVERHEAD_ALERT_DAMAGE")]
       OVERHEAD_ALERT_DAMAGE = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"OVERHEAD_ALERT_EVADE", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"OVERHEAD_ALERT_EVADE")]
       OVERHEAD_ALERT_EVADE = 7,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"OVERHEAD_ALERT_BLOCK", Value=8)]
+      [global::ProtoBuf.ProtoEnum(Name=@"OVERHEAD_ALERT_BLOCK")]
       OVERHEAD_ALERT_BLOCK = 8,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"OVERHEAD_ALERT_BONUS_POISON_DAMAGE", Value=9)]
+      [global::ProtoBuf.ProtoEnum(Name=@"OVERHEAD_ALERT_BONUS_POISON_DAMAGE")]
       OVERHEAD_ALERT_BONUS_POISON_DAMAGE = 9,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"OVERHEAD_ALERT_HEAL", Value=10)]
+      [global::ProtoBuf.ProtoEnum(Name=@"OVERHEAD_ALERT_HEAL")]
       OVERHEAD_ALERT_HEAL = 10,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"OVERHEAD_ALERT_MANA_ADD", Value=11)]
+      [global::ProtoBuf.ProtoEnum(Name=@"OVERHEAD_ALERT_MANA_ADD")]
       OVERHEAD_ALERT_MANA_ADD = 11,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"OVERHEAD_ALERT_MANA_LOSS", Value=12)]
+      [global::ProtoBuf.ProtoEnum(Name=@"OVERHEAD_ALERT_MANA_LOSS")]
       OVERHEAD_ALERT_MANA_LOSS = 12,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"OVERHEAD_ALERT_LAST_HIT_EARLY", Value=13)]
+      [global::ProtoBuf.ProtoEnum(Name=@"OVERHEAD_ALERT_LAST_HIT_EARLY")]
       OVERHEAD_ALERT_LAST_HIT_EARLY = 13,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"OVERHEAD_ALERT_LAST_HIT_CLOSE", Value=14)]
+      [global::ProtoBuf.ProtoEnum(Name=@"OVERHEAD_ALERT_LAST_HIT_CLOSE")]
       OVERHEAD_ALERT_LAST_HIT_CLOSE = 14,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"OVERHEAD_ALERT_LAST_HIT_MISS", Value=15)]
+      [global::ProtoBuf.ProtoEnum(Name=@"OVERHEAD_ALERT_LAST_HIT_MISS")]
       OVERHEAD_ALERT_LAST_HIT_MISS = 15,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"OVERHEAD_ALERT_MAGICAL_BLOCK", Value=16)]
+      [global::ProtoBuf.ProtoEnum(Name=@"OVERHEAD_ALERT_MAGICAL_BLOCK")]
       OVERHEAD_ALERT_MAGICAL_BLOCK = 16
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"DOTA_POSITION_CATEGORY", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"DOTA_POSITION_CATEGORY")]
     public enum DOTA_POSITION_CATEGORY
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_POSITION_NONE", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_POSITION_NONE")]
       DOTA_POSITION_NONE = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_POSITION_BOTTOM_LANE", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_POSITION_BOTTOM_LANE")]
       DOTA_POSITION_BOTTOM_LANE = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_POSITION_MID_LANE", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_POSITION_MID_LANE")]
       DOTA_POSITION_MID_LANE = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_POSITION_TOP_LANE", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_POSITION_TOP_LANE")]
       DOTA_POSITION_TOP_LANE = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_POSITION_RADIANT_JUNGLE", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_POSITION_RADIANT_JUNGLE")]
       DOTA_POSITION_RADIANT_JUNGLE = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_POSITION_DIRE_JUNGLE", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_POSITION_DIRE_JUNGLE")]
       DOTA_POSITION_DIRE_JUNGLE = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_POSITION_RADIANT_ANCIENTS", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_POSITION_RADIANT_ANCIENTS")]
       DOTA_POSITION_RADIANT_ANCIENTS = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_POSITION_DIRE_ANCIENTS", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_POSITION_DIRE_ANCIENTS")]
       DOTA_POSITION_DIRE_ANCIENTS = 7,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_POSITION_RADIANT_SECRET_SHOP", Value=8)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_POSITION_RADIANT_SECRET_SHOP")]
       DOTA_POSITION_RADIANT_SECRET_SHOP = 8,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_POSITION_DIRE_SECRET_SHOP", Value=9)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_POSITION_DIRE_SECRET_SHOP")]
       DOTA_POSITION_DIRE_SECRET_SHOP = 9,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_POSITION_RIVER", Value=10)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_POSITION_RIVER")]
       DOTA_POSITION_RIVER = 10,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_POSITION_ROSHAN_PIT", Value=11)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_POSITION_ROSHAN_PIT")]
       DOTA_POSITION_ROSHAN_PIT = 11,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_POSITION_RADIANT_BASE", Value=12)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_POSITION_RADIANT_BASE")]
       DOTA_POSITION_RADIANT_BASE = 12,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_POSITION_DIRE_BASE", Value=13)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_POSITION_DIRE_BASE")]
       DOTA_POSITION_DIRE_BASE = 13,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_POSITION_FOUNTAIN", Value=14)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_POSITION_FOUNTAIN")]
       DOTA_POSITION_FOUNTAIN = 14,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_POSITION_OTHER", Value=15)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_POSITION_OTHER")]
       DOTA_POSITION_OTHER = 15
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"DOTA_ABILITY_TARGET_TYPE", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"DOTA_ABILITY_TARGET_TYPE")]
     public enum DOTA_ABILITY_TARGET_TYPE
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_ABILITY_TARGET_NONE", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_ABILITY_TARGET_NONE")]
       DOTA_ABILITY_TARGET_NONE = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_ABILITY_TARGET_SELF", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_ABILITY_TARGET_SELF")]
       DOTA_ABILITY_TARGET_SELF = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_ABILITY_TARGET_ALLY_HERO", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_ABILITY_TARGET_ALLY_HERO")]
       DOTA_ABILITY_TARGET_ALLY_HERO = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_ABILITY_TARGET_ALLY_CREEP", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_ABILITY_TARGET_ALLY_CREEP")]
       DOTA_ABILITY_TARGET_ALLY_CREEP = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_ABILITY_TARGET_ENEMY_HERO", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_ABILITY_TARGET_ENEMY_HERO")]
       DOTA_ABILITY_TARGET_ENEMY_HERO = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_ABILITY_TARGET_ENEMY_CREEP", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_ABILITY_TARGET_ENEMY_CREEP")]
       DOTA_ABILITY_TARGET_ENEMY_CREEP = 5
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EHeroStatType", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EHeroStatType")]
     public enum EHeroStatType
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_None", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_None")]
       k_EHeroStatType_None = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_AxeTotalDamage", Value=2000)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_AxeTotalDamage")]
       k_EHeroStatType_AxeTotalDamage = 2000,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_BattleHungerDamage", Value=2001)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_BattleHungerDamage")]
       k_EHeroStatType_BattleHungerDamage = 2001,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_CounterHelixDamage", Value=2002)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_CounterHelixDamage")]
       k_EHeroStatType_CounterHelixDamage = 2002,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_CullingBladeDamage", Value=2003)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_CullingBladeDamage")]
       k_EHeroStatType_CullingBladeDamage = 2003,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_BerserkersCallCastCount", Value=2004)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_BerserkersCallCastCount")]
       k_EHeroStatType_BerserkersCallCastCount = 2004,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_BerserkersCallHeroesHitAverage", Value=2005)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_BerserkersCallHeroesHitAverage")]
       k_EHeroStatType_BerserkersCallHeroesHitAverage = 2005,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_BerserkersCallOtherUnitsHit", Value=2006)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_BerserkersCallOtherUnitsHit")]
       k_EHeroStatType_BerserkersCallOtherUnitsHit = 2006,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_BerserkersCallHeroAttacksTaken", Value=2007)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_BerserkersCallHeroAttacksTaken")]
       k_EHeroStatType_BerserkersCallHeroAttacksTaken = 2007,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_BerserkersCallOtherAttacksTaken", Value=2008)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_BerserkersCallOtherAttacksTaken")]
       k_EHeroStatType_BerserkersCallOtherAttacksTaken = 2008,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_BattleHungerCastCount", Value=2009)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_BattleHungerCastCount")]
       k_EHeroStatType_BattleHungerCastCount = 2009,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_BattleHungerPotentialDuration", Value=2010)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_BattleHungerPotentialDuration")]
       k_EHeroStatType_BattleHungerPotentialDuration = 2010,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_BattleHungerAverageDuration", Value=2011)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_BattleHungerAverageDuration")]
       k_EHeroStatType_BattleHungerAverageDuration = 2011,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_CounterHelixProcCount", Value=2012)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_CounterHelixProcCount")]
       k_EHeroStatType_CounterHelixProcCount = 2012,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_CounterHelixHeroProcCount", Value=2013)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_CounterHelixHeroProcCount")]
       k_EHeroStatType_CounterHelixHeroProcCount = 2013,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_CounterHelixHeroesHitAverage", Value=2014)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_CounterHelixHeroesHitAverage")]
       k_EHeroStatType_CounterHelixHeroesHitAverage = 2014,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_CounterHelixOtherUnitsHitCount", Value=2015)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_CounterHelixOtherUnitsHitCount")]
       k_EHeroStatType_CounterHelixOtherUnitsHitCount = 2015,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_CullingBladeCastCount", Value=2016)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_CullingBladeCastCount")]
       k_EHeroStatType_CullingBladeCastCount = 2016,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_CullingBladeKillCount", Value=2017)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_CullingBladeKillCount")]
       k_EHeroStatType_CullingBladeKillCount = 2017,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_CullingBladeAverageHealthCulled", Value=2018)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_CullingBladeAverageHealthCulled")]
       k_EHeroStatType_CullingBladeAverageHealthCulled = 2018,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_CullingBladeAverageDamageAvailable", Value=2019)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_CullingBladeAverageDamageAvailable")]
       k_EHeroStatType_CullingBladeAverageDamageAvailable = 2019,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_CullingBladeHeroBuffAverage", Value=2020)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EHeroStatType_CullingBladeHeroBuffAverage")]
       k_EHeroStatType_CullingBladeHeroBuffAverage = 2020
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EPlayerVoiceListenState", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EPlayerVoiceListenState")]
     public enum EPlayerVoiceListenState
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_None", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_None")]
       kPVLS_None = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_DeniedChatBanned", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_DeniedChatBanned")]
       kPVLS_DeniedChatBanned = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_DeniedPartner", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_DeniedPartner")]
       kPVLS_DeniedPartner = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_DeniedHLTVTalkerNotSpectator", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_DeniedHLTVTalkerNotSpectator")]
       kPVLS_DeniedHLTVTalkerNotSpectator = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_DeniedHLTVNoTalkerPlayerID", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_DeniedHLTVNoTalkerPlayerID")]
       kPVLS_DeniedHLTVNoTalkerPlayerID = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_DeniedHLTVTalkerNotBroadcaster", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_DeniedHLTVTalkerNotBroadcaster")]
       kPVLS_DeniedHLTVTalkerNotBroadcaster = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_DeniedTeamSpectator", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_DeniedTeamSpectator")]
       kPVLS_DeniedTeamSpectator = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_DeniedStudent", Value=8)]
+      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_DeniedStudent")]
       kPVLS_DeniedStudent = 8,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_Denied", Value=64)]
+      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_Denied")]
       kPVLS_Denied = 64,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_AllowHLTVTalkerIsBroadcaster", Value=65)]
+      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_AllowHLTVTalkerIsBroadcaster")]
       kPVLS_AllowHLTVTalkerIsBroadcaster = 65,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_AllowCoBroadcaster", Value=66)]
+      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_AllowCoBroadcaster")]
       kPVLS_AllowCoBroadcaster = 66,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_AllowAllChat", Value=67)]
+      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_AllowAllChat")]
       kPVLS_AllowAllChat = 67,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_AllowStudentToCoach", Value=68)]
+      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_AllowStudentToCoach")]
       kPVLS_AllowStudentToCoach = 68,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_AllowFellowStudent", Value=69)]
+      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_AllowFellowStudent")]
       kPVLS_AllowFellowStudent = 69,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_AllowTalkerIsCoach", Value=70)]
+      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_AllowTalkerIsCoach")]
       kPVLS_AllowTalkerIsCoach = 70,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_AllowCoachHearTeam", Value=71)]
+      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_AllowCoachHearTeam")]
       kPVLS_AllowCoachHearTeam = 71,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_AllowSameTeam", Value=72)]
+      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_AllowSameTeam")]
       kPVLS_AllowSameTeam = 72,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_AllowShowcase", Value=73)]
+      [global::ProtoBuf.ProtoEnum(Name=@"kPVLS_AllowShowcase")]
       kPVLS_AllowShowcase = 73
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EProjectionEvent", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EProjectionEvent")]
     public enum EProjectionEvent
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ePE_FirstBlood", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ePE_FirstBlood")]
       ePE_FirstBlood = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ePE_Killstreak_godlike", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ePE_Killstreak_godlike")]
       ePE_Killstreak_godlike = 1
     }
   

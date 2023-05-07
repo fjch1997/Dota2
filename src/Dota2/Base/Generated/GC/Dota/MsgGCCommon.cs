@@ -2390,26 +2390,26 @@ namespace Dota2.GC.Dota.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EStatID", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EStatID")]
     public enum EStatID
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_eStat_SoloRank", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_eStat_SoloRank")]
       k_eStat_SoloRank = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_eStat_PartyRank", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_eStat_PartyRank")]
       k_eStat_PartyRank = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_eStat_Wins", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_eStat_Wins")]
       k_eStat_Wins = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_eStat_Commends", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_eStat_Commends")]
       k_eStat_Commends = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_eStat_GamesPlayed", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_eStat_GamesPlayed")]
       k_eStat_GamesPlayed = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_eStat_FirstMatchDate", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_eStat_FirstMatchDate")]
       k_eStat_FirstMatchDate = 6
     }
   
@@ -2549,14 +2549,14 @@ namespace Dota2.GC.Dota.Internal
       get { return _quest_rank; }
       set { _quest_rank = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"EFlags", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EFlags")]
     public enum EFlags
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"eFlag_InstantRerollUncompleted", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"eFlag_InstantRerollUncompleted")]
       eFlag_InstantRerollUncompleted = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"eFlag_QuestChallenge", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"eFlag_QuestChallenge")]
       eFlag_QuestChallenge = 2
     }
   
@@ -2607,23 +2607,23 @@ namespace Dota2.GC.Dota.Internal
       get { return _result; }
       set { _result = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"eResult_Success", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"eResult_Success")]
       eResult_Success = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"eResult_Dropped", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"eResult_Dropped")]
       eResult_Dropped = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"eResult_NotFound", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"eResult_NotFound")]
       eResult_NotFound = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"eResult_CantReroll", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"eResult_CantReroll")]
       eResult_CantReroll = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"eResult_ServerError", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"eResult_ServerError")]
       eResult_ServerError = 4
     }
   
@@ -3798,43 +3798,43 @@ namespace Dota2.GC.Dota.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"eStat", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"eStat")]
     public enum eStat
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CreepGoldEarned", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CreepGoldEarned")]
       CreepGoldEarned = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"KillGoldEarned", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"KillGoldEarned")]
       KillGoldEarned = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DeathAndBuybackGoldLost", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DeathAndBuybackGoldLost")]
       DeathAndBuybackGoldLost = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"XPEarned", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"XPEarned")]
       XPEarned = 3
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"eLocation", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"eLocation")]
     public enum eLocation
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"BotLane", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"BotLane")]
       BotLane = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"MidLane", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"MidLane")]
       MidLane = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TopLane", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TopLane")]
       TopLane = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"Jungle", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"Jungle")]
       Jungle = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"Ancients", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"Ancients")]
       Ancients = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"Other", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"Other")]
       Other = 5
     }
   
@@ -4489,20 +4489,20 @@ namespace Dota2.GC.Dota.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"ERewardType", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"ERewardType")]
     public enum ERewardType
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"EconItem", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"EconItem")]
       EconItem = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"MysteryWheel", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"MysteryWheel")]
       MysteryWheel = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"AbilityEffect", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"AbilityEffect")]
       AbilityEffect = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"Other", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"Other")]
       Other = 3
     }
   
@@ -5018,115 +5018,115 @@ namespace Dota2.GC.Dota.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"ePredictionType", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"ePredictionType")]
     public enum ePredictionType
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"Generic", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"Generic")]
       Generic = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"Hero", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"Hero")]
       Hero = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"Team", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"Team")]
       Team = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"Player", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"Player")]
       Player = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"Special", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"Special")]
       Special = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"YesNo", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"YesNo")]
       YesNo = 5
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"eAnswerType", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"eAnswerType")]
     public enum eAnswerType
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SingleInt", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SingleInt")]
       SingleInt = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SingleFloat", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SingleFloat")]
       SingleFloat = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"MultipleInt", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"MultipleInt")]
       MultipleInt = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"MultipleFloat", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"MultipleFloat")]
       MultipleFloat = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"AnswerTeam", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"AnswerTeam")]
       AnswerTeam = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SingleTime", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SingleTime")]
       SingleTime = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"MultipleTime", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"MultipleTime")]
       MultipleTime = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"NoAnswer", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"NoAnswer")]
       NoAnswer = 7
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"eResolutionType_t", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"eResolutionType_t")]
     public enum eResolutionType_t
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"InvalidQuery", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"InvalidQuery")]
       InvalidQuery = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FirstToPassQuery", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FirstToPassQuery")]
       FirstToPassQuery = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"LastToPassQuery", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"LastToPassQuery")]
       LastToPassQuery = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"LastRemainingQuery", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"LastRemainingQuery")]
       LastRemainingQuery = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"MaxToPassQuery", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"MaxToPassQuery")]
       MaxToPassQuery = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"MinToPassQuery", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"MinToPassQuery")]
       MinToPassQuery = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SumQuery", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SumQuery")]
       SumQuery = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"MaxTeamSumToPassQuery", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"MaxTeamSumToPassQuery")]
       MaxTeamSumToPassQuery = 7,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"MinTeamSumToPassQuery", Value=8)]
+      [global::ProtoBuf.ProtoEnum(Name=@"MinTeamSumToPassQuery")]
       MinTeamSumToPassQuery = 8
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"eRandomSelectionGroup_t", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"eRandomSelectionGroup_t")]
     public enum eRandomSelectionGroup_t
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"EarlyGame", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"EarlyGame")]
       EarlyGame = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"MidGame", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"MidGame")]
       MidGame = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"LateGame", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"LateGame")]
       LateGame = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"Count", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"Count")]
       Count = 3
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"eRawValueType_t", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"eRawValueType_t")]
     public enum eRawValueType_t
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"Number", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"Number")]
       Number = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"Time", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"Time")]
       Time = 1
     }
   
@@ -6216,17 +6216,17 @@ namespace Dota2.GC.Dota.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"ReplayState", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"ReplayState")]
     public enum ReplayState
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"REPLAY_AVAILABLE", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"REPLAY_AVAILABLE")]
       REPLAY_AVAILABLE = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"REPLAY_NOT_RECORDED", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"REPLAY_NOT_RECORDED")]
       REPLAY_NOT_RECORDED = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"REPLAY_EXPIRED", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"REPLAY_EXPIRED")]
       REPLAY_EXPIRED = 2
     }
   
@@ -6820,224 +6820,224 @@ namespace Dota2.GC.Dota.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"ESpecialPingValue", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"ESpecialPingValue")]
     public enum ESpecialPingValue
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ESpecialPingValue_NoData", Value=16382)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ESpecialPingValue_NoData")]
       k_ESpecialPingValue_NoData = 16382,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ESpecialPingValue_Failed", Value=16383)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ESpecialPingValue_Failed")]
       k_ESpecialPingValue_Failed = 16383
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EDOTAGCSessionNeed", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EDOTAGCSessionNeed")]
     public enum EDOTAGCSessionNeed
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGCSessionNeed_Unknown", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGCSessionNeed_Unknown")]
       k_EDOTAGCSessionNeed_Unknown = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGCSessionNeed_UserNoSessionNeeded", Value=100)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGCSessionNeed_UserNoSessionNeeded")]
       k_EDOTAGCSessionNeed_UserNoSessionNeeded = 100,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGCSessionNeed_UserInOnlineGame", Value=101)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGCSessionNeed_UserInOnlineGame")]
       k_EDOTAGCSessionNeed_UserInOnlineGame = 101,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGCSessionNeed_UserInLocalGame", Value=102)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGCSessionNeed_UserInLocalGame")]
       k_EDOTAGCSessionNeed_UserInLocalGame = 102,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGCSessionNeed_UserInUIWasConnected", Value=103)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGCSessionNeed_UserInUIWasConnected")]
       k_EDOTAGCSessionNeed_UserInUIWasConnected = 103,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGCSessionNeed_UserInUINeverConnected", Value=104)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGCSessionNeed_UserInUINeverConnected")]
       k_EDOTAGCSessionNeed_UserInUINeverConnected = 104,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGCSessionNeed_UserTutorials", Value=105)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGCSessionNeed_UserTutorials")]
       k_EDOTAGCSessionNeed_UserTutorials = 105,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGCSessionNeed_UserInUIWasConnectedIdle", Value=106)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGCSessionNeed_UserInUIWasConnectedIdle")]
       k_EDOTAGCSessionNeed_UserInUIWasConnectedIdle = 106,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGCSessionNeed_UserInUINeverConnectedIdle", Value=107)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGCSessionNeed_UserInUINeverConnectedIdle")]
       k_EDOTAGCSessionNeed_UserInUINeverConnectedIdle = 107,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGCSessionNeed_GameServerOnline", Value=200)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGCSessionNeed_GameServerOnline")]
       k_EDOTAGCSessionNeed_GameServerOnline = 200,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGCSessionNeed_GameServerLocal", Value=201)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGCSessionNeed_GameServerLocal")]
       k_EDOTAGCSessionNeed_GameServerLocal = 201,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGCSessionNeed_GameServerIdle", Value=202)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGCSessionNeed_GameServerIdle")]
       k_EDOTAGCSessionNeed_GameServerIdle = 202,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGCSessionNeed_GameServerRelay", Value=203)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGCSessionNeed_GameServerRelay")]
       k_EDOTAGCSessionNeed_GameServerRelay = 203,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGCSessionNeed_GameServerLocalUpload", Value=204)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EDOTAGCSessionNeed_GameServerLocalUpload")]
       k_EDOTAGCSessionNeed_GameServerLocalUpload = 204
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"DOTA_TournamentEvents", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"DOTA_TournamentEvents")]
     public enum DOTA_TournamentEvents
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TE_FIRST_BLOOD", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TE_FIRST_BLOOD")]
       TE_FIRST_BLOOD = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TE_GAME_END", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TE_GAME_END")]
       TE_GAME_END = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TE_MULTI_KILL", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TE_MULTI_KILL")]
       TE_MULTI_KILL = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TE_HERO_DENY", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TE_HERO_DENY")]
       TE_HERO_DENY = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TE_AEGIS_DENY", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TE_AEGIS_DENY")]
       TE_AEGIS_DENY = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TE_AEGIS_STOLEN", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TE_AEGIS_STOLEN")]
       TE_AEGIS_STOLEN = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TE_GODLIKE", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TE_GODLIKE")]
       TE_GODLIKE = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TE_COURIER_KILL", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TE_COURIER_KILL")]
       TE_COURIER_KILL = 7,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TE_ECHOSLAM", Value=8)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TE_ECHOSLAM")]
       TE_ECHOSLAM = 8,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TE_RAPIER", Value=9)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TE_RAPIER")]
       TE_RAPIER = 9,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TE_EARLY_ROSHAN", Value=10)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TE_EARLY_ROSHAN")]
       TE_EARLY_ROSHAN = 10,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"TE_BLACK_HOLE", Value=11)]
+      [global::ProtoBuf.ProtoEnum(Name=@"TE_BLACK_HOLE")]
       TE_BLACK_HOLE = 11
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"DOTA_COMBATLOG_TYPES", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"DOTA_COMBATLOG_TYPES")]
     public enum DOTA_COMBATLOG_TYPES
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_INVALID", Value=-1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_INVALID")]
       DOTA_COMBATLOG_INVALID = -1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_DAMAGE", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_DAMAGE")]
       DOTA_COMBATLOG_DAMAGE = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_HEAL", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_HEAL")]
       DOTA_COMBATLOG_HEAL = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_MODIFIER_ADD", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_MODIFIER_ADD")]
       DOTA_COMBATLOG_MODIFIER_ADD = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_MODIFIER_REMOVE", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_MODIFIER_REMOVE")]
       DOTA_COMBATLOG_MODIFIER_REMOVE = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_DEATH", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_DEATH")]
       DOTA_COMBATLOG_DEATH = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_ABILITY", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_ABILITY")]
       DOTA_COMBATLOG_ABILITY = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_ITEM", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_ITEM")]
       DOTA_COMBATLOG_ITEM = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_LOCATION", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_LOCATION")]
       DOTA_COMBATLOG_LOCATION = 7,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_GOLD", Value=8)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_GOLD")]
       DOTA_COMBATLOG_GOLD = 8,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_GAME_STATE", Value=9)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_GAME_STATE")]
       DOTA_COMBATLOG_GAME_STATE = 9,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_XP", Value=10)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_XP")]
       DOTA_COMBATLOG_XP = 10,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_PURCHASE", Value=11)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_PURCHASE")]
       DOTA_COMBATLOG_PURCHASE = 11,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_BUYBACK", Value=12)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_BUYBACK")]
       DOTA_COMBATLOG_BUYBACK = 12,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_ABILITY_TRIGGER", Value=13)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_ABILITY_TRIGGER")]
       DOTA_COMBATLOG_ABILITY_TRIGGER = 13,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_PLAYERSTATS", Value=14)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_PLAYERSTATS")]
       DOTA_COMBATLOG_PLAYERSTATS = 14,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_MULTIKILL", Value=15)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_MULTIKILL")]
       DOTA_COMBATLOG_MULTIKILL = 15,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_KILLSTREAK", Value=16)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_KILLSTREAK")]
       DOTA_COMBATLOG_KILLSTREAK = 16,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_TEAM_BUILDING_KILL", Value=17)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_TEAM_BUILDING_KILL")]
       DOTA_COMBATLOG_TEAM_BUILDING_KILL = 17,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_FIRST_BLOOD", Value=18)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_FIRST_BLOOD")]
       DOTA_COMBATLOG_FIRST_BLOOD = 18,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_MODIFIER_REFRESH", Value=19)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_MODIFIER_REFRESH")]
       DOTA_COMBATLOG_MODIFIER_REFRESH = 19,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_NEUTRAL_CAMP_STACK", Value=20)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_NEUTRAL_CAMP_STACK")]
       DOTA_COMBATLOG_NEUTRAL_CAMP_STACK = 20,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_PICKUP_RUNE", Value=21)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_PICKUP_RUNE")]
       DOTA_COMBATLOG_PICKUP_RUNE = 21,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_REVEALED_INVISIBLE", Value=22)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_REVEALED_INVISIBLE")]
       DOTA_COMBATLOG_REVEALED_INVISIBLE = 22,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_HERO_SAVED", Value=23)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_HERO_SAVED")]
       DOTA_COMBATLOG_HERO_SAVED = 23,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_MANA_RESTORED", Value=24)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_MANA_RESTORED")]
       DOTA_COMBATLOG_MANA_RESTORED = 24,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_HERO_LEVELUP", Value=25)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_HERO_LEVELUP")]
       DOTA_COMBATLOG_HERO_LEVELUP = 25,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_BOTTLE_HEAL_ALLY", Value=26)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_BOTTLE_HEAL_ALLY")]
       DOTA_COMBATLOG_BOTTLE_HEAL_ALLY = 26,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_ENDGAME_STATS", Value=27)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_ENDGAME_STATS")]
       DOTA_COMBATLOG_ENDGAME_STATS = 27,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_INTERRUPT_CHANNEL", Value=28)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_INTERRUPT_CHANNEL")]
       DOTA_COMBATLOG_INTERRUPT_CHANNEL = 28,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_ALLIED_GOLD", Value=29)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_ALLIED_GOLD")]
       DOTA_COMBATLOG_ALLIED_GOLD = 29,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_AEGIS_TAKEN", Value=30)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_AEGIS_TAKEN")]
       DOTA_COMBATLOG_AEGIS_TAKEN = 30,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_MANA_DAMAGE", Value=31)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_MANA_DAMAGE")]
       DOTA_COMBATLOG_MANA_DAMAGE = 31,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_PHYSICAL_DAMAGE_PREVENTED", Value=32)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_PHYSICAL_DAMAGE_PREVENTED")]
       DOTA_COMBATLOG_PHYSICAL_DAMAGE_PREVENTED = 32,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_UNIT_SUMMONED", Value=33)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_UNIT_SUMMONED")]
       DOTA_COMBATLOG_UNIT_SUMMONED = 33,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_ATTACK_EVADE", Value=34)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_ATTACK_EVADE")]
       DOTA_COMBATLOG_ATTACK_EVADE = 34,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_TREE_CUT", Value=35)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_TREE_CUT")]
       DOTA_COMBATLOG_TREE_CUT = 35,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_SUCCESSFUL_SCAN", Value=36)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_SUCCESSFUL_SCAN")]
       DOTA_COMBATLOG_SUCCESSFUL_SCAN = 36,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_END_KILLSTREAK", Value=37)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DOTA_COMBATLOG_END_KILLSTREAK")]
       DOTA_COMBATLOG_END_KILLSTREAK = 37
     }
   

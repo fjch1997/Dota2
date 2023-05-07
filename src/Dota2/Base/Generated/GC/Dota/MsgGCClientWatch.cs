@@ -1221,32 +1221,32 @@ namespace Dota2.GC.Dota.Internal
       get { return _watch_tv_unique_secret_code; }
       set { _watch_tv_unique_secret_code = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"WatchGameResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"WatchGameResult")]
     public enum WatchGameResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PENDING", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PENDING")]
       PENDING = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"READY", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"READY")]
       READY = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GAMESERVERNOTFOUND", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GAMESERVERNOTFOUND")]
       GAMESERVERNOTFOUND = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"UNAVAILABLE", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"UNAVAILABLE")]
       UNAVAILABLE = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CANCELLED", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CANCELLED")]
       CANCELLED = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"INCOMPATIBLEVERSION", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"INCOMPATIBLEVERSION")]
       INCOMPATIBLEVERSION = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"MISSINGLEAGUESUBSCRIPTION", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"MISSINGLEAGUESUBSCRIPTION")]
       MISSINGLEAGUESUBSCRIPTION = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"LOBBYNOTFOUND", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"LOBBYNOTFOUND")]
       LOBBYNOTFOUND = 7
     }
   

@@ -158,53 +158,53 @@ namespace Dota2.GC.Dota.Internal
       get { return _username; }
       set { _username = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"Result", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"Result")]
     public enum Result
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_CREATION_LOCK", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_CREATION_LOCK")]
       FAILURE_CREATION_LOCK = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_SQL_TRANSACTION", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_SQL_TRANSACTION")]
       FAILURE_SQL_TRANSACTION = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_SDO_LOAD", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_SDO_LOAD")]
       FAILURE_SDO_LOAD = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_NO_PERMISSION", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_NO_PERMISSION")]
       FAILURE_NO_PERMISSION = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_ALREADY_MEMBER", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_ALREADY_MEMBER")]
       FAILURE_ALREADY_MEMBER = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_NOT_A_MEMBER", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_NOT_A_MEMBER")]
       FAILURE_NOT_A_MEMBER = 7,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_NO_REMAINING_ADMINS", Value=8)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_NO_REMAINING_ADMINS")]
       FAILURE_NO_REMAINING_ADMINS = 8,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_NO_ROOM", Value=9)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_NO_ROOM")]
       FAILURE_NO_ROOM = 9,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_CREATION_RATE_LIMITED", Value=10)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_CREATION_RATE_LIMITED")]
       FAILURE_CREATION_RATE_LIMITED = 10,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_UNKNOWN_CHANNEL_NAME", Value=11)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_UNKNOWN_CHANNEL_NAME")]
       FAILURE_UNKNOWN_CHANNEL_NAME = 11,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_UNKNOWN_USER", Value=12)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_UNKNOWN_USER")]
       FAILURE_UNKNOWN_USER = 12,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_UNKNOWN_ERROR", Value=13)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_UNKNOWN_ERROR")]
       FAILURE_UNKNOWN_ERROR = 13,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_CANNOT_KICK_ADMIN", Value=14)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_CANNOT_KICK_ADMIN")]
       FAILURE_CANNOT_KICK_ADMIN = 14,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_ALREADY_ADMIN", Value=15)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILURE_ALREADY_ADMIN")]
       FAILURE_ALREADY_ADMIN = 15
     }
   
@@ -845,50 +845,50 @@ namespace Dota2.GC.Dota.Internal
       get { return _welcome_message; }
       set { _welcome_message = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"Result", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"Result")]
     public enum Result
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"JOIN_SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"JOIN_SUCCESS")]
       JOIN_SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"INVALID_CHANNEL_TYPE", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"INVALID_CHANNEL_TYPE")]
       INVALID_CHANNEL_TYPE = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACCOUNT_NOT_FOUND", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACCOUNT_NOT_FOUND")]
       ACCOUNT_NOT_FOUND = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACH_FAILED", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACH_FAILED")]
       ACH_FAILED = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"USER_IN_TOO_MANY_CHANNELS", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"USER_IN_TOO_MANY_CHANNELS")]
       USER_IN_TOO_MANY_CHANNELS = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"RATE_LIMIT_EXCEEDED", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"RATE_LIMIT_EXCEEDED")]
       RATE_LIMIT_EXCEEDED = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHANNEL_FULL", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHANNEL_FULL")]
       CHANNEL_FULL = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHANNEL_FULL_OVERFLOWED", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHANNEL_FULL_OVERFLOWED")]
       CHANNEL_FULL_OVERFLOWED = 7,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"FAILED_TO_ADD_USER", Value=8)]
+      [global::ProtoBuf.ProtoEnum(Name=@"FAILED_TO_ADD_USER")]
       FAILED_TO_ADD_USER = 8,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CHANNEL_TYPE_DISABLED", Value=9)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CHANNEL_TYPE_DISABLED")]
       CHANNEL_TYPE_DISABLED = 9,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PRIVATE_CHAT_CREATE_FAILED", Value=10)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PRIVATE_CHAT_CREATE_FAILED")]
       PRIVATE_CHAT_CREATE_FAILED = 10,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PRIVATE_CHAT_NO_PERMISSION", Value=11)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PRIVATE_CHAT_NO_PERMISSION")]
       PRIVATE_CHAT_NO_PERMISSION = 11,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PRIVATE_CHAT_CREATE_LOCK_FAILED", Value=12)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PRIVATE_CHAT_CREATE_LOCK_FAILED")]
       PRIVATE_CHAT_CREATE_LOCK_FAILED = 12,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PRIVATE_CHAT_KICKED", Value=13)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PRIVATE_CHAT_KICKED")]
       PRIVATE_CHAT_KICKED = 13
     }
   

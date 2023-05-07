@@ -1892,57 +1892,57 @@ namespace Dota2.GC.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"ESourceEngine", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"ESourceEngine")]
     public enum ESourceEngine
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ESE_Source1", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ESE_Source1")]
       k_ESE_Source1 = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ESE_Source2", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ESE_Source2")]
       k_ESE_Source2 = 1
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"PartnerAccountType", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"PartnerAccountType")]
     public enum PartnerAccountType
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PARTNER_NONE", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PARTNER_NONE")]
       PARTNER_NONE = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PARTNER_PERFECT_WORLD", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PARTNER_PERFECT_WORLD")]
       PARTNER_PERFECT_WORLD = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PARTNER_NEXON", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PARTNER_NEXON")]
       PARTNER_NEXON = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PARTNER_INVALID", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PARTNER_INVALID")]
       PARTNER_INVALID = 3
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"GCConnectionStatus", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"GCConnectionStatus")]
     public enum GCConnectionStatus
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GCConnectionStatus_HAVE_SESSION", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GCConnectionStatus_HAVE_SESSION")]
       GCConnectionStatus_HAVE_SESSION = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GCConnectionStatus_GC_GOING_DOWN", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GCConnectionStatus_GC_GOING_DOWN")]
       GCConnectionStatus_GC_GOING_DOWN = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GCConnectionStatus_NO_SESSION", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GCConnectionStatus_NO_SESSION")]
       GCConnectionStatus_NO_SESSION = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GCConnectionStatus_NO_SESSION_IN_LOGON_QUEUE", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GCConnectionStatus_NO_SESSION_IN_LOGON_QUEUE")]
       GCConnectionStatus_NO_SESSION_IN_LOGON_QUEUE = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GCConnectionStatus_NO_STEAM", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GCConnectionStatus_NO_STEAM")]
       GCConnectionStatus_NO_STEAM = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GCConnectionStatus_SUSPENDED", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GCConnectionStatus_SUSPENDED")]
       GCConnectionStatus_SUSPENDED = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GCConnectionStatus_STEAM_GOING_DOWN", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GCConnectionStatus_STEAM_GOING_DOWN")]
       GCConnectionStatus_STEAM_GOING_DOWN = 6
     }
   

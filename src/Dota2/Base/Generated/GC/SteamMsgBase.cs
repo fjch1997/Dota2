@@ -2777,26 +2777,26 @@ namespace Dota2.GC.Internal
       get { return _webapi_param; }
       set { _webapi_param = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"RoutingMethod", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"RoutingMethod")]
     public enum RoutingMethod
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"RANDOM", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"RANDOM")]
       RANDOM = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"DISCARD", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"DISCARD")]
       DISCARD = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"CLIENT_STEAMID", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"CLIENT_STEAMID")]
       CLIENT_STEAMID = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PROTOBUF_FIELD_UINT64", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PROTOBUF_FIELD_UINT64")]
       PROTOBUF_FIELD_UINT64 = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"WEBAPI_PARAM", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"WEBAPI_PARAM")]
       WEBAPI_PARAM = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"WEBAPI_PARAM_STEAMID_ACCOUNTID", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"WEBAPI_PARAM_STEAMID_ACCOUNTID")]
       WEBAPI_PARAM_STEAMID_ACCOUNTID = 5
     }
   
@@ -2994,31 +2994,31 @@ namespace Dota2.GC.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"Option", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"Option")]
     public enum Option
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"NOTIFY_USER_SESSIONS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"NOTIFY_USER_SESSIONS")]
       NOTIFY_USER_SESSIONS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"NOTIFY_SERVER_SESSIONS", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"NOTIFY_SERVER_SESSIONS")]
       NOTIFY_SERVER_SESSIONS = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"NOTIFY_ACHIEVEMENTS", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"NOTIFY_ACHIEVEMENTS")]
       NOTIFY_ACHIEVEMENTS = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"NOTIFY_VAC_ACTION", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"NOTIFY_VAC_ACTION")]
       NOTIFY_VAC_ACTION = 3
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"GCSQLVersion", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"GCSQLVersion")]
     public enum GCSQLVersion
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GCSQL_VERSION_BASELINE", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GCSQL_VERSION_BASELINE")]
       GCSQL_VERSION_BASELINE = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GCSQL_VERSION_BOOLTYPE", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GCSQL_VERSION_BOOLTYPE")]
       GCSQL_VERSION_BOOLTYPE = 2
     }
   
@@ -3483,35 +3483,35 @@ namespace Dota2.GC.Internal
       get { return _eerrorcode; }
       set { _eerrorcode = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"EErrorCode", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EErrorCode")]
     public enum EErrorCode
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_MsgValid", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_MsgValid")]
       k_MsgValid = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_MsgInvalidAppID", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_MsgInvalidAppID")]
       k_MsgInvalidAppID = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_MsgInvalidPartnerInfo", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_MsgInvalidPartnerInfo")]
       k_MsgInvalidPartnerInfo = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_MsgNoTransactions", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_MsgNoTransactions")]
       k_MsgNoTransactions = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_MsgSQLFailure", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_MsgSQLFailure")]
       k_MsgSQLFailure = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_MsgPartnerInfoDiscrepancy", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_MsgPartnerInfoDiscrepancy")]
       k_MsgPartnerInfoDiscrepancy = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_MsgTransactionInsertFailed", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_MsgTransactionInsertFailed")]
       k_MsgTransactionInsertFailed = 7,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_MsgAlreadyRunning", Value=8)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_MsgAlreadyRunning")]
       k_MsgAlreadyRunning = 8,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_MsgInvalidTransactionData", Value=9)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_MsgInvalidTransactionData")]
       k_MsgInvalidTransactionData = 9
     }
   
@@ -3557,26 +3557,26 @@ namespace Dota2.GC.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"GCProtoBufMsgSrc", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"GCProtoBufMsgSrc")]
     public enum GCProtoBufMsgSrc
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GCProtoBufMsgSrc_Unspecified", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GCProtoBufMsgSrc_Unspecified")]
       GCProtoBufMsgSrc_Unspecified = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GCProtoBufMsgSrc_FromSystem", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GCProtoBufMsgSrc_FromSystem")]
       GCProtoBufMsgSrc_FromSystem = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GCProtoBufMsgSrc_FromSteamID", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GCProtoBufMsgSrc_FromSteamID")]
       GCProtoBufMsgSrc_FromSteamID = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GCProtoBufMsgSrc_FromGC", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GCProtoBufMsgSrc_FromGC")]
       GCProtoBufMsgSrc_FromGC = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GCProtoBufMsgSrc_ReplySystem", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GCProtoBufMsgSrc_ReplySystem")]
       GCProtoBufMsgSrc_ReplySystem = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"GCProtoBufMsgSrc_SpoofedSteamID", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"GCProtoBufMsgSrc_SpoofedSteamID")]
       GCProtoBufMsgSrc_SpoofedSteamID = 5
     }
   

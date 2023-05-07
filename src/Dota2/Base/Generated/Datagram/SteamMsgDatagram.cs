@@ -1273,56 +1273,56 @@ namespace Dota2.Datagram.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"ESteamDatagramMsgID", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"ESteamDatagramMsgID")]
     public enum ESteamDatagramMsgID
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ESteamDatagramMsg_RouterPingRequest", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ESteamDatagramMsg_RouterPingRequest")]
       k_ESteamDatagramMsg_RouterPingRequest = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ESteamDatagramMsg_RouterPingReply", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ESteamDatagramMsg_RouterPingReply")]
       k_ESteamDatagramMsg_RouterPingReply = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ESteamDatagramMsg_GameserverPingRequest", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ESteamDatagramMsg_GameserverPingRequest")]
       k_ESteamDatagramMsg_GameserverPingRequest = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ESteamDatagramMsg_GameserverPingReply", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ESteamDatagramMsg_GameserverPingReply")]
       k_ESteamDatagramMsg_GameserverPingReply = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ESteamDatagramMsg_GameserverSessionRequest", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ESteamDatagramMsg_GameserverSessionRequest")]
       k_ESteamDatagramMsg_GameserverSessionRequest = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ESteamDatagramMsg_GameserverSessionEstablished", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ESteamDatagramMsg_GameserverSessionEstablished")]
       k_ESteamDatagramMsg_GameserverSessionEstablished = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ESteamDatagramMsg_NoSession", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ESteamDatagramMsg_NoSession")]
       k_ESteamDatagramMsg_NoSession = 7,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ESteamDatagramMsg_Diagnostic", Value=8)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ESteamDatagramMsg_Diagnostic")]
       k_ESteamDatagramMsg_Diagnostic = 8,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ESteamDatagramMsg_DataClientToRouter", Value=9)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ESteamDatagramMsg_DataClientToRouter")]
       k_ESteamDatagramMsg_DataClientToRouter = 9,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ESteamDatagramMsg_DataRouterToServer", Value=10)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ESteamDatagramMsg_DataRouterToServer")]
       k_ESteamDatagramMsg_DataRouterToServer = 10,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ESteamDatagramMsg_DataServerToRouter", Value=11)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ESteamDatagramMsg_DataServerToRouter")]
       k_ESteamDatagramMsg_DataServerToRouter = 11,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ESteamDatagramMsg_DataRouterToClient", Value=12)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ESteamDatagramMsg_DataRouterToClient")]
       k_ESteamDatagramMsg_DataRouterToClient = 12,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ESteamDatagramMsg_Stats", Value=13)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ESteamDatagramMsg_Stats")]
       k_ESteamDatagramMsg_Stats = 13,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ESteamDatagramMsg_ClientPingSampleRequest", Value=14)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ESteamDatagramMsg_ClientPingSampleRequest")]
       k_ESteamDatagramMsg_ClientPingSampleRequest = 14,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ESteamDatagramMsg_ClientPingSampleReply", Value=15)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ESteamDatagramMsg_ClientPingSampleReply")]
       k_ESteamDatagramMsg_ClientPingSampleReply = 15,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ESteamDatagramMsg_ClientToRouterSwitchedPrimary", Value=16)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ESteamDatagramMsg_ClientToRouterSwitchedPrimary")]
       k_ESteamDatagramMsg_ClientToRouterSwitchedPrimary = 16
     }
   

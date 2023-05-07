@@ -13,1889 +13,1889 @@ using SteamKit2.GC.Internal;
 // Generated from: ai_activity.proto
 namespace Dota2.GC.Dota.Internal
 {
-    [global::ProtoBuf.ProtoContract(Name=@"Activity", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"Activity")]
     public enum Activity
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_INVALID", Value=-1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_INVALID")]
       ACT_INVALID = -1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RESET", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RESET")]
       ACT_RESET = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE")]
       ACT_IDLE = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_TRANSITION", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_TRANSITION")]
       ACT_TRANSITION = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_COVER", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_COVER")]
       ACT_COVER = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_COVER_MED", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_COVER_MED")]
       ACT_COVER_MED = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_COVER_LOW", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_COVER_LOW")]
       ACT_COVER_LOW = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK")]
       ACT_WALK = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_AIM", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_AIM")]
       ACT_WALK_AIM = 7,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_CROUCH", Value=8)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_CROUCH")]
       ACT_WALK_CROUCH = 8,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_CROUCH_AIM", Value=9)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_CROUCH_AIM")]
       ACT_WALK_CROUCH_AIM = 9,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN", Value=10)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN")]
       ACT_RUN = 10,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_AIM", Value=11)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_AIM")]
       ACT_RUN_AIM = 11,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_CROUCH", Value=12)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_CROUCH")]
       ACT_RUN_CROUCH = 12,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_CROUCH_AIM", Value=13)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_CROUCH_AIM")]
       ACT_RUN_CROUCH_AIM = 13,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_PROTECTED", Value=14)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_PROTECTED")]
       ACT_RUN_PROTECTED = 14,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SCRIPT_CUSTOM_MOVE", Value=15)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SCRIPT_CUSTOM_MOVE")]
       ACT_SCRIPT_CUSTOM_MOVE = 15,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK1", Value=16)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK1")]
       ACT_RANGE_ATTACK1 = 16,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK2", Value=17)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK2")]
       ACT_RANGE_ATTACK2 = 17,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK1_LOW", Value=18)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK1_LOW")]
       ACT_RANGE_ATTACK1_LOW = 18,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK2_LOW", Value=19)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK2_LOW")]
       ACT_RANGE_ATTACK2_LOW = 19,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DIESIMPLE", Value=20)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DIESIMPLE")]
       ACT_DIESIMPLE = 20,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DIEBACKWARD", Value=21)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DIEBACKWARD")]
       ACT_DIEBACKWARD = 21,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DIEFORWARD", Value=22)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DIEFORWARD")]
       ACT_DIEFORWARD = 22,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DIEVIOLENT", Value=23)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DIEVIOLENT")]
       ACT_DIEVIOLENT = 23,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DIERAGDOLL", Value=24)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DIERAGDOLL")]
       ACT_DIERAGDOLL = 24,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_FLY", Value=25)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_FLY")]
       ACT_FLY = 25,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_HOVER", Value=26)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_HOVER")]
       ACT_HOVER = 26,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GLIDE", Value=27)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GLIDE")]
       ACT_GLIDE = 27,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SWIM", Value=28)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SWIM")]
       ACT_SWIM = 28,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_JUMP", Value=29)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_JUMP")]
       ACT_JUMP = 29,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_HOP", Value=30)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_HOP")]
       ACT_HOP = 30,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_LEAP", Value=31)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_LEAP")]
       ACT_LEAP = 31,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_LAND", Value=32)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_LAND")]
       ACT_LAND = 32,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_CLIMB_UP", Value=33)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_CLIMB_UP")]
       ACT_CLIMB_UP = 33,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_CLIMB_DOWN", Value=34)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_CLIMB_DOWN")]
       ACT_CLIMB_DOWN = 34,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_CLIMB_DISMOUNT", Value=35)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_CLIMB_DISMOUNT")]
       ACT_CLIMB_DISMOUNT = 35,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SHIPLADDER_UP", Value=36)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SHIPLADDER_UP")]
       ACT_SHIPLADDER_UP = 36,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SHIPLADDER_DOWN", Value=37)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SHIPLADDER_DOWN")]
       ACT_SHIPLADDER_DOWN = 37,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_STRAFE_LEFT", Value=38)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_STRAFE_LEFT")]
       ACT_STRAFE_LEFT = 38,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_STRAFE_RIGHT", Value=39)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_STRAFE_RIGHT")]
       ACT_STRAFE_RIGHT = 39,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_ROLL_LEFT", Value=40)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_ROLL_LEFT")]
       ACT_ROLL_LEFT = 40,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_ROLL_RIGHT", Value=41)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_ROLL_RIGHT")]
       ACT_ROLL_RIGHT = 41,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_TURN_LEFT", Value=42)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_TURN_LEFT")]
       ACT_TURN_LEFT = 42,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_TURN_RIGHT", Value=43)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_TURN_RIGHT")]
       ACT_TURN_RIGHT = 43,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_CROUCH", Value=44)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_CROUCH")]
       ACT_CROUCH = 44,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_CROUCHIDLE", Value=45)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_CROUCHIDLE")]
       ACT_CROUCHIDLE = 45,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_STAND", Value=46)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_STAND")]
       ACT_STAND = 46,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_USE", Value=47)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_USE")]
       ACT_USE = 47,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_ALIEN_BURROW_IDLE", Value=48)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_ALIEN_BURROW_IDLE")]
       ACT_ALIEN_BURROW_IDLE = 48,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_ALIEN_BURROW_OUT", Value=49)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_ALIEN_BURROW_OUT")]
       ACT_ALIEN_BURROW_OUT = 49,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SIGNAL1", Value=50)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SIGNAL1")]
       ACT_SIGNAL1 = 50,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SIGNAL2", Value=51)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SIGNAL2")]
       ACT_SIGNAL2 = 51,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SIGNAL3", Value=52)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SIGNAL3")]
       ACT_SIGNAL3 = 52,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SIGNAL_ADVANCE", Value=53)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SIGNAL_ADVANCE")]
       ACT_SIGNAL_ADVANCE = 53,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SIGNAL_FORWARD", Value=54)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SIGNAL_FORWARD")]
       ACT_SIGNAL_FORWARD = 54,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SIGNAL_GROUP", Value=55)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SIGNAL_GROUP")]
       ACT_SIGNAL_GROUP = 55,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SIGNAL_HALT", Value=56)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SIGNAL_HALT")]
       ACT_SIGNAL_HALT = 56,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SIGNAL_LEFT", Value=57)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SIGNAL_LEFT")]
       ACT_SIGNAL_LEFT = 57,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SIGNAL_RIGHT", Value=58)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SIGNAL_RIGHT")]
       ACT_SIGNAL_RIGHT = 58,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SIGNAL_TAKECOVER", Value=59)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SIGNAL_TAKECOVER")]
       ACT_SIGNAL_TAKECOVER = 59,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_LOOKBACK_RIGHT", Value=60)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_LOOKBACK_RIGHT")]
       ACT_LOOKBACK_RIGHT = 60,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_LOOKBACK_LEFT", Value=61)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_LOOKBACK_LEFT")]
       ACT_LOOKBACK_LEFT = 61,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_COWER", Value=62)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_COWER")]
       ACT_COWER = 62,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SMALL_FLINCH", Value=63)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SMALL_FLINCH")]
       ACT_SMALL_FLINCH = 63,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BIG_FLINCH", Value=64)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BIG_FLINCH")]
       ACT_BIG_FLINCH = 64,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_MELEE_ATTACK1", Value=65)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_MELEE_ATTACK1")]
       ACT_MELEE_ATTACK1 = 65,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_MELEE_ATTACK2", Value=66)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_MELEE_ATTACK2")]
       ACT_MELEE_ATTACK2 = 66,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RELOAD", Value=67)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RELOAD")]
       ACT_RELOAD = 67,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RELOAD_START", Value=68)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RELOAD_START")]
       ACT_RELOAD_START = 68,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RELOAD_FINISH", Value=69)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RELOAD_FINISH")]
       ACT_RELOAD_FINISH = 69,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RELOAD_LOW", Value=70)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RELOAD_LOW")]
       ACT_RELOAD_LOW = 70,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_ARM", Value=71)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_ARM")]
       ACT_ARM = 71,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DISARM", Value=72)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DISARM")]
       ACT_DISARM = 72,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DROP_WEAPON", Value=73)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DROP_WEAPON")]
       ACT_DROP_WEAPON = 73,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DROP_WEAPON_SHOTGUN", Value=74)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DROP_WEAPON_SHOTGUN")]
       ACT_DROP_WEAPON_SHOTGUN = 74,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_PICKUP_GROUND", Value=75)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_PICKUP_GROUND")]
       ACT_PICKUP_GROUND = 75,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_PICKUP_RACK", Value=76)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_PICKUP_RACK")]
       ACT_PICKUP_RACK = 76,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_ANGRY", Value=77)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_ANGRY")]
       ACT_IDLE_ANGRY = 77,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_RELAXED", Value=78)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_RELAXED")]
       ACT_IDLE_RELAXED = 78,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_STIMULATED", Value=79)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_STIMULATED")]
       ACT_IDLE_STIMULATED = 79,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_AGITATED", Value=80)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_AGITATED")]
       ACT_IDLE_AGITATED = 80,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_STEALTH", Value=81)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_STEALTH")]
       ACT_IDLE_STEALTH = 81,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_HURT", Value=82)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_HURT")]
       ACT_IDLE_HURT = 82,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_RELAXED", Value=83)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_RELAXED")]
       ACT_WALK_RELAXED = 83,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_STIMULATED", Value=84)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_STIMULATED")]
       ACT_WALK_STIMULATED = 84,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_AGITATED", Value=85)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_AGITATED")]
       ACT_WALK_AGITATED = 85,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_STEALTH", Value=86)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_STEALTH")]
       ACT_WALK_STEALTH = 86,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_RELAXED", Value=87)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_RELAXED")]
       ACT_RUN_RELAXED = 87,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_STIMULATED", Value=88)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_STIMULATED")]
       ACT_RUN_STIMULATED = 88,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_AGITATED", Value=89)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_AGITATED")]
       ACT_RUN_AGITATED = 89,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_STEALTH", Value=90)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_STEALTH")]
       ACT_RUN_STEALTH = 90,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_AIM_RELAXED", Value=91)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_AIM_RELAXED")]
       ACT_IDLE_AIM_RELAXED = 91,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_AIM_STIMULATED", Value=92)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_AIM_STIMULATED")]
       ACT_IDLE_AIM_STIMULATED = 92,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_AIM_AGITATED", Value=93)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_AIM_AGITATED")]
       ACT_IDLE_AIM_AGITATED = 93,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_AIM_STEALTH", Value=94)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_AIM_STEALTH")]
       ACT_IDLE_AIM_STEALTH = 94,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_AIM_RELAXED", Value=95)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_AIM_RELAXED")]
       ACT_WALK_AIM_RELAXED = 95,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_AIM_STIMULATED", Value=96)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_AIM_STIMULATED")]
       ACT_WALK_AIM_STIMULATED = 96,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_AIM_AGITATED", Value=97)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_AIM_AGITATED")]
       ACT_WALK_AIM_AGITATED = 97,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_AIM_STEALTH", Value=98)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_AIM_STEALTH")]
       ACT_WALK_AIM_STEALTH = 98,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_AIM_RELAXED", Value=99)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_AIM_RELAXED")]
       ACT_RUN_AIM_RELAXED = 99,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_AIM_STIMULATED", Value=100)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_AIM_STIMULATED")]
       ACT_RUN_AIM_STIMULATED = 100,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_AIM_AGITATED", Value=101)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_AIM_AGITATED")]
       ACT_RUN_AIM_AGITATED = 101,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_AIM_STEALTH", Value=102)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_AIM_STEALTH")]
       ACT_RUN_AIM_STEALTH = 102,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_CROUCHIDLE_STIMULATED", Value=103)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_CROUCHIDLE_STIMULATED")]
       ACT_CROUCHIDLE_STIMULATED = 103,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_CROUCHIDLE_AIM_STIMULATED", Value=104)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_CROUCHIDLE_AIM_STIMULATED")]
       ACT_CROUCHIDLE_AIM_STIMULATED = 104,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_CROUCHIDLE_AGITATED", Value=105)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_CROUCHIDLE_AGITATED")]
       ACT_CROUCHIDLE_AGITATED = 105,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_HURT", Value=106)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_HURT")]
       ACT_WALK_HURT = 106,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_HURT", Value=107)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_HURT")]
       ACT_RUN_HURT = 107,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SPECIAL_ATTACK1", Value=108)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SPECIAL_ATTACK1")]
       ACT_SPECIAL_ATTACK1 = 108,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SPECIAL_ATTACK2", Value=109)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SPECIAL_ATTACK2")]
       ACT_SPECIAL_ATTACK2 = 109,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_COMBAT_IDLE", Value=110)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_COMBAT_IDLE")]
       ACT_COMBAT_IDLE = 110,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_SCARED", Value=111)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_SCARED")]
       ACT_WALK_SCARED = 111,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_SCARED", Value=112)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_SCARED")]
       ACT_RUN_SCARED = 112,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VICTORY_DANCE", Value=113)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VICTORY_DANCE")]
       ACT_VICTORY_DANCE = 113,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DIE_HEADSHOT", Value=114)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DIE_HEADSHOT")]
       ACT_DIE_HEADSHOT = 114,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DIE_CHESTSHOT", Value=115)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DIE_CHESTSHOT")]
       ACT_DIE_CHESTSHOT = 115,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DIE_GUTSHOT", Value=116)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DIE_GUTSHOT")]
       ACT_DIE_GUTSHOT = 116,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DIE_BACKSHOT", Value=117)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DIE_BACKSHOT")]
       ACT_DIE_BACKSHOT = 117,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_FLINCH_HEAD", Value=118)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_FLINCH_HEAD")]
       ACT_FLINCH_HEAD = 118,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_FLINCH_CHEST", Value=119)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_FLINCH_CHEST")]
       ACT_FLINCH_CHEST = 119,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_FLINCH_STOMACH", Value=120)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_FLINCH_STOMACH")]
       ACT_FLINCH_STOMACH = 120,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_FLINCH_LEFTARM", Value=121)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_FLINCH_LEFTARM")]
       ACT_FLINCH_LEFTARM = 121,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_FLINCH_RIGHTARM", Value=122)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_FLINCH_RIGHTARM")]
       ACT_FLINCH_RIGHTARM = 122,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_FLINCH_LEFTLEG", Value=123)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_FLINCH_LEFTLEG")]
       ACT_FLINCH_LEFTLEG = 123,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_FLINCH_RIGHTLEG", Value=124)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_FLINCH_RIGHTLEG")]
       ACT_FLINCH_RIGHTLEG = 124,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_FLINCH_PHYSICS", Value=125)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_FLINCH_PHYSICS")]
       ACT_FLINCH_PHYSICS = 125,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_FLINCH_HEAD_BACK", Value=126)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_FLINCH_HEAD_BACK")]
       ACT_FLINCH_HEAD_BACK = 126,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_FLINCH_CHEST_BACK", Value=127)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_FLINCH_CHEST_BACK")]
       ACT_FLINCH_CHEST_BACK = 127,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_FLINCH_STOMACH_BACK", Value=128)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_FLINCH_STOMACH_BACK")]
       ACT_FLINCH_STOMACH_BACK = 128,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_FLINCH_CROUCH_FRONT", Value=129)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_FLINCH_CROUCH_FRONT")]
       ACT_FLINCH_CROUCH_FRONT = 129,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_FLINCH_CROUCH_BACK", Value=130)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_FLINCH_CROUCH_BACK")]
       ACT_FLINCH_CROUCH_BACK = 130,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_FLINCH_CROUCH_LEFT", Value=131)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_FLINCH_CROUCH_LEFT")]
       ACT_FLINCH_CROUCH_LEFT = 131,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_FLINCH_CROUCH_RIGHT", Value=132)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_FLINCH_CROUCH_RIGHT")]
       ACT_FLINCH_CROUCH_RIGHT = 132,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_ON_FIRE", Value=133)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_ON_FIRE")]
       ACT_IDLE_ON_FIRE = 133,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_ON_FIRE", Value=134)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_ON_FIRE")]
       ACT_WALK_ON_FIRE = 134,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_ON_FIRE", Value=135)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_ON_FIRE")]
       ACT_RUN_ON_FIRE = 135,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RAPPEL_LOOP", Value=136)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RAPPEL_LOOP")]
       ACT_RAPPEL_LOOP = 136,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_180_LEFT", Value=137)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_180_LEFT")]
       ACT_180_LEFT = 137,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_180_RIGHT", Value=138)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_180_RIGHT")]
       ACT_180_RIGHT = 138,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_90_LEFT", Value=139)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_90_LEFT")]
       ACT_90_LEFT = 139,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_90_RIGHT", Value=140)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_90_RIGHT")]
       ACT_90_RIGHT = 140,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_STEP_LEFT", Value=141)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_STEP_LEFT")]
       ACT_STEP_LEFT = 141,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_STEP_RIGHT", Value=142)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_STEP_RIGHT")]
       ACT_STEP_RIGHT = 142,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_STEP_BACK", Value=143)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_STEP_BACK")]
       ACT_STEP_BACK = 143,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_STEP_FORE", Value=144)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_STEP_FORE")]
       ACT_STEP_FORE = 144,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK1", Value=145)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK1")]
       ACT_GESTURE_RANGE_ATTACK1 = 145,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK2", Value=146)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK2")]
       ACT_GESTURE_RANGE_ATTACK2 = 146,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_MELEE_ATTACK1", Value=147)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_MELEE_ATTACK1")]
       ACT_GESTURE_MELEE_ATTACK1 = 147,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_MELEE_ATTACK2", Value=148)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_MELEE_ATTACK2")]
       ACT_GESTURE_MELEE_ATTACK2 = 148,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK1_LOW", Value=149)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK1_LOW")]
       ACT_GESTURE_RANGE_ATTACK1_LOW = 149,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK2_LOW", Value=150)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK2_LOW")]
       ACT_GESTURE_RANGE_ATTACK2_LOW = 150,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_MELEE_ATTACK_SWING_GESTURE", Value=151)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_MELEE_ATTACK_SWING_GESTURE")]
       ACT_MELEE_ATTACK_SWING_GESTURE = 151,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_SMALL_FLINCH", Value=152)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_SMALL_FLINCH")]
       ACT_GESTURE_SMALL_FLINCH = 152,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_BIG_FLINCH", Value=153)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_BIG_FLINCH")]
       ACT_GESTURE_BIG_FLINCH = 153,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_FLINCH_BLAST", Value=154)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_FLINCH_BLAST")]
       ACT_GESTURE_FLINCH_BLAST = 154,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_FLINCH_BLAST_SHOTGUN", Value=155)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_FLINCH_BLAST_SHOTGUN")]
       ACT_GESTURE_FLINCH_BLAST_SHOTGUN = 155,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_FLINCH_BLAST_DAMAGED", Value=156)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_FLINCH_BLAST_DAMAGED")]
       ACT_GESTURE_FLINCH_BLAST_DAMAGED = 156,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_FLINCH_BLAST_DAMAGED_SHOTGUN", Value=157)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_FLINCH_BLAST_DAMAGED_SHOTGUN")]
       ACT_GESTURE_FLINCH_BLAST_DAMAGED_SHOTGUN = 157,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_FLINCH_HEAD", Value=158)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_FLINCH_HEAD")]
       ACT_GESTURE_FLINCH_HEAD = 158,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_FLINCH_CHEST", Value=159)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_FLINCH_CHEST")]
       ACT_GESTURE_FLINCH_CHEST = 159,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_FLINCH_STOMACH", Value=160)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_FLINCH_STOMACH")]
       ACT_GESTURE_FLINCH_STOMACH = 160,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_FLINCH_LEFTARM", Value=161)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_FLINCH_LEFTARM")]
       ACT_GESTURE_FLINCH_LEFTARM = 161,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_FLINCH_RIGHTARM", Value=162)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_FLINCH_RIGHTARM")]
       ACT_GESTURE_FLINCH_RIGHTARM = 162,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_FLINCH_LEFTLEG", Value=163)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_FLINCH_LEFTLEG")]
       ACT_GESTURE_FLINCH_LEFTLEG = 163,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_FLINCH_RIGHTLEG", Value=164)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_FLINCH_RIGHTLEG")]
       ACT_GESTURE_FLINCH_RIGHTLEG = 164,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_TURN_LEFT", Value=165)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_TURN_LEFT")]
       ACT_GESTURE_TURN_LEFT = 165,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_TURN_RIGHT", Value=166)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_TURN_RIGHT")]
       ACT_GESTURE_TURN_RIGHT = 166,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_TURN_LEFT45", Value=167)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_TURN_LEFT45")]
       ACT_GESTURE_TURN_LEFT45 = 167,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_TURN_RIGHT45", Value=168)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_TURN_RIGHT45")]
       ACT_GESTURE_TURN_RIGHT45 = 168,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_TURN_LEFT90", Value=169)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_TURN_LEFT90")]
       ACT_GESTURE_TURN_LEFT90 = 169,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_TURN_RIGHT90", Value=170)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_TURN_RIGHT90")]
       ACT_GESTURE_TURN_RIGHT90 = 170,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_TURN_LEFT45_FLAT", Value=171)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_TURN_LEFT45_FLAT")]
       ACT_GESTURE_TURN_LEFT45_FLAT = 171,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_TURN_RIGHT45_FLAT", Value=172)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_TURN_RIGHT45_FLAT")]
       ACT_GESTURE_TURN_RIGHT45_FLAT = 172,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_TURN_LEFT90_FLAT", Value=173)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_TURN_LEFT90_FLAT")]
       ACT_GESTURE_TURN_LEFT90_FLAT = 173,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_TURN_RIGHT90_FLAT", Value=174)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_TURN_RIGHT90_FLAT")]
       ACT_GESTURE_TURN_RIGHT90_FLAT = 174,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BARNACLE_HIT", Value=175)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BARNACLE_HIT")]
       ACT_BARNACLE_HIT = 175,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BARNACLE_PULL", Value=176)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BARNACLE_PULL")]
       ACT_BARNACLE_PULL = 176,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BARNACLE_CHOMP", Value=177)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BARNACLE_CHOMP")]
       ACT_BARNACLE_CHOMP = 177,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BARNACLE_CHEW", Value=178)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BARNACLE_CHEW")]
       ACT_BARNACLE_CHEW = 178,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DO_NOT_DISTURB", Value=179)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DO_NOT_DISTURB")]
       ACT_DO_NOT_DISTURB = 179,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SPECIFIC_SEQUENCE", Value=180)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SPECIFIC_SEQUENCE")]
       ACT_SPECIFIC_SEQUENCE = 180,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_DRAW", Value=181)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_DRAW")]
       ACT_VM_DRAW = 181,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_HOLSTER", Value=182)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_HOLSTER")]
       ACT_VM_HOLSTER = 182,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_IDLE", Value=183)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_IDLE")]
       ACT_VM_IDLE = 183,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_FIDGET", Value=184)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_FIDGET")]
       ACT_VM_FIDGET = 184,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_PULLBACK", Value=185)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_PULLBACK")]
       ACT_VM_PULLBACK = 185,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_PULLBACK_HIGH", Value=186)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_PULLBACK_HIGH")]
       ACT_VM_PULLBACK_HIGH = 186,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_PULLBACK_LOW", Value=187)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_PULLBACK_LOW")]
       ACT_VM_PULLBACK_LOW = 187,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_THROW", Value=188)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_THROW")]
       ACT_VM_THROW = 188,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_PULLPIN", Value=189)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_PULLPIN")]
       ACT_VM_PULLPIN = 189,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_PRIMARYATTACK", Value=190)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_PRIMARYATTACK")]
       ACT_VM_PRIMARYATTACK = 190,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_SECONDARYATTACK", Value=191)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_SECONDARYATTACK")]
       ACT_VM_SECONDARYATTACK = 191,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_RELOAD", Value=192)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_RELOAD")]
       ACT_VM_RELOAD = 192,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_DRYFIRE", Value=193)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_DRYFIRE")]
       ACT_VM_DRYFIRE = 193,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_HITLEFT", Value=194)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_HITLEFT")]
       ACT_VM_HITLEFT = 194,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_HITLEFT2", Value=195)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_HITLEFT2")]
       ACT_VM_HITLEFT2 = 195,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_HITRIGHT", Value=196)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_HITRIGHT")]
       ACT_VM_HITRIGHT = 196,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_HITRIGHT2", Value=197)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_HITRIGHT2")]
       ACT_VM_HITRIGHT2 = 197,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_HITCENTER", Value=198)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_HITCENTER")]
       ACT_VM_HITCENTER = 198,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_HITCENTER2", Value=199)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_HITCENTER2")]
       ACT_VM_HITCENTER2 = 199,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_MISSLEFT", Value=200)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_MISSLEFT")]
       ACT_VM_MISSLEFT = 200,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_MISSLEFT2", Value=201)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_MISSLEFT2")]
       ACT_VM_MISSLEFT2 = 201,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_MISSRIGHT", Value=202)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_MISSRIGHT")]
       ACT_VM_MISSRIGHT = 202,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_MISSRIGHT2", Value=203)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_MISSRIGHT2")]
       ACT_VM_MISSRIGHT2 = 203,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_MISSCENTER", Value=204)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_MISSCENTER")]
       ACT_VM_MISSCENTER = 204,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_MISSCENTER2", Value=205)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_MISSCENTER2")]
       ACT_VM_MISSCENTER2 = 205,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_HAULBACK", Value=206)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_HAULBACK")]
       ACT_VM_HAULBACK = 206,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_SWINGHARD", Value=207)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_SWINGHARD")]
       ACT_VM_SWINGHARD = 207,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_SWINGMISS", Value=208)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_SWINGMISS")]
       ACT_VM_SWINGMISS = 208,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_SWINGHIT", Value=209)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_SWINGHIT")]
       ACT_VM_SWINGHIT = 209,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_IDLE_TO_LOWERED", Value=210)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_IDLE_TO_LOWERED")]
       ACT_VM_IDLE_TO_LOWERED = 210,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_IDLE_LOWERED", Value=211)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_IDLE_LOWERED")]
       ACT_VM_IDLE_LOWERED = 211,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_LOWERED_TO_IDLE", Value=212)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_LOWERED_TO_IDLE")]
       ACT_VM_LOWERED_TO_IDLE = 212,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_RECOIL1", Value=213)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_RECOIL1")]
       ACT_VM_RECOIL1 = 213,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_RECOIL2", Value=214)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_RECOIL2")]
       ACT_VM_RECOIL2 = 214,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_RECOIL3", Value=215)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_RECOIL3")]
       ACT_VM_RECOIL3 = 215,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_PICKUP", Value=216)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_PICKUP")]
       ACT_VM_PICKUP = 216,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_RELEASE", Value=217)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_RELEASE")]
       ACT_VM_RELEASE = 217,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_ATTACH_SILENCER", Value=218)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_ATTACH_SILENCER")]
       ACT_VM_ATTACH_SILENCER = 218,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_DETACH_SILENCER", Value=219)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_VM_DETACH_SILENCER")]
       ACT_VM_DETACH_SILENCER = 219,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_STICKWALL_IDLE", Value=220)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_STICKWALL_IDLE")]
       ACT_SLAM_STICKWALL_IDLE = 220,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_STICKWALL_ND_IDLE", Value=221)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_STICKWALL_ND_IDLE")]
       ACT_SLAM_STICKWALL_ND_IDLE = 221,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_STICKWALL_ATTACH", Value=222)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_STICKWALL_ATTACH")]
       ACT_SLAM_STICKWALL_ATTACH = 222,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_STICKWALL_ATTACH2", Value=223)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_STICKWALL_ATTACH2")]
       ACT_SLAM_STICKWALL_ATTACH2 = 223,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_STICKWALL_ND_ATTACH", Value=224)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_STICKWALL_ND_ATTACH")]
       ACT_SLAM_STICKWALL_ND_ATTACH = 224,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_STICKWALL_ND_ATTACH2", Value=225)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_STICKWALL_ND_ATTACH2")]
       ACT_SLAM_STICKWALL_ND_ATTACH2 = 225,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_STICKWALL_DETONATE", Value=226)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_STICKWALL_DETONATE")]
       ACT_SLAM_STICKWALL_DETONATE = 226,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_STICKWALL_DETONATOR_HOLSTER", Value=227)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_STICKWALL_DETONATOR_HOLSTER")]
       ACT_SLAM_STICKWALL_DETONATOR_HOLSTER = 227,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_STICKWALL_DRAW", Value=228)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_STICKWALL_DRAW")]
       ACT_SLAM_STICKWALL_DRAW = 228,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_STICKWALL_ND_DRAW", Value=229)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_STICKWALL_ND_DRAW")]
       ACT_SLAM_STICKWALL_ND_DRAW = 229,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_STICKWALL_TO_THROW", Value=230)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_STICKWALL_TO_THROW")]
       ACT_SLAM_STICKWALL_TO_THROW = 230,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_STICKWALL_TO_THROW_ND", Value=231)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_STICKWALL_TO_THROW_ND")]
       ACT_SLAM_STICKWALL_TO_THROW_ND = 231,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_STICKWALL_TO_TRIPMINE_ND", Value=232)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_STICKWALL_TO_TRIPMINE_ND")]
       ACT_SLAM_STICKWALL_TO_TRIPMINE_ND = 232,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_THROW_IDLE", Value=233)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_THROW_IDLE")]
       ACT_SLAM_THROW_IDLE = 233,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_THROW_ND_IDLE", Value=234)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_THROW_ND_IDLE")]
       ACT_SLAM_THROW_ND_IDLE = 234,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_THROW_THROW", Value=235)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_THROW_THROW")]
       ACT_SLAM_THROW_THROW = 235,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_THROW_THROW2", Value=236)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_THROW_THROW2")]
       ACT_SLAM_THROW_THROW2 = 236,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_THROW_THROW_ND", Value=237)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_THROW_THROW_ND")]
       ACT_SLAM_THROW_THROW_ND = 237,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_THROW_THROW_ND2", Value=238)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_THROW_THROW_ND2")]
       ACT_SLAM_THROW_THROW_ND2 = 238,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_THROW_DRAW", Value=239)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_THROW_DRAW")]
       ACT_SLAM_THROW_DRAW = 239,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_THROW_ND_DRAW", Value=240)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_THROW_ND_DRAW")]
       ACT_SLAM_THROW_ND_DRAW = 240,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_THROW_TO_STICKWALL", Value=241)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_THROW_TO_STICKWALL")]
       ACT_SLAM_THROW_TO_STICKWALL = 241,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_THROW_TO_STICKWALL_ND", Value=242)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_THROW_TO_STICKWALL_ND")]
       ACT_SLAM_THROW_TO_STICKWALL_ND = 242,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_THROW_DETONATE", Value=243)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_THROW_DETONATE")]
       ACT_SLAM_THROW_DETONATE = 243,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_THROW_DETONATOR_HOLSTER", Value=244)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_THROW_DETONATOR_HOLSTER")]
       ACT_SLAM_THROW_DETONATOR_HOLSTER = 244,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_THROW_TO_TRIPMINE_ND", Value=245)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_THROW_TO_TRIPMINE_ND")]
       ACT_SLAM_THROW_TO_TRIPMINE_ND = 245,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_TRIPMINE_IDLE", Value=246)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_TRIPMINE_IDLE")]
       ACT_SLAM_TRIPMINE_IDLE = 246,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_TRIPMINE_DRAW", Value=247)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_TRIPMINE_DRAW")]
       ACT_SLAM_TRIPMINE_DRAW = 247,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_TRIPMINE_ATTACH", Value=248)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_TRIPMINE_ATTACH")]
       ACT_SLAM_TRIPMINE_ATTACH = 248,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_TRIPMINE_ATTACH2", Value=249)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_TRIPMINE_ATTACH2")]
       ACT_SLAM_TRIPMINE_ATTACH2 = 249,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_TRIPMINE_TO_STICKWALL_ND", Value=250)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_TRIPMINE_TO_STICKWALL_ND")]
       ACT_SLAM_TRIPMINE_TO_STICKWALL_ND = 250,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_TRIPMINE_TO_THROW_ND", Value=251)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_TRIPMINE_TO_THROW_ND")]
       ACT_SLAM_TRIPMINE_TO_THROW_ND = 251,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_DETONATOR_IDLE", Value=252)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_DETONATOR_IDLE")]
       ACT_SLAM_DETONATOR_IDLE = 252,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_DETONATOR_DRAW", Value=253)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_DETONATOR_DRAW")]
       ACT_SLAM_DETONATOR_DRAW = 253,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_DETONATOR_DETONATE", Value=254)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_DETONATOR_DETONATE")]
       ACT_SLAM_DETONATOR_DETONATE = 254,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_DETONATOR_HOLSTER", Value=255)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_DETONATOR_HOLSTER")]
       ACT_SLAM_DETONATOR_HOLSTER = 255,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_DETONATOR_STICKWALL_DRAW", Value=256)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_DETONATOR_STICKWALL_DRAW")]
       ACT_SLAM_DETONATOR_STICKWALL_DRAW = 256,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_DETONATOR_THROW_DRAW", Value=257)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SLAM_DETONATOR_THROW_DRAW")]
       ACT_SLAM_DETONATOR_THROW_DRAW = 257,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SHOTGUN_RELOAD_START", Value=258)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SHOTGUN_RELOAD_START")]
       ACT_SHOTGUN_RELOAD_START = 258,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SHOTGUN_RELOAD_FINISH", Value=259)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SHOTGUN_RELOAD_FINISH")]
       ACT_SHOTGUN_RELOAD_FINISH = 259,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SHOTGUN_PUMP", Value=260)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SHOTGUN_PUMP")]
       ACT_SHOTGUN_PUMP = 260,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SMG2_IDLE2", Value=261)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SMG2_IDLE2")]
       ACT_SMG2_IDLE2 = 261,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SMG2_FIRE2", Value=262)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SMG2_FIRE2")]
       ACT_SMG2_FIRE2 = 262,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SMG2_DRAW2", Value=263)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SMG2_DRAW2")]
       ACT_SMG2_DRAW2 = 263,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SMG2_RELOAD2", Value=264)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SMG2_RELOAD2")]
       ACT_SMG2_RELOAD2 = 264,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SMG2_DRYFIRE2", Value=265)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SMG2_DRYFIRE2")]
       ACT_SMG2_DRYFIRE2 = 265,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SMG2_TOAUTO", Value=266)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SMG2_TOAUTO")]
       ACT_SMG2_TOAUTO = 266,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SMG2_TOBURST", Value=267)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_SMG2_TOBURST")]
       ACT_SMG2_TOBURST = 267,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_PHYSCANNON_UPGRADE", Value=268)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_PHYSCANNON_UPGRADE")]
       ACT_PHYSCANNON_UPGRADE = 268,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_AR1", Value=269)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_AR1")]
       ACT_RANGE_ATTACK_AR1 = 269,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_AR2", Value=270)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_AR2")]
       ACT_RANGE_ATTACK_AR2 = 270,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_AR2_LOW", Value=271)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_AR2_LOW")]
       ACT_RANGE_ATTACK_AR2_LOW = 271,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_AR2_GRENADE", Value=272)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_AR2_GRENADE")]
       ACT_RANGE_ATTACK_AR2_GRENADE = 272,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_HMG1", Value=273)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_HMG1")]
       ACT_RANGE_ATTACK_HMG1 = 273,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_ML", Value=274)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_ML")]
       ACT_RANGE_ATTACK_ML = 274,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_SMG1", Value=275)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_SMG1")]
       ACT_RANGE_ATTACK_SMG1 = 275,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_SMG1_LOW", Value=276)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_SMG1_LOW")]
       ACT_RANGE_ATTACK_SMG1_LOW = 276,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_SMG2", Value=277)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_SMG2")]
       ACT_RANGE_ATTACK_SMG2 = 277,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_SHOTGUN", Value=278)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_SHOTGUN")]
       ACT_RANGE_ATTACK_SHOTGUN = 278,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_SHOTGUN_LOW", Value=279)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_SHOTGUN_LOW")]
       ACT_RANGE_ATTACK_SHOTGUN_LOW = 279,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_PISTOL", Value=280)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_PISTOL")]
       ACT_RANGE_ATTACK_PISTOL = 280,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_PISTOL_LOW", Value=281)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_PISTOL_LOW")]
       ACT_RANGE_ATTACK_PISTOL_LOW = 281,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_SLAM", Value=282)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_SLAM")]
       ACT_RANGE_ATTACK_SLAM = 282,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_TRIPWIRE", Value=283)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_TRIPWIRE")]
       ACT_RANGE_ATTACK_TRIPWIRE = 283,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_THROW", Value=284)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_THROW")]
       ACT_RANGE_ATTACK_THROW = 284,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_SNIPER_RIFLE", Value=285)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_SNIPER_RIFLE")]
       ACT_RANGE_ATTACK_SNIPER_RIFLE = 285,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_RPG", Value=286)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_ATTACK_RPG")]
       ACT_RANGE_ATTACK_RPG = 286,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_MELEE_ATTACK_SWING", Value=287)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_MELEE_ATTACK_SWING")]
       ACT_MELEE_ATTACK_SWING = 287,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_AIM_LOW", Value=288)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_AIM_LOW")]
       ACT_RANGE_AIM_LOW = 288,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_AIM_SMG1_LOW", Value=289)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_AIM_SMG1_LOW")]
       ACT_RANGE_AIM_SMG1_LOW = 289,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_AIM_PISTOL_LOW", Value=290)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_AIM_PISTOL_LOW")]
       ACT_RANGE_AIM_PISTOL_LOW = 290,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_AIM_AR2_LOW", Value=291)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RANGE_AIM_AR2_LOW")]
       ACT_RANGE_AIM_AR2_LOW = 291,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_COVER_PISTOL_LOW", Value=292)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_COVER_PISTOL_LOW")]
       ACT_COVER_PISTOL_LOW = 292,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_COVER_SMG1_LOW", Value=293)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_COVER_SMG1_LOW")]
       ACT_COVER_SMG1_LOW = 293,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK_AR1", Value=294)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK_AR1")]
       ACT_GESTURE_RANGE_ATTACK_AR1 = 294,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK_AR2", Value=295)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK_AR2")]
       ACT_GESTURE_RANGE_ATTACK_AR2 = 295,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK_AR2_GRENADE", Value=296)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK_AR2_GRENADE")]
       ACT_GESTURE_RANGE_ATTACK_AR2_GRENADE = 296,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK_HMG1", Value=297)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK_HMG1")]
       ACT_GESTURE_RANGE_ATTACK_HMG1 = 297,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK_ML", Value=298)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK_ML")]
       ACT_GESTURE_RANGE_ATTACK_ML = 298,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK_SMG1", Value=299)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK_SMG1")]
       ACT_GESTURE_RANGE_ATTACK_SMG1 = 299,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK_SMG1_LOW", Value=300)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK_SMG1_LOW")]
       ACT_GESTURE_RANGE_ATTACK_SMG1_LOW = 300,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK_SMG2", Value=301)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK_SMG2")]
       ACT_GESTURE_RANGE_ATTACK_SMG2 = 301,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK_SHOTGUN", Value=302)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK_SHOTGUN")]
       ACT_GESTURE_RANGE_ATTACK_SHOTGUN = 302,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK_PISTOL", Value=303)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK_PISTOL")]
       ACT_GESTURE_RANGE_ATTACK_PISTOL = 303,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK_PISTOL_LOW", Value=304)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK_PISTOL_LOW")]
       ACT_GESTURE_RANGE_ATTACK_PISTOL_LOW = 304,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK_SLAM", Value=305)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK_SLAM")]
       ACT_GESTURE_RANGE_ATTACK_SLAM = 305,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK_TRIPWIRE", Value=306)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK_TRIPWIRE")]
       ACT_GESTURE_RANGE_ATTACK_TRIPWIRE = 306,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK_THROW", Value=307)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK_THROW")]
       ACT_GESTURE_RANGE_ATTACK_THROW = 307,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK_SNIPER_RIFLE", Value=308)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RANGE_ATTACK_SNIPER_RIFLE")]
       ACT_GESTURE_RANGE_ATTACK_SNIPER_RIFLE = 308,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_MELEE_ATTACK_SWING", Value=309)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_MELEE_ATTACK_SWING")]
       ACT_GESTURE_MELEE_ATTACK_SWING = 309,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_RIFLE", Value=310)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_RIFLE")]
       ACT_IDLE_RIFLE = 310,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_SMG1", Value=311)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_SMG1")]
       ACT_IDLE_SMG1 = 311,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_ANGRY_SMG1", Value=312)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_ANGRY_SMG1")]
       ACT_IDLE_ANGRY_SMG1 = 312,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_PISTOL", Value=313)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_PISTOL")]
       ACT_IDLE_PISTOL = 313,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_ANGRY_PISTOL", Value=314)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_ANGRY_PISTOL")]
       ACT_IDLE_ANGRY_PISTOL = 314,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_ANGRY_SHOTGUN", Value=315)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_ANGRY_SHOTGUN")]
       ACT_IDLE_ANGRY_SHOTGUN = 315,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_STEALTH_PISTOL", Value=316)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_STEALTH_PISTOL")]
       ACT_IDLE_STEALTH_PISTOL = 316,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_PACKAGE", Value=317)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_PACKAGE")]
       ACT_IDLE_PACKAGE = 317,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_PACKAGE", Value=318)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_PACKAGE")]
       ACT_WALK_PACKAGE = 318,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_SUITCASE", Value=319)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_SUITCASE")]
       ACT_IDLE_SUITCASE = 319,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_SUITCASE", Value=320)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_SUITCASE")]
       ACT_WALK_SUITCASE = 320,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_SMG1_RELAXED", Value=321)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_SMG1_RELAXED")]
       ACT_IDLE_SMG1_RELAXED = 321,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_SMG1_STIMULATED", Value=322)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_SMG1_STIMULATED")]
       ACT_IDLE_SMG1_STIMULATED = 322,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_RIFLE_RELAXED", Value=323)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_RIFLE_RELAXED")]
       ACT_WALK_RIFLE_RELAXED = 323,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_RIFLE_RELAXED", Value=324)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_RIFLE_RELAXED")]
       ACT_RUN_RIFLE_RELAXED = 324,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_RIFLE_STIMULATED", Value=325)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_RIFLE_STIMULATED")]
       ACT_WALK_RIFLE_STIMULATED = 325,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_RIFLE_STIMULATED", Value=326)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_RIFLE_STIMULATED")]
       ACT_RUN_RIFLE_STIMULATED = 326,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_AIM_RIFLE_STIMULATED", Value=327)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_AIM_RIFLE_STIMULATED")]
       ACT_IDLE_AIM_RIFLE_STIMULATED = 327,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_AIM_RIFLE_STIMULATED", Value=328)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_AIM_RIFLE_STIMULATED")]
       ACT_WALK_AIM_RIFLE_STIMULATED = 328,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_AIM_RIFLE_STIMULATED", Value=329)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_AIM_RIFLE_STIMULATED")]
       ACT_RUN_AIM_RIFLE_STIMULATED = 329,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_SHOTGUN_RELAXED", Value=330)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_SHOTGUN_RELAXED")]
       ACT_IDLE_SHOTGUN_RELAXED = 330,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_SHOTGUN_STIMULATED", Value=331)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_SHOTGUN_STIMULATED")]
       ACT_IDLE_SHOTGUN_STIMULATED = 331,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_SHOTGUN_AGITATED", Value=332)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_SHOTGUN_AGITATED")]
       ACT_IDLE_SHOTGUN_AGITATED = 332,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_ANGRY", Value=333)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_ANGRY")]
       ACT_WALK_ANGRY = 333,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_POLICE_HARASS1", Value=334)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_POLICE_HARASS1")]
       ACT_POLICE_HARASS1 = 334,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_POLICE_HARASS2", Value=335)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_POLICE_HARASS2")]
       ACT_POLICE_HARASS2 = 335,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_MANNEDGUN", Value=336)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_MANNEDGUN")]
       ACT_IDLE_MANNEDGUN = 336,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_MELEE", Value=337)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_MELEE")]
       ACT_IDLE_MELEE = 337,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_ANGRY_MELEE", Value=338)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_ANGRY_MELEE")]
       ACT_IDLE_ANGRY_MELEE = 338,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_RPG_RELAXED", Value=339)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_RPG_RELAXED")]
       ACT_IDLE_RPG_RELAXED = 339,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_RPG", Value=340)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_RPG")]
       ACT_IDLE_RPG = 340,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_ANGRY_RPG", Value=341)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_ANGRY_RPG")]
       ACT_IDLE_ANGRY_RPG = 341,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_COVER_LOW_RPG", Value=342)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_COVER_LOW_RPG")]
       ACT_COVER_LOW_RPG = 342,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_RPG", Value=343)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_RPG")]
       ACT_WALK_RPG = 343,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_RPG", Value=344)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_RPG")]
       ACT_RUN_RPG = 344,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_CROUCH_RPG", Value=345)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_CROUCH_RPG")]
       ACT_WALK_CROUCH_RPG = 345,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_CROUCH_RPG", Value=346)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_CROUCH_RPG")]
       ACT_RUN_CROUCH_RPG = 346,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_RPG_RELAXED", Value=347)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_RPG_RELAXED")]
       ACT_WALK_RPG_RELAXED = 347,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_RPG_RELAXED", Value=348)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_RPG_RELAXED")]
       ACT_RUN_RPG_RELAXED = 348,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_RIFLE", Value=349)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_RIFLE")]
       ACT_WALK_RIFLE = 349,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_AIM_RIFLE", Value=350)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_AIM_RIFLE")]
       ACT_WALK_AIM_RIFLE = 350,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_CROUCH_RIFLE", Value=351)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_CROUCH_RIFLE")]
       ACT_WALK_CROUCH_RIFLE = 351,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_CROUCH_AIM_RIFLE", Value=352)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_CROUCH_AIM_RIFLE")]
       ACT_WALK_CROUCH_AIM_RIFLE = 352,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_RIFLE", Value=353)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_RIFLE")]
       ACT_RUN_RIFLE = 353,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_AIM_RIFLE", Value=354)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_AIM_RIFLE")]
       ACT_RUN_AIM_RIFLE = 354,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_CROUCH_RIFLE", Value=355)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_CROUCH_RIFLE")]
       ACT_RUN_CROUCH_RIFLE = 355,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_CROUCH_AIM_RIFLE", Value=356)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_CROUCH_AIM_RIFLE")]
       ACT_RUN_CROUCH_AIM_RIFLE = 356,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_STEALTH_PISTOL", Value=357)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_STEALTH_PISTOL")]
       ACT_RUN_STEALTH_PISTOL = 357,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_AIM_SHOTGUN", Value=358)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_AIM_SHOTGUN")]
       ACT_WALK_AIM_SHOTGUN = 358,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_AIM_SHOTGUN", Value=359)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_AIM_SHOTGUN")]
       ACT_RUN_AIM_SHOTGUN = 359,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_PISTOL", Value=360)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_PISTOL")]
       ACT_WALK_PISTOL = 360,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_PISTOL", Value=361)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_PISTOL")]
       ACT_RUN_PISTOL = 361,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_AIM_PISTOL", Value=362)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_AIM_PISTOL")]
       ACT_WALK_AIM_PISTOL = 362,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_AIM_PISTOL", Value=363)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_AIM_PISTOL")]
       ACT_RUN_AIM_PISTOL = 363,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_STEALTH_PISTOL", Value=364)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_STEALTH_PISTOL")]
       ACT_WALK_STEALTH_PISTOL = 364,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_AIM_STEALTH_PISTOL", Value=365)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_AIM_STEALTH_PISTOL")]
       ACT_WALK_AIM_STEALTH_PISTOL = 365,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_AIM_STEALTH_PISTOL", Value=366)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RUN_AIM_STEALTH_PISTOL")]
       ACT_RUN_AIM_STEALTH_PISTOL = 366,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RELOAD_PISTOL", Value=367)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RELOAD_PISTOL")]
       ACT_RELOAD_PISTOL = 367,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RELOAD_PISTOL_LOW", Value=368)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RELOAD_PISTOL_LOW")]
       ACT_RELOAD_PISTOL_LOW = 368,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RELOAD_SMG1", Value=369)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RELOAD_SMG1")]
       ACT_RELOAD_SMG1 = 369,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RELOAD_SMG1_LOW", Value=370)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RELOAD_SMG1_LOW")]
       ACT_RELOAD_SMG1_LOW = 370,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RELOAD_SHOTGUN", Value=371)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RELOAD_SHOTGUN")]
       ACT_RELOAD_SHOTGUN = 371,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RELOAD_SHOTGUN_LOW", Value=372)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_RELOAD_SHOTGUN_LOW")]
       ACT_RELOAD_SHOTGUN_LOW = 372,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RELOAD", Value=373)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RELOAD")]
       ACT_GESTURE_RELOAD = 373,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RELOAD_PISTOL", Value=374)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RELOAD_PISTOL")]
       ACT_GESTURE_RELOAD_PISTOL = 374,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RELOAD_SMG1", Value=375)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RELOAD_SMG1")]
       ACT_GESTURE_RELOAD_SMG1 = 375,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RELOAD_SHOTGUN", Value=376)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_RELOAD_SHOTGUN")]
       ACT_GESTURE_RELOAD_SHOTGUN = 376,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BUSY_LEAN_LEFT", Value=377)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BUSY_LEAN_LEFT")]
       ACT_BUSY_LEAN_LEFT = 377,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BUSY_LEAN_LEFT_ENTRY", Value=378)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BUSY_LEAN_LEFT_ENTRY")]
       ACT_BUSY_LEAN_LEFT_ENTRY = 378,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BUSY_LEAN_LEFT_EXIT", Value=379)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BUSY_LEAN_LEFT_EXIT")]
       ACT_BUSY_LEAN_LEFT_EXIT = 379,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BUSY_LEAN_BACK", Value=380)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BUSY_LEAN_BACK")]
       ACT_BUSY_LEAN_BACK = 380,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BUSY_LEAN_BACK_ENTRY", Value=381)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BUSY_LEAN_BACK_ENTRY")]
       ACT_BUSY_LEAN_BACK_ENTRY = 381,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BUSY_LEAN_BACK_EXIT", Value=382)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BUSY_LEAN_BACK_EXIT")]
       ACT_BUSY_LEAN_BACK_EXIT = 382,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BUSY_SIT_GROUND", Value=383)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BUSY_SIT_GROUND")]
       ACT_BUSY_SIT_GROUND = 383,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BUSY_SIT_GROUND_ENTRY", Value=384)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BUSY_SIT_GROUND_ENTRY")]
       ACT_BUSY_SIT_GROUND_ENTRY = 384,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BUSY_SIT_GROUND_EXIT", Value=385)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BUSY_SIT_GROUND_EXIT")]
       ACT_BUSY_SIT_GROUND_EXIT = 385,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BUSY_SIT_CHAIR", Value=386)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BUSY_SIT_CHAIR")]
       ACT_BUSY_SIT_CHAIR = 386,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BUSY_SIT_CHAIR_ENTRY", Value=387)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BUSY_SIT_CHAIR_ENTRY")]
       ACT_BUSY_SIT_CHAIR_ENTRY = 387,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BUSY_SIT_CHAIR_EXIT", Value=388)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BUSY_SIT_CHAIR_EXIT")]
       ACT_BUSY_SIT_CHAIR_EXIT = 388,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BUSY_STAND", Value=389)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BUSY_STAND")]
       ACT_BUSY_STAND = 389,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BUSY_QUEUE", Value=390)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_BUSY_QUEUE")]
       ACT_BUSY_QUEUE = 390,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DUCK_DODGE", Value=391)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DUCK_DODGE")]
       ACT_DUCK_DODGE = 391,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DIE_BARNACLE_SWALLOW", Value=392)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DIE_BARNACLE_SWALLOW")]
       ACT_DIE_BARNACLE_SWALLOW = 392,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_BARNACLE_STRANGLE", Value=393)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_GESTURE_BARNACLE_STRANGLE")]
       ACT_GESTURE_BARNACLE_STRANGLE = 393,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_PHYSCANNON_DETACH", Value=394)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_PHYSCANNON_DETACH")]
       ACT_PHYSCANNON_DETACH = 394,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_PHYSCANNON_ANIMATE", Value=395)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_PHYSCANNON_ANIMATE")]
       ACT_PHYSCANNON_ANIMATE = 395,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_PHYSCANNON_ANIMATE_PRE", Value=396)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_PHYSCANNON_ANIMATE_PRE")]
       ACT_PHYSCANNON_ANIMATE_PRE = 396,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_PHYSCANNON_ANIMATE_POST", Value=397)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_PHYSCANNON_ANIMATE_POST")]
       ACT_PHYSCANNON_ANIMATE_POST = 397,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DIE_FRONTSIDE", Value=398)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DIE_FRONTSIDE")]
       ACT_DIE_FRONTSIDE = 398,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DIE_RIGHTSIDE", Value=399)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DIE_RIGHTSIDE")]
       ACT_DIE_RIGHTSIDE = 399,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DIE_BACKSIDE", Value=400)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DIE_BACKSIDE")]
       ACT_DIE_BACKSIDE = 400,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DIE_LEFTSIDE", Value=401)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DIE_LEFTSIDE")]
       ACT_DIE_LEFTSIDE = 401,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_OPEN_DOOR", Value=402)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_OPEN_DOOR")]
       ACT_OPEN_DOOR = 402,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DI_ALYX_ZOMBIE_MELEE", Value=403)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DI_ALYX_ZOMBIE_MELEE")]
       ACT_DI_ALYX_ZOMBIE_MELEE = 403,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DI_ALYX_ZOMBIE_TORSO_MELEE", Value=404)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DI_ALYX_ZOMBIE_TORSO_MELEE")]
       ACT_DI_ALYX_ZOMBIE_TORSO_MELEE = 404,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DI_ALYX_HEADCRAB_MELEE", Value=405)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DI_ALYX_HEADCRAB_MELEE")]
       ACT_DI_ALYX_HEADCRAB_MELEE = 405,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DI_ALYX_ANTLION", Value=406)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DI_ALYX_ANTLION")]
       ACT_DI_ALYX_ANTLION = 406,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DI_ALYX_ZOMBIE_SHOTGUN64", Value=407)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DI_ALYX_ZOMBIE_SHOTGUN64")]
       ACT_DI_ALYX_ZOMBIE_SHOTGUN64 = 407,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DI_ALYX_ZOMBIE_SHOTGUN26", Value=408)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DI_ALYX_ZOMBIE_SHOTGUN26")]
       ACT_DI_ALYX_ZOMBIE_SHOTGUN26 = 408,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_READINESS_RELAXED_TO_STIMULATED", Value=409)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_READINESS_RELAXED_TO_STIMULATED")]
       ACT_READINESS_RELAXED_TO_STIMULATED = 409,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_READINESS_RELAXED_TO_STIMULATED_WALK", Value=410)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_READINESS_RELAXED_TO_STIMULATED_WALK")]
       ACT_READINESS_RELAXED_TO_STIMULATED_WALK = 410,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_READINESS_AGITATED_TO_STIMULATED", Value=411)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_READINESS_AGITATED_TO_STIMULATED")]
       ACT_READINESS_AGITATED_TO_STIMULATED = 411,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_READINESS_STIMULATED_TO_RELAXED", Value=412)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_READINESS_STIMULATED_TO_RELAXED")]
       ACT_READINESS_STIMULATED_TO_RELAXED = 412,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_READINESS_PISTOL_RELAXED_TO_STIMULATED", Value=413)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_READINESS_PISTOL_RELAXED_TO_STIMULATED")]
       ACT_READINESS_PISTOL_RELAXED_TO_STIMULATED = 413,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_READINESS_PISTOL_RELAXED_TO_STIMULATED_WALK", Value=414)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_READINESS_PISTOL_RELAXED_TO_STIMULATED_WALK")]
       ACT_READINESS_PISTOL_RELAXED_TO_STIMULATED_WALK = 414,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_READINESS_PISTOL_AGITATED_TO_STIMULATED", Value=415)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_READINESS_PISTOL_AGITATED_TO_STIMULATED")]
       ACT_READINESS_PISTOL_AGITATED_TO_STIMULATED = 415,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_READINESS_PISTOL_STIMULATED_TO_RELAXED", Value=416)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_READINESS_PISTOL_STIMULATED_TO_RELAXED")]
       ACT_READINESS_PISTOL_STIMULATED_TO_RELAXED = 416,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_CARRY", Value=417)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_IDLE_CARRY")]
       ACT_IDLE_CARRY = 417,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_CARRY", Value=418)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WALK_CARRY")]
       ACT_WALK_CARRY = 418,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_IDLE", Value=419)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_IDLE")]
       ACT_DOTA_IDLE = 419,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_IDLE_RARE", Value=421)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_IDLE_RARE")]
       ACT_DOTA_IDLE_RARE = 421,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_RUN", Value=422)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_RUN")]
       ACT_DOTA_RUN = 422,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ATTACK", Value=424)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ATTACK")]
       ACT_DOTA_ATTACK = 424,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ATTACK2", Value=425)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ATTACK2")]
       ACT_DOTA_ATTACK2 = 425,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ATTACK_EVENT", Value=426)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ATTACK_EVENT")]
       ACT_DOTA_ATTACK_EVENT = 426,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_DIE", Value=427)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_DIE")]
       ACT_DOTA_DIE = 427,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_FLINCH", Value=428)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_FLINCH")]
       ACT_DOTA_FLINCH = 428,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_FLAIL", Value=429)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_FLAIL")]
       ACT_DOTA_FLAIL = 429,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_DISABLED", Value=430)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_DISABLED")]
       ACT_DOTA_DISABLED = 430,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_ABILITY_1", Value=431)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_ABILITY_1")]
       ACT_DOTA_CAST_ABILITY_1 = 431,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_ABILITY_2", Value=432)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_ABILITY_2")]
       ACT_DOTA_CAST_ABILITY_2 = 432,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_ABILITY_3", Value=433)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_ABILITY_3")]
       ACT_DOTA_CAST_ABILITY_3 = 433,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_ABILITY_4", Value=434)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_ABILITY_4")]
       ACT_DOTA_CAST_ABILITY_4 = 434,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_ABILITY_5", Value=435)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_ABILITY_5")]
       ACT_DOTA_CAST_ABILITY_5 = 435,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_ABILITY_6", Value=436)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_ABILITY_6")]
       ACT_DOTA_CAST_ABILITY_6 = 436,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_OVERRIDE_ABILITY_1", Value=437)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_OVERRIDE_ABILITY_1")]
       ACT_DOTA_OVERRIDE_ABILITY_1 = 437,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_OVERRIDE_ABILITY_2", Value=438)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_OVERRIDE_ABILITY_2")]
       ACT_DOTA_OVERRIDE_ABILITY_2 = 438,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_OVERRIDE_ABILITY_3", Value=439)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_OVERRIDE_ABILITY_3")]
       ACT_DOTA_OVERRIDE_ABILITY_3 = 439,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_OVERRIDE_ABILITY_4", Value=440)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_OVERRIDE_ABILITY_4")]
       ACT_DOTA_OVERRIDE_ABILITY_4 = 440,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CHANNEL_ABILITY_1", Value=441)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CHANNEL_ABILITY_1")]
       ACT_DOTA_CHANNEL_ABILITY_1 = 441,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CHANNEL_ABILITY_2", Value=442)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CHANNEL_ABILITY_2")]
       ACT_DOTA_CHANNEL_ABILITY_2 = 442,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CHANNEL_ABILITY_3", Value=443)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CHANNEL_ABILITY_3")]
       ACT_DOTA_CHANNEL_ABILITY_3 = 443,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CHANNEL_ABILITY_4", Value=444)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CHANNEL_ABILITY_4")]
       ACT_DOTA_CHANNEL_ABILITY_4 = 444,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CHANNEL_ABILITY_5", Value=445)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CHANNEL_ABILITY_5")]
       ACT_DOTA_CHANNEL_ABILITY_5 = 445,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CHANNEL_ABILITY_6", Value=446)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CHANNEL_ABILITY_6")]
       ACT_DOTA_CHANNEL_ABILITY_6 = 446,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CHANNEL_END_ABILITY_1", Value=447)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CHANNEL_END_ABILITY_1")]
       ACT_DOTA_CHANNEL_END_ABILITY_1 = 447,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CHANNEL_END_ABILITY_2", Value=448)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CHANNEL_END_ABILITY_2")]
       ACT_DOTA_CHANNEL_END_ABILITY_2 = 448,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CHANNEL_END_ABILITY_3", Value=449)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CHANNEL_END_ABILITY_3")]
       ACT_DOTA_CHANNEL_END_ABILITY_3 = 449,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CHANNEL_END_ABILITY_4", Value=450)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CHANNEL_END_ABILITY_4")]
       ACT_DOTA_CHANNEL_END_ABILITY_4 = 450,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CHANNEL_END_ABILITY_5", Value=451)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CHANNEL_END_ABILITY_5")]
       ACT_DOTA_CHANNEL_END_ABILITY_5 = 451,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CHANNEL_END_ABILITY_6", Value=452)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CHANNEL_END_ABILITY_6")]
       ACT_DOTA_CHANNEL_END_ABILITY_6 = 452,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CONSTANT_LAYER", Value=453)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CONSTANT_LAYER")]
       ACT_DOTA_CONSTANT_LAYER = 453,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAPTURE", Value=454)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAPTURE")]
       ACT_DOTA_CAPTURE = 454,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_SPAWN", Value=455)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_SPAWN")]
       ACT_DOTA_SPAWN = 455,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_KILLTAUNT", Value=456)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_KILLTAUNT")]
       ACT_DOTA_KILLTAUNT = 456,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_TAUNT", Value=457)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_TAUNT")]
       ACT_DOTA_TAUNT = 457,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_THIRST", Value=458)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_THIRST")]
       ACT_DOTA_THIRST = 458,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_DRAGONBREATH", Value=459)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_DRAGONBREATH")]
       ACT_DOTA_CAST_DRAGONBREATH = 459,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ECHO_SLAM", Value=460)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ECHO_SLAM")]
       ACT_DOTA_ECHO_SLAM = 460,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_ABILITY_1_END", Value=461)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_ABILITY_1_END")]
       ACT_DOTA_CAST_ABILITY_1_END = 461,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_ABILITY_2_END", Value=462)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_ABILITY_2_END")]
       ACT_DOTA_CAST_ABILITY_2_END = 462,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_ABILITY_3_END", Value=463)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_ABILITY_3_END")]
       ACT_DOTA_CAST_ABILITY_3_END = 463,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_ABILITY_4_END", Value=464)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_ABILITY_4_END")]
       ACT_DOTA_CAST_ABILITY_4_END = 464,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_MIRANA_LEAP_END", Value=465)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_MIRANA_LEAP_END")]
       ACT_MIRANA_LEAP_END = 465,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WAVEFORM_START", Value=466)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WAVEFORM_START")]
       ACT_WAVEFORM_START = 466,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WAVEFORM_END", Value=467)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_WAVEFORM_END")]
       ACT_WAVEFORM_END = 467,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_ABILITY_ROT", Value=468)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_ABILITY_ROT")]
       ACT_DOTA_CAST_ABILITY_ROT = 468,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_DIE_SPECIAL", Value=469)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_DIE_SPECIAL")]
       ACT_DOTA_DIE_SPECIAL = 469,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_RATTLETRAP_BATTERYASSAULT", Value=470)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_RATTLETRAP_BATTERYASSAULT")]
       ACT_DOTA_RATTLETRAP_BATTERYASSAULT = 470,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_RATTLETRAP_POWERCOGS", Value=471)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_RATTLETRAP_POWERCOGS")]
       ACT_DOTA_RATTLETRAP_POWERCOGS = 471,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_RATTLETRAP_HOOKSHOT_START", Value=472)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_RATTLETRAP_HOOKSHOT_START")]
       ACT_DOTA_RATTLETRAP_HOOKSHOT_START = 472,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_RATTLETRAP_HOOKSHOT_LOOP", Value=473)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_RATTLETRAP_HOOKSHOT_LOOP")]
       ACT_DOTA_RATTLETRAP_HOOKSHOT_LOOP = 473,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_RATTLETRAP_HOOKSHOT_END", Value=474)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_RATTLETRAP_HOOKSHOT_END")]
       ACT_DOTA_RATTLETRAP_HOOKSHOT_END = 474,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_STORM_SPIRIT_OVERLOAD_RUN_OVERRIDE", Value=475)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_STORM_SPIRIT_OVERLOAD_RUN_OVERRIDE")]
       ACT_STORM_SPIRIT_OVERLOAD_RUN_OVERRIDE = 475,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_TINKER_REARM1", Value=476)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_TINKER_REARM1")]
       ACT_DOTA_TINKER_REARM1 = 476,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_TINKER_REARM2", Value=477)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_TINKER_REARM2")]
       ACT_DOTA_TINKER_REARM2 = 477,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_TINKER_REARM3", Value=478)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_TINKER_REARM3")]
       ACT_DOTA_TINKER_REARM3 = 478,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_TINY_AVALANCHE", Value=479)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_TINY_AVALANCHE")]
       ACT_TINY_AVALANCHE = 479,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_TINY_TOSS", Value=480)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_TINY_TOSS")]
       ACT_TINY_TOSS = 480,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_TINY_GROWL", Value=481)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_TINY_GROWL")]
       ACT_TINY_GROWL = 481,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_WEAVERBUG_ATTACH", Value=482)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_WEAVERBUG_ATTACH")]
       ACT_DOTA_WEAVERBUG_ATTACH = 482,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_WILD_AXES_END", Value=483)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_WILD_AXES_END")]
       ACT_DOTA_CAST_WILD_AXES_END = 483,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_LIFE_BREAK_START", Value=484)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_LIFE_BREAK_START")]
       ACT_DOTA_CAST_LIFE_BREAK_START = 484,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_LIFE_BREAK_END", Value=485)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_LIFE_BREAK_END")]
       ACT_DOTA_CAST_LIFE_BREAK_END = 485,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_NIGHTSTALKER_TRANSITION", Value=486)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_NIGHTSTALKER_TRANSITION")]
       ACT_DOTA_NIGHTSTALKER_TRANSITION = 486,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_LIFESTEALER_RAGE", Value=487)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_LIFESTEALER_RAGE")]
       ACT_DOTA_LIFESTEALER_RAGE = 487,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_LIFESTEALER_OPEN_WOUNDS", Value=488)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_LIFESTEALER_OPEN_WOUNDS")]
       ACT_DOTA_LIFESTEALER_OPEN_WOUNDS = 488,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_SAND_KING_BURROW_IN", Value=489)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_SAND_KING_BURROW_IN")]
       ACT_DOTA_SAND_KING_BURROW_IN = 489,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_SAND_KING_BURROW_OUT", Value=490)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_SAND_KING_BURROW_OUT")]
       ACT_DOTA_SAND_KING_BURROW_OUT = 490,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_EARTHSHAKER_TOTEM_ATTACK", Value=491)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_EARTHSHAKER_TOTEM_ATTACK")]
       ACT_DOTA_EARTHSHAKER_TOTEM_ATTACK = 491,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_WHEEL_LAYER", Value=492)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_WHEEL_LAYER")]
       ACT_DOTA_WHEEL_LAYER = 492,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ALCHEMIST_CHEMICAL_RAGE_START", Value=493)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ALCHEMIST_CHEMICAL_RAGE_START")]
       ACT_DOTA_ALCHEMIST_CHEMICAL_RAGE_START = 493,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ALCHEMIST_CONCOCTION", Value=494)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ALCHEMIST_CONCOCTION")]
       ACT_DOTA_ALCHEMIST_CONCOCTION = 494,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_JAKIRO_LIQUIDFIRE_START", Value=495)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_JAKIRO_LIQUIDFIRE_START")]
       ACT_DOTA_JAKIRO_LIQUIDFIRE_START = 495,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_JAKIRO_LIQUIDFIRE_LOOP", Value=496)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_JAKIRO_LIQUIDFIRE_LOOP")]
       ACT_DOTA_JAKIRO_LIQUIDFIRE_LOOP = 496,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_LIFESTEALER_INFEST", Value=497)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_LIFESTEALER_INFEST")]
       ACT_DOTA_LIFESTEALER_INFEST = 497,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_LIFESTEALER_INFEST_END", Value=498)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_LIFESTEALER_INFEST_END")]
       ACT_DOTA_LIFESTEALER_INFEST_END = 498,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_LASSO_LOOP", Value=499)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_LASSO_LOOP")]
       ACT_DOTA_LASSO_LOOP = 499,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ALCHEMIST_CONCOCTION_THROW", Value=500)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ALCHEMIST_CONCOCTION_THROW")]
       ACT_DOTA_ALCHEMIST_CONCOCTION_THROW = 500,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ALCHEMIST_CHEMICAL_RAGE_END", Value=501)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ALCHEMIST_CHEMICAL_RAGE_END")]
       ACT_DOTA_ALCHEMIST_CHEMICAL_RAGE_END = 501,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_COLD_SNAP", Value=502)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_COLD_SNAP")]
       ACT_DOTA_CAST_COLD_SNAP = 502,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_GHOST_WALK", Value=503)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_GHOST_WALK")]
       ACT_DOTA_CAST_GHOST_WALK = 503,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_TORNADO", Value=504)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_TORNADO")]
       ACT_DOTA_CAST_TORNADO = 504,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_EMP", Value=505)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_EMP")]
       ACT_DOTA_CAST_EMP = 505,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_ALACRITY", Value=506)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_ALACRITY")]
       ACT_DOTA_CAST_ALACRITY = 506,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_CHAOS_METEOR", Value=507)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_CHAOS_METEOR")]
       ACT_DOTA_CAST_CHAOS_METEOR = 507,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_SUN_STRIKE", Value=508)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_SUN_STRIKE")]
       ACT_DOTA_CAST_SUN_STRIKE = 508,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_FORGE_SPIRIT", Value=509)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_FORGE_SPIRIT")]
       ACT_DOTA_CAST_FORGE_SPIRIT = 509,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_ICE_WALL", Value=510)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_ICE_WALL")]
       ACT_DOTA_CAST_ICE_WALL = 510,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_DEAFENING_BLAST", Value=511)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_DEAFENING_BLAST")]
       ACT_DOTA_CAST_DEAFENING_BLAST = 511,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_VICTORY", Value=512)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_VICTORY")]
       ACT_DOTA_VICTORY = 512,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_DEFEAT", Value=513)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_DEFEAT")]
       ACT_DOTA_DEFEAT = 513,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_SPIRIT_BREAKER_CHARGE_POSE", Value=514)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_SPIRIT_BREAKER_CHARGE_POSE")]
       ACT_DOTA_SPIRIT_BREAKER_CHARGE_POSE = 514,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_SPIRIT_BREAKER_CHARGE_END", Value=515)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_SPIRIT_BREAKER_CHARGE_END")]
       ACT_DOTA_SPIRIT_BREAKER_CHARGE_END = 515,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_TELEPORT", Value=516)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_TELEPORT")]
       ACT_DOTA_TELEPORT = 516,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_TELEPORT_END", Value=517)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_TELEPORT_END")]
       ACT_DOTA_TELEPORT_END = 517,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_REFRACTION", Value=518)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_REFRACTION")]
       ACT_DOTA_CAST_REFRACTION = 518,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_ABILITY_7", Value=519)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_ABILITY_7")]
       ACT_DOTA_CAST_ABILITY_7 = 519,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CANCEL_SIREN_SONG", Value=520)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CANCEL_SIREN_SONG")]
       ACT_DOTA_CANCEL_SIREN_SONG = 520,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CHANNEL_ABILITY_7", Value=521)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CHANNEL_ABILITY_7")]
       ACT_DOTA_CHANNEL_ABILITY_7 = 521,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_LOADOUT", Value=522)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_LOADOUT")]
       ACT_DOTA_LOADOUT = 522,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_FORCESTAFF_END", Value=523)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_FORCESTAFF_END")]
       ACT_DOTA_FORCESTAFF_END = 523,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_POOF_END", Value=524)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_POOF_END")]
       ACT_DOTA_POOF_END = 524,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_SLARK_POUNCE", Value=525)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_SLARK_POUNCE")]
       ACT_DOTA_SLARK_POUNCE = 525,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_MAGNUS_SKEWER_START", Value=526)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_MAGNUS_SKEWER_START")]
       ACT_DOTA_MAGNUS_SKEWER_START = 526,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_MAGNUS_SKEWER_END", Value=527)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_MAGNUS_SKEWER_END")]
       ACT_DOTA_MAGNUS_SKEWER_END = 527,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_MEDUSA_STONE_GAZE", Value=528)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_MEDUSA_STONE_GAZE")]
       ACT_DOTA_MEDUSA_STONE_GAZE = 528,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_RELAX_START", Value=529)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_RELAX_START")]
       ACT_DOTA_RELAX_START = 529,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_RELAX_LOOP", Value=530)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_RELAX_LOOP")]
       ACT_DOTA_RELAX_LOOP = 530,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_RELAX_END", Value=531)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_RELAX_END")]
       ACT_DOTA_RELAX_END = 531,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CENTAUR_STAMPEDE", Value=532)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CENTAUR_STAMPEDE")]
       ACT_DOTA_CENTAUR_STAMPEDE = 532,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_BELLYACHE_START", Value=533)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_BELLYACHE_START")]
       ACT_DOTA_BELLYACHE_START = 533,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_BELLYACHE_LOOP", Value=534)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_BELLYACHE_LOOP")]
       ACT_DOTA_BELLYACHE_LOOP = 534,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_BELLYACHE_END", Value=535)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_BELLYACHE_END")]
       ACT_DOTA_BELLYACHE_END = 535,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ROQUELAIRE_LAND", Value=536)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ROQUELAIRE_LAND")]
       ACT_DOTA_ROQUELAIRE_LAND = 536,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ROQUELAIRE_LAND_IDLE", Value=537)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ROQUELAIRE_LAND_IDLE")]
       ACT_DOTA_ROQUELAIRE_LAND_IDLE = 537,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_GREEVIL_CAST", Value=538)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_GREEVIL_CAST")]
       ACT_DOTA_GREEVIL_CAST = 538,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_GREEVIL_OVERRIDE_ABILITY", Value=539)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_GREEVIL_OVERRIDE_ABILITY")]
       ACT_DOTA_GREEVIL_OVERRIDE_ABILITY = 539,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_GREEVIL_HOOK_START", Value=540)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_GREEVIL_HOOK_START")]
       ACT_DOTA_GREEVIL_HOOK_START = 540,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_GREEVIL_HOOK_END", Value=541)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_GREEVIL_HOOK_END")]
       ACT_DOTA_GREEVIL_HOOK_END = 541,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_GREEVIL_BLINK_BONE", Value=542)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_GREEVIL_BLINK_BONE")]
       ACT_DOTA_GREEVIL_BLINK_BONE = 542,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_IDLE_SLEEPING", Value=543)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_IDLE_SLEEPING")]
       ACT_DOTA_IDLE_SLEEPING = 543,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_INTRO", Value=544)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_INTRO")]
       ACT_DOTA_INTRO = 544,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_GESTURE_POINT", Value=545)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_GESTURE_POINT")]
       ACT_DOTA_GESTURE_POINT = 545,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_GESTURE_ACCENT", Value=546)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_GESTURE_ACCENT")]
       ACT_DOTA_GESTURE_ACCENT = 546,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_SLEEPING_END", Value=547)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_SLEEPING_END")]
       ACT_DOTA_SLEEPING_END = 547,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_AMBUSH", Value=548)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_AMBUSH")]
       ACT_DOTA_AMBUSH = 548,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ITEM_LOOK", Value=549)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ITEM_LOOK")]
       ACT_DOTA_ITEM_LOOK = 549,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_STARTLE", Value=550)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_STARTLE")]
       ACT_DOTA_STARTLE = 550,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_FRUSTRATION", Value=551)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_FRUSTRATION")]
       ACT_DOTA_FRUSTRATION = 551,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_TELEPORT_REACT", Value=552)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_TELEPORT_REACT")]
       ACT_DOTA_TELEPORT_REACT = 552,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_TELEPORT_END_REACT", Value=553)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_TELEPORT_END_REACT")]
       ACT_DOTA_TELEPORT_END_REACT = 553,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_SHRUG", Value=554)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_SHRUG")]
       ACT_DOTA_SHRUG = 554,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_RELAX_LOOP_END", Value=555)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_RELAX_LOOP_END")]
       ACT_DOTA_RELAX_LOOP_END = 555,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_PRESENT_ITEM", Value=556)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_PRESENT_ITEM")]
       ACT_DOTA_PRESENT_ITEM = 556,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_IDLE_IMPATIENT", Value=557)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_IDLE_IMPATIENT")]
       ACT_DOTA_IDLE_IMPATIENT = 557,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_SHARPEN_WEAPON", Value=558)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_SHARPEN_WEAPON")]
       ACT_DOTA_SHARPEN_WEAPON = 558,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_SHARPEN_WEAPON_OUT", Value=559)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_SHARPEN_WEAPON_OUT")]
       ACT_DOTA_SHARPEN_WEAPON_OUT = 559,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_IDLE_SLEEPING_END", Value=560)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_IDLE_SLEEPING_END")]
       ACT_DOTA_IDLE_SLEEPING_END = 560,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_BRIDGE_DESTROY", Value=561)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_BRIDGE_DESTROY")]
       ACT_DOTA_BRIDGE_DESTROY = 561,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_TAUNT_SNIPER", Value=562)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_TAUNT_SNIPER")]
       ACT_DOTA_TAUNT_SNIPER = 562,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_DEATH_BY_SNIPER", Value=563)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_DEATH_BY_SNIPER")]
       ACT_DOTA_DEATH_BY_SNIPER = 563,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_LOOK_AROUND", Value=564)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_LOOK_AROUND")]
       ACT_DOTA_LOOK_AROUND = 564,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAGED_CREEP_RAGE", Value=565)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAGED_CREEP_RAGE")]
       ACT_DOTA_CAGED_CREEP_RAGE = 565,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAGED_CREEP_RAGE_OUT", Value=566)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAGED_CREEP_RAGE_OUT")]
       ACT_DOTA_CAGED_CREEP_RAGE_OUT = 566,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAGED_CREEP_SMASH", Value=567)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAGED_CREEP_SMASH")]
       ACT_DOTA_CAGED_CREEP_SMASH = 567,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAGED_CREEP_SMASH_OUT", Value=568)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAGED_CREEP_SMASH_OUT")]
       ACT_DOTA_CAGED_CREEP_SMASH_OUT = 568,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_IDLE_IMPATIENT_SWORD_TAP", Value=569)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_IDLE_IMPATIENT_SWORD_TAP")]
       ACT_DOTA_IDLE_IMPATIENT_SWORD_TAP = 569,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_INTRO_LOOP", Value=570)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_INTRO_LOOP")]
       ACT_DOTA_INTRO_LOOP = 570,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_BRIDGE_THREAT", Value=571)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_BRIDGE_THREAT")]
       ACT_DOTA_BRIDGE_THREAT = 571,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_DAGON", Value=572)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_DAGON")]
       ACT_DOTA_DAGON = 572,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_ABILITY_2_ES_ROLL_START", Value=573)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_ABILITY_2_ES_ROLL_START")]
       ACT_DOTA_CAST_ABILITY_2_ES_ROLL_START = 573,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_ABILITY_2_ES_ROLL", Value=574)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_ABILITY_2_ES_ROLL")]
       ACT_DOTA_CAST_ABILITY_2_ES_ROLL = 574,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_ABILITY_2_ES_ROLL_END", Value=575)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_ABILITY_2_ES_ROLL_END")]
       ACT_DOTA_CAST_ABILITY_2_ES_ROLL_END = 575,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_NIAN_PIN_START", Value=576)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_NIAN_PIN_START")]
       ACT_DOTA_NIAN_PIN_START = 576,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_NIAN_PIN_LOOP", Value=577)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_NIAN_PIN_LOOP")]
       ACT_DOTA_NIAN_PIN_LOOP = 577,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_NIAN_PIN_END", Value=578)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_NIAN_PIN_END")]
       ACT_DOTA_NIAN_PIN_END = 578,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_LEAP_STUN", Value=579)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_LEAP_STUN")]
       ACT_DOTA_LEAP_STUN = 579,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_LEAP_SWIPE", Value=580)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_LEAP_SWIPE")]
       ACT_DOTA_LEAP_SWIPE = 580,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_NIAN_INTRO_LEAP", Value=581)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_NIAN_INTRO_LEAP")]
       ACT_DOTA_NIAN_INTRO_LEAP = 581,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_AREA_DENY", Value=582)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_AREA_DENY")]
       ACT_DOTA_AREA_DENY = 582,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_NIAN_PIN_TO_STUN", Value=583)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_NIAN_PIN_TO_STUN")]
       ACT_DOTA_NIAN_PIN_TO_STUN = 583,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_RAZE_1", Value=584)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_RAZE_1")]
       ACT_DOTA_RAZE_1 = 584,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_RAZE_2", Value=585)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_RAZE_2")]
       ACT_DOTA_RAZE_2 = 585,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_RAZE_3", Value=586)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_RAZE_3")]
       ACT_DOTA_RAZE_3 = 586,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_UNDYING_DECAY", Value=587)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_UNDYING_DECAY")]
       ACT_DOTA_UNDYING_DECAY = 587,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_UNDYING_SOUL_RIP", Value=588)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_UNDYING_SOUL_RIP")]
       ACT_DOTA_UNDYING_SOUL_RIP = 588,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_UNDYING_TOMBSTONE", Value=589)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_UNDYING_TOMBSTONE")]
       ACT_DOTA_UNDYING_TOMBSTONE = 589,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_WHIRLING_AXES_RANGED", Value=590)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_WHIRLING_AXES_RANGED")]
       ACT_DOTA_WHIRLING_AXES_RANGED = 590,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_SHALLOW_GRAVE", Value=591)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_SHALLOW_GRAVE")]
       ACT_DOTA_SHALLOW_GRAVE = 591,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_COLD_FEET", Value=592)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_COLD_FEET")]
       ACT_DOTA_COLD_FEET = 592,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ICE_VORTEX", Value=593)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ICE_VORTEX")]
       ACT_DOTA_ICE_VORTEX = 593,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CHILLING_TOUCH", Value=594)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CHILLING_TOUCH")]
       ACT_DOTA_CHILLING_TOUCH = 594,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ENFEEBLE", Value=595)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ENFEEBLE")]
       ACT_DOTA_ENFEEBLE = 595,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_FATAL_BONDS", Value=596)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_FATAL_BONDS")]
       ACT_DOTA_FATAL_BONDS = 596,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_MIDNIGHT_PULSE", Value=597)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_MIDNIGHT_PULSE")]
       ACT_DOTA_MIDNIGHT_PULSE = 597,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ANCESTRAL_SPIRIT", Value=598)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ANCESTRAL_SPIRIT")]
       ACT_DOTA_ANCESTRAL_SPIRIT = 598,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_THUNDER_STRIKE", Value=599)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_THUNDER_STRIKE")]
       ACT_DOTA_THUNDER_STRIKE = 599,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_KINETIC_FIELD", Value=600)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_KINETIC_FIELD")]
       ACT_DOTA_KINETIC_FIELD = 600,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_STATIC_STORM", Value=601)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_STATIC_STORM")]
       ACT_DOTA_STATIC_STORM = 601,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_MINI_TAUNT", Value=602)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_MINI_TAUNT")]
       ACT_DOTA_MINI_TAUNT = 602,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ARCTIC_BURN_END", Value=603)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ARCTIC_BURN_END")]
       ACT_DOTA_ARCTIC_BURN_END = 603,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_LOADOUT_RARE", Value=604)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_LOADOUT_RARE")]
       ACT_DOTA_LOADOUT_RARE = 604,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_SWIM", Value=605)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_SWIM")]
       ACT_DOTA_SWIM = 605,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_FLEE", Value=606)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_FLEE")]
       ACT_DOTA_FLEE = 606,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_TROT", Value=607)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_TROT")]
       ACT_DOTA_TROT = 607,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_SHAKE", Value=608)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_SHAKE")]
       ACT_DOTA_SHAKE = 608,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_SWIM_IDLE", Value=609)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_SWIM_IDLE")]
       ACT_DOTA_SWIM_IDLE = 609,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_WAIT_IDLE", Value=610)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_WAIT_IDLE")]
       ACT_DOTA_WAIT_IDLE = 610,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_GREET", Value=611)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_GREET")]
       ACT_DOTA_GREET = 611,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_TELEPORT_COOP_START", Value=612)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_TELEPORT_COOP_START")]
       ACT_DOTA_TELEPORT_COOP_START = 612,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_TELEPORT_COOP_WAIT", Value=613)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_TELEPORT_COOP_WAIT")]
       ACT_DOTA_TELEPORT_COOP_WAIT = 613,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_TELEPORT_COOP_END", Value=614)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_TELEPORT_COOP_END")]
       ACT_DOTA_TELEPORT_COOP_END = 614,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_TELEPORT_COOP_EXIT", Value=615)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_TELEPORT_COOP_EXIT")]
       ACT_DOTA_TELEPORT_COOP_EXIT = 615,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_SHOPKEEPER_PET_INTERACT", Value=616)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_SHOPKEEPER_PET_INTERACT")]
       ACT_DOTA_SHOPKEEPER_PET_INTERACT = 616,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ITEM_PICKUP", Value=617)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ITEM_PICKUP")]
       ACT_DOTA_ITEM_PICKUP = 617,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ITEM_DROP", Value=618)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ITEM_DROP")]
       ACT_DOTA_ITEM_DROP = 618,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAPTURE_PET", Value=619)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAPTURE_PET")]
       ACT_DOTA_CAPTURE_PET = 619,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_PET_WARD_OBSERVER", Value=620)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_PET_WARD_OBSERVER")]
       ACT_DOTA_PET_WARD_OBSERVER = 620,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_PET_WARD_SENTRY", Value=621)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_PET_WARD_SENTRY")]
       ACT_DOTA_PET_WARD_SENTRY = 621,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_PET_LEVEL", Value=622)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_PET_LEVEL")]
       ACT_DOTA_PET_LEVEL = 622,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_BURROW_END", Value=623)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAST_BURROW_END")]
       ACT_DOTA_CAST_BURROW_END = 623,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_LIFESTEALER_ASSIMILATE", Value=624)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_LIFESTEALER_ASSIMILATE")]
       ACT_DOTA_LIFESTEALER_ASSIMILATE = 624,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_LIFESTEALER_EJECT", Value=625)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_LIFESTEALER_EJECT")]
       ACT_DOTA_LIFESTEALER_EJECT = 625,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ATTACK_EVENT_BASH", Value=626)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_ATTACK_EVENT_BASH")]
       ACT_DOTA_ATTACK_EVENT_BASH = 626,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAPTURE_RARE", Value=627)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ACT_DOTA_CAPTURE_RARE")]
       ACT_DOTA_CAPTURE_RARE = 627
     }
   

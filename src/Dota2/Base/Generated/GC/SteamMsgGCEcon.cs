@@ -619,14 +619,14 @@ namespace Dota2.GC.Dota.Internal
       get { return _peek_item_def; }
       set { _peek_item_def = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_Succeeded", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_Succeeded")]
       k_Succeeded = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_Failed", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_Failed")]
       k_Failed = 1
     }
   
@@ -1458,20 +1458,20 @@ namespace Dota2.GC.Dota.Internal
       get { return _item_id; }
       set { _item_id = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"EResultCode", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResultCode")]
     public enum EResultCode
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_Succeeded", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_Succeeded")]
       k_Succeeded = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_Failed_CodeNotFound", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_Failed_CodeNotFound")]
       k_Failed_CodeNotFound = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_Failed_CodeAlreadyUsed", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_Failed_CodeAlreadyUsed")]
       k_Failed_CodeAlreadyUsed = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_Failed_OtherError", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_Failed_OtherError")]
       k_Failed_OtherError = 3
     }
   
@@ -1838,29 +1838,29 @@ namespace Dota2.GC.Dota.Internal
       get { return _response; }
       set { _response = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"EUnpackBundle", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EUnpackBundle")]
     public enum EUnpackBundle
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_UnpackBundle_Succeeded", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_UnpackBundle_Succeeded")]
       k_UnpackBundle_Succeeded = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_UnpackBundle_Failed_ItemIsNotBundle", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_UnpackBundle_Failed_ItemIsNotBundle")]
       k_UnpackBundle_Failed_ItemIsNotBundle = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_UnpackBundle_Failed_UnableToCreateContainedItem", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_UnpackBundle_Failed_UnableToCreateContainedItem")]
       k_UnpackBundle_Failed_UnableToCreateContainedItem = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_UnpackBundle_Failed_SOCacheError", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_UnpackBundle_Failed_SOCacheError")]
       k_UnpackBundle_Failed_SOCacheError = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_UnpackBundle_Failed_ItemIsInvalid", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_UnpackBundle_Failed_ItemIsInvalid")]
       k_UnpackBundle_Failed_ItemIsInvalid = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_UnpackBundle_Failed_BadItemQuantity", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_UnpackBundle_Failed_BadItemQuantity")]
       k_UnpackBundle_Failed_BadItemQuantity = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_UnpackBundle_Failed_UnableToDeleteItem", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_UnpackBundle_Failed_UnableToDeleteItem")]
       k_UnpackBundle_Failed_UnableToDeleteItem = 6
     }
   
@@ -1973,17 +1973,17 @@ namespace Dota2.GC.Dota.Internal
       get { return _response; }
       set { _response = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"ESetStyle", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"ESetStyle")]
     public enum ESetStyle
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_SetStyle_Succeeded", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_SetStyle_Succeeded")]
       k_SetStyle_Succeeded = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_SetStyle_Failed", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_SetStyle_Failed")]
       k_SetStyle_Failed = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_SetStyle_Failed_StyleIsLocked", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_SetStyle_Failed_StyleIsLocked")]
       k_SetStyle_Failed_StyleIsLocked = 2
     }
   
@@ -2068,44 +2068,44 @@ namespace Dota2.GC.Dota.Internal
       get { return _style_prereq; }
       set { _style_prereq = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"EUnlockStyle", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EUnlockStyle")]
     public enum EUnlockStyle
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_UnlockStyle_Succeeded", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_UnlockStyle_Succeeded")]
       k_UnlockStyle_Succeeded = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_UnlockStyle_Failed_PreReq", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_UnlockStyle_Failed_PreReq")]
       k_UnlockStyle_Failed_PreReq = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_UnlockStyle_Failed_CantAfford", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_UnlockStyle_Failed_CantAfford")]
       k_UnlockStyle_Failed_CantAfford = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_UnlockStyle_Failed_CantCommit", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_UnlockStyle_Failed_CantCommit")]
       k_UnlockStyle_Failed_CantCommit = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_UnlockStyle_Failed_CantLockCache", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_UnlockStyle_Failed_CantLockCache")]
       k_UnlockStyle_Failed_CantLockCache = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_UnlockStyle_Failed_CantAffordAttrib", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_UnlockStyle_Failed_CantAffordAttrib")]
       k_UnlockStyle_Failed_CantAffordAttrib = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_UnlockStyle_Failed_CantAffordGem", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_UnlockStyle_Failed_CantAffordGem")]
       k_UnlockStyle_Failed_CantAffordGem = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_UnlockStyle_Failed_NoCompendiumLevel", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_UnlockStyle_Failed_NoCompendiumLevel")]
       k_UnlockStyle_Failed_NoCompendiumLevel = 7,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_UnlockStyle_Failed_AlreadyUnlocked", Value=8)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_UnlockStyle_Failed_AlreadyUnlocked")]
       k_UnlockStyle_Failed_AlreadyUnlocked = 8,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_UnlockStyle_Failed_OtherError", Value=9)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_UnlockStyle_Failed_OtherError")]
       k_UnlockStyle_Failed_OtherError = 9,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_UnlockStyle_Failed_ItemIsInvalid", Value=10)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_UnlockStyle_Failed_ItemIsInvalid")]
       k_UnlockStyle_Failed_ItemIsInvalid = 10,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_UnlockStyle_Failed_ToolIsInvalid", Value=11)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_UnlockStyle_Failed_ToolIsInvalid")]
       k_UnlockStyle_Failed_ToolIsInvalid = 11
     }
   
@@ -2282,23 +2282,23 @@ namespace Dota2.GC.Dota.Internal
       get { return _item_id; }
       set { _item_id = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"ERemoveItemAttribute", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"ERemoveItemAttribute")]
     public enum ERemoveItemAttribute
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_RemoveItemAttribute_Succeeded", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_RemoveItemAttribute_Succeeded")]
       k_RemoveItemAttribute_Succeeded = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_RemoveItemAttribute_Failed", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_RemoveItemAttribute_Failed")]
       k_RemoveItemAttribute_Failed = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_RemoveItemAttribute_Failed_ItemIsInvalid", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_RemoveItemAttribute_Failed_ItemIsInvalid")]
       k_RemoveItemAttribute_Failed_ItemIsInvalid = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_RemoveItemAttribute_Failed_AttributeCannotBeRemoved", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_RemoveItemAttribute_Failed_AttributeCannotBeRemoved")]
       k_RemoveItemAttribute_Failed_AttributeCannotBeRemoved = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_RemoveItemAttribute_Failed_AttributeDoesntExist", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_RemoveItemAttribute_Failed_AttributeDoesntExist")]
       k_RemoveItemAttribute_Failed_AttributeDoesntExist = 4
     }
   
@@ -2367,23 +2367,23 @@ namespace Dota2.GC.Dota.Internal
       get { return _item_id; }
       set { _item_id = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"ENameItem", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"ENameItem")]
     public enum ENameItem
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_NameItem_Succeeded", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_NameItem_Succeeded")]
       k_NameItem_Succeeded = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_NameItem_Failed", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_NameItem_Failed")]
       k_NameItem_Failed = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_NameItem_Failed_ToolIsInvalid", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_NameItem_Failed_ToolIsInvalid")]
       k_NameItem_Failed_ToolIsInvalid = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_NameItem_Failed_ItemIsInvalid", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_NameItem_Failed_ItemIsInvalid")]
       k_NameItem_Failed_ItemIsInvalid = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_NameItem_Failed_NameIsInvalid", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_NameItem_Failed_NameIsInvalid")]
       k_NameItem_Failed_NameIsInvalid = 4
     }
   
@@ -3330,23 +3330,23 @@ namespace Dota2.GC.Dota.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EResponse", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResponse")]
     public enum EResponse
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"eResponse_Success", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"eResponse_Success")]
       eResponse_Success = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"eResponse_OfferingDisabled", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"eResponse_OfferingDisabled")]
       eResponse_OfferingDisabled = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"eResponse_InvalidItems", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"eResponse_InvalidItems")]
       eResponse_InvalidItems = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"eResponse_InternalError", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"eResponse_InternalError")]
       eResponse_InternalError = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"eResponse_MissingLeague", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"eResponse_MissingLeague")]
       eResponse_MissingLeague = 4
     }
   
@@ -3902,659 +3902,659 @@ namespace Dota2.GC.Dota.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EGCItemMsg", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EGCItemMsg")]
     public enum EGCItemMsg
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCBase", Value=1000)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCBase")]
       k_EMsgGCBase = 1000,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCSetItemPosition", Value=1001)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCSetItemPosition")]
       k_EMsgGCSetItemPosition = 1001,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCDelete", Value=1004)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCDelete")]
       k_EMsgGCDelete = 1004,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCVerifyCacheSubscription", Value=1005)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCVerifyCacheSubscription")]
       k_EMsgGCVerifyCacheSubscription = 1005,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCNameItem", Value=1006)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCNameItem")]
       k_EMsgClientToGCNameItem = 1006,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCPaintItem", Value=1009)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCPaintItem")]
       k_EMsgGCPaintItem = 1009,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCPaintItemResponse", Value=1010)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCPaintItemResponse")]
       k_EMsgGCPaintItemResponse = 1010,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCGoldenWrenchBroadcast", Value=1011)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCGoldenWrenchBroadcast")]
       k_EMsgGCGoldenWrenchBroadcast = 1011,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCMOTDRequest", Value=1012)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCMOTDRequest")]
       k_EMsgGCMOTDRequest = 1012,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCMOTDRequestResponse", Value=1013)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCMOTDRequestResponse")]
       k_EMsgGCMOTDRequestResponse = 1013,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCAddItemToSocket_DEPRECATED", Value=1014)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCAddItemToSocket_DEPRECATED")]
       k_EMsgGCAddItemToSocket_DEPRECATED = 1014,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCAddItemToSocketResponse_DEPRECATED", Value=1015)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCAddItemToSocketResponse_DEPRECATED")]
       k_EMsgGCAddItemToSocketResponse_DEPRECATED = 1015,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCAddSocketToBaseItem_DEPRECATED", Value=1016)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCAddSocketToBaseItem_DEPRECATED")]
       k_EMsgGCAddSocketToBaseItem_DEPRECATED = 1016,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCAddSocketToItem_DEPRECATED", Value=1017)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCAddSocketToItem_DEPRECATED")]
       k_EMsgGCAddSocketToItem_DEPRECATED = 1017,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCAddSocketToItemResponse_DEPRECATED", Value=1018)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCAddSocketToItemResponse_DEPRECATED")]
       k_EMsgGCAddSocketToItemResponse_DEPRECATED = 1018,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCNameBaseItem", Value=1019)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCNameBaseItem")]
       k_EMsgGCNameBaseItem = 1019,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCNameBaseItemResponse", Value=1020)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCNameBaseItemResponse")]
       k_EMsgGCNameBaseItemResponse = 1020,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRemoveSocketItem_DEPRECATED", Value=1021)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRemoveSocketItem_DEPRECATED")]
       k_EMsgGCRemoveSocketItem_DEPRECATED = 1021,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRemoveSocketItemResponse_DEPRECATED", Value=1022)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRemoveSocketItemResponse_DEPRECATED")]
       k_EMsgGCRemoveSocketItemResponse_DEPRECATED = 1022,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCCustomizeItemTexture", Value=1023)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCCustomizeItemTexture")]
       k_EMsgGCCustomizeItemTexture = 1023,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCCustomizeItemTextureResponse", Value=1024)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCCustomizeItemTextureResponse")]
       k_EMsgGCCustomizeItemTextureResponse = 1024,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCUseItemRequest", Value=1025)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCUseItemRequest")]
       k_EMsgGCUseItemRequest = 1025,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCUseItemResponse", Value=1026)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCUseItemResponse")]
       k_EMsgGCUseItemResponse = 1026,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCGiftedItems", Value=1027)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCGiftedItems")]
       k_EMsgGCGiftedItems = 1027,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRemoveItemName", Value=1030)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRemoveItemName")]
       k_EMsgGCRemoveItemName = 1030,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRemoveItemPaint", Value=1031)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRemoveItemPaint")]
       k_EMsgGCRemoveItemPaint = 1031,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCUnwrapGiftRequest", Value=1037)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCUnwrapGiftRequest")]
       k_EMsgGCUnwrapGiftRequest = 1037,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCUnwrapGiftResponse", Value=1038)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCUnwrapGiftResponse")]
       k_EMsgGCUnwrapGiftResponse = 1038,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCSetItemStyle_DEPRECATED", Value=1039)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCSetItemStyle_DEPRECATED")]
       k_EMsgGCSetItemStyle_DEPRECATED = 1039,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCUsedClaimCodeItem", Value=1040)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCUsedClaimCodeItem")]
       k_EMsgGCUsedClaimCodeItem = 1040,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCSortItems", Value=1041)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCSortItems")]
       k_EMsgGCSortItems = 1041,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGC_RevolvingLootList_DEPRECATED", Value=1042)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGC_RevolvingLootList_DEPRECATED")]
       k_EMsgGC_RevolvingLootList_DEPRECATED = 1042,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCUpdateItemSchema", Value=1049)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCUpdateItemSchema")]
       k_EMsgGCUpdateItemSchema = 1049,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRemoveCustomTexture", Value=1051)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRemoveCustomTexture")]
       k_EMsgGCRemoveCustomTexture = 1051,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRemoveCustomTextureResponse", Value=1052)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRemoveCustomTextureResponse")]
       k_EMsgGCRemoveCustomTextureResponse = 1052,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRemoveMakersMark", Value=1053)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRemoveMakersMark")]
       k_EMsgGCRemoveMakersMark = 1053,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRemoveMakersMarkResponse", Value=1054)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRemoveMakersMarkResponse")]
       k_EMsgGCRemoveMakersMarkResponse = 1054,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRemoveUniqueCraftIndex", Value=1055)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRemoveUniqueCraftIndex")]
       k_EMsgGCRemoveUniqueCraftIndex = 1055,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRemoveUniqueCraftIndexResponse", Value=1056)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRemoveUniqueCraftIndexResponse")]
       k_EMsgGCRemoveUniqueCraftIndexResponse = 1056,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCSaxxyBroadcast", Value=1057)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCSaxxyBroadcast")]
       k_EMsgGCSaxxyBroadcast = 1057,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCBackpackSortFinished", Value=1058)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCBackpackSortFinished")]
       k_EMsgGCBackpackSortFinished = 1058,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCAdjustItemEquippedState", Value=1059)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCAdjustItemEquippedState")]
       k_EMsgGCAdjustItemEquippedState = 1059,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCCollectItem", Value=1061)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCCollectItem")]
       k_EMsgGCCollectItem = 1061,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCItemAcknowledged", Value=1062)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCItemAcknowledged")]
       k_EMsgGCItemAcknowledged = 1062,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCPresets_SelectPresetForClass", Value=1063)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCPresets_SelectPresetForClass")]
       k_EMsgGCPresets_SelectPresetForClass = 1063,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCPresets_SetItemPosition", Value=1064)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCPresets_SetItemPosition")]
       k_EMsgGCPresets_SetItemPosition = 1064,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCPresets_SelectPresetForClassReply", Value=1067)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCPresets_SelectPresetForClassReply")]
       k_EMsgGCPresets_SelectPresetForClassReply = 1067,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCNameItemResponse", Value=1068)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCNameItemResponse")]
       k_EMsgClientToGCNameItemResponse = 1068,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCApplyConsumableEffects", Value=1069)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCApplyConsumableEffects")]
       k_EMsgGCApplyConsumableEffects = 1069,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCConsumableExhausted", Value=1070)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCConsumableExhausted")]
       k_EMsgGCConsumableExhausted = 1070,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCShowItemsPickedUp", Value=1071)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCShowItemsPickedUp")]
       k_EMsgGCShowItemsPickedUp = 1071,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCClientDisplayNotification", Value=1072)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCClientDisplayNotification")]
       k_EMsgGCClientDisplayNotification = 1072,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCApplyStrangePart", Value=1073)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCApplyStrangePart")]
       k_EMsgGCApplyStrangePart = 1073,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGC_IncrementKillCountResponse", Value=1075)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGC_IncrementKillCountResponse")]
       k_EMsgGC_IncrementKillCountResponse = 1075,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCApplyPennantUpgrade", Value=1076)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCApplyPennantUpgrade")]
       k_EMsgGCApplyPennantUpgrade = 1076,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCSetItemPositions", Value=1077)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCSetItemPositions")]
       k_EMsgGCSetItemPositions = 1077,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCSetItemPositions_RateLimited", Value=1096)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCSetItemPositions_RateLimited")]
       k_EMsgGCSetItemPositions_RateLimited = 1096,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCApplyEggEssence", Value=1078)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCApplyEggEssence")]
       k_EMsgGCApplyEggEssence = 1078,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCNameEggEssenceResponse", Value=1079)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCNameEggEssenceResponse")]
       k_EMsgGCNameEggEssenceResponse = 1079,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCFulfillDynamicRecipeComponent", Value=1082)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCFulfillDynamicRecipeComponent")]
       k_EMsgGCFulfillDynamicRecipeComponent = 1082,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCFulfillDynamicRecipeComponentResponse", Value=1083)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCFulfillDynamicRecipeComponentResponse")]
       k_EMsgGCFulfillDynamicRecipeComponentResponse = 1083,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCClientRequestMarketData", Value=1084)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCClientRequestMarketData")]
       k_EMsgGCClientRequestMarketData = 1084,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCClientRequestMarketDataResponse", Value=1085)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCClientRequestMarketDataResponse")]
       k_EMsgGCClientRequestMarketDataResponse = 1085,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCExtractGems", Value=1086)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCExtractGems")]
       k_EMsgGCExtractGems = 1086,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCAddSocket", Value=1087)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCAddSocket")]
       k_EMsgGCAddSocket = 1087,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCAddItemToSocket", Value=1088)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCAddItemToSocket")]
       k_EMsgGCAddItemToSocket = 1088,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCAddItemToSocketResponse", Value=1089)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCAddItemToSocketResponse")]
       k_EMsgGCAddItemToSocketResponse = 1089,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCAddSocketResponse", Value=1090)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCAddSocketResponse")]
       k_EMsgGCAddSocketResponse = 1090,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCResetStrangeGemCount", Value=1091)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCResetStrangeGemCount")]
       k_EMsgGCResetStrangeGemCount = 1091,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRequestCrateItems", Value=1092)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRequestCrateItems")]
       k_EMsgGCRequestCrateItems = 1092,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRequestCrateItemsResponse", Value=1093)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRequestCrateItemsResponse")]
       k_EMsgGCRequestCrateItemsResponse = 1093,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCExtractGemsResponse", Value=1094)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCExtractGemsResponse")]
       k_EMsgGCExtractGemsResponse = 1094,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCResetStrangeGemCountResponse", Value=1095)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCResetStrangeGemCountResponse")]
       k_EMsgGCResetStrangeGemCountResponse = 1095,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCServerUseItemRequest", Value=1103)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCServerUseItemRequest")]
       k_EMsgGCServerUseItemRequest = 1103,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCAddGiftItem", Value=1104)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCAddGiftItem")]
       k_EMsgGCAddGiftItem = 1104,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRemoveItemGiftMessage", Value=1105)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRemoveItemGiftMessage")]
       k_EMsgGCRemoveItemGiftMessage = 1105,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRemoveItemGiftMessageResponse", Value=1106)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRemoveItemGiftMessageResponse")]
       k_EMsgGCRemoveItemGiftMessageResponse = 1106,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRemoveItemGifterAccountId", Value=1107)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRemoveItemGifterAccountId")]
       k_EMsgGCRemoveItemGifterAccountId = 1107,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRemoveItemGifterAccountIdResponse", Value=1108)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRemoveItemGifterAccountIdResponse")]
       k_EMsgGCRemoveItemGifterAccountIdResponse = 1108,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCRemoveItemGifterAttributes", Value=1109)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCRemoveItemGifterAttributes")]
       k_EMsgClientToGCRemoveItemGifterAttributes = 1109,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCRemoveItemName", Value=1110)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCRemoveItemName")]
       k_EMsgClientToGCRemoveItemName = 1110,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCRemoveItemDescription", Value=1111)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCRemoveItemDescription")]
       k_EMsgClientToGCRemoveItemDescription = 1111,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCRemoveItemAttributeResponse", Value=1112)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCRemoveItemAttributeResponse")]
       k_EMsgClientToGCRemoveItemAttributeResponse = 1112,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCTradingBase", Value=1500)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCTradingBase")]
       k_EMsgGCTradingBase = 1500,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCTrading_InitiateTradeRequest", Value=1501)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCTrading_InitiateTradeRequest")]
       k_EMsgGCTrading_InitiateTradeRequest = 1501,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCTrading_InitiateTradeResponse", Value=1502)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCTrading_InitiateTradeResponse")]
       k_EMsgGCTrading_InitiateTradeResponse = 1502,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCTrading_StartSession", Value=1503)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCTrading_StartSession")]
       k_EMsgGCTrading_StartSession = 1503,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCTrading_SessionClosed", Value=1509)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCTrading_SessionClosed")]
       k_EMsgGCTrading_SessionClosed = 1509,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCTrading_InitiateTradeRequestResponse", Value=1514)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCTrading_InitiateTradeRequestResponse")]
       k_EMsgGCTrading_InitiateTradeRequestResponse = 1514,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCServerBrowser_FavoriteServer", Value=1601)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCServerBrowser_FavoriteServer")]
       k_EMsgGCServerBrowser_FavoriteServer = 1601,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCServerBrowser_BlacklistServer", Value=1602)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCServerBrowser_BlacklistServer")]
       k_EMsgGCServerBrowser_BlacklistServer = 1602,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCServerRentalsBase", Value=1700)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCServerRentalsBase")]
       k_EMsgGCServerRentalsBase = 1700,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCDev_NewItemRequest", Value=2001)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCDev_NewItemRequest")]
       k_EMsgGCDev_NewItemRequest = 2001,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCDev_NewItemRequestResponse", Value=2002)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCDev_NewItemRequestResponse")]
       k_EMsgGCDev_NewItemRequestResponse = 2002,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCStoreGetUserData", Value=2500)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCStoreGetUserData")]
       k_EMsgGCStoreGetUserData = 2500,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCStoreGetUserDataResponse", Value=2501)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCStoreGetUserDataResponse")]
       k_EMsgGCStoreGetUserDataResponse = 2501,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCStorePurchaseFinalize", Value=2504)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCStorePurchaseFinalize")]
       k_EMsgGCStorePurchaseFinalize = 2504,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCStorePurchaseFinalizeResponse", Value=2505)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCStorePurchaseFinalizeResponse")]
       k_EMsgGCStorePurchaseFinalizeResponse = 2505,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCStorePurchaseCancel", Value=2506)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCStorePurchaseCancel")]
       k_EMsgGCStorePurchaseCancel = 2506,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCStorePurchaseCancelResponse", Value=2507)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCStorePurchaseCancelResponse")]
       k_EMsgGCStorePurchaseCancelResponse = 2507,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCStorePurchaseInit", Value=2510)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCStorePurchaseInit")]
       k_EMsgGCStorePurchaseInit = 2510,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCStorePurchaseInitResponse", Value=2511)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCStorePurchaseInitResponse")]
       k_EMsgGCStorePurchaseInitResponse = 2511,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCBannedWordListRequest", Value=2512)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCBannedWordListRequest")]
       k_EMsgGCBannedWordListRequest = 2512,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCBannedWordListResponse", Value=2513)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCBannedWordListResponse")]
       k_EMsgGCBannedWordListResponse = 2513,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCBannedWordListBroadcast", Value=2514)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCBannedWordListBroadcast")]
       k_EMsgGCToGCBannedWordListBroadcast = 2514,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCBannedWordListUpdated", Value=2515)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCBannedWordListUpdated")]
       k_EMsgGCToGCBannedWordListUpdated = 2515,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCDirtySDOCache", Value=2516)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCDirtySDOCache")]
       k_EMsgGCToGCDirtySDOCache = 2516,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCDirtyMultipleSDOCache", Value=2517)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCDirtyMultipleSDOCache")]
       k_EMsgGCToGCDirtyMultipleSDOCache = 2517,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCUpdateSQLKeyValue", Value=2518)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCUpdateSQLKeyValue")]
       k_EMsgGCToGCUpdateSQLKeyValue = 2518,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCBroadcastConsoleCommand", Value=2521)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCBroadcastConsoleCommand")]
       k_EMsgGCToGCBroadcastConsoleCommand = 2521,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCServerVersionUpdated", Value=2522)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCServerVersionUpdated")]
       k_EMsgGCServerVersionUpdated = 2522,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCApplyAutograph", Value=2523)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCApplyAutograph")]
       k_EMsgGCApplyAutograph = 2523,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCWebAPIAccountChanged", Value=2524)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCWebAPIAccountChanged")]
       k_EMsgGCToGCWebAPIAccountChanged = 2524,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCClientVersionUpdated", Value=2528)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCClientVersionUpdated")]
       k_EMsgGCClientVersionUpdated = 2528,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCItemPurgatory_FinalizePurchase", Value=2531)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCItemPurgatory_FinalizePurchase")]
       k_EMsgGCItemPurgatory_FinalizePurchase = 2531,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCItemPurgatory_FinalizePurchaseResponse", Value=2532)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCItemPurgatory_FinalizePurchaseResponse")]
       k_EMsgGCItemPurgatory_FinalizePurchaseResponse = 2532,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCItemPurgatory_RefundPurchase", Value=2533)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCItemPurgatory_RefundPurchase")]
       k_EMsgGCItemPurgatory_RefundPurchase = 2533,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCItemPurgatory_RefundPurchaseResponse", Value=2534)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCItemPurgatory_RefundPurchaseResponse")]
       k_EMsgGCItemPurgatory_RefundPurchaseResponse = 2534,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCPlayerStrangeCountAdjustments", Value=2535)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCPlayerStrangeCountAdjustments")]
       k_EMsgGCToGCPlayerStrangeCountAdjustments = 2535,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRequestStoreSalesData", Value=2536)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRequestStoreSalesData")]
       k_EMsgGCRequestStoreSalesData = 2536,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRequestStoreSalesDataResponse", Value=2537)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRequestStoreSalesDataResponse")]
       k_EMsgGCRequestStoreSalesDataResponse = 2537,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRequestStoreSalesDataUpToDateResponse", Value=2538)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRequestStoreSalesDataUpToDateResponse")]
       k_EMsgGCRequestStoreSalesDataUpToDateResponse = 2538,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCPingRequest", Value=2539)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCPingRequest")]
       k_EMsgGCToGCPingRequest = 2539,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCPingResponse", Value=2540)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCPingResponse")]
       k_EMsgGCToGCPingResponse = 2540,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCGetUserSessionServer", Value=2541)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCGetUserSessionServer")]
       k_EMsgGCToGCGetUserSessionServer = 2541,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCGetUserSessionServerResponse", Value=2542)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCGetUserSessionServerResponse")]
       k_EMsgGCToGCGetUserSessionServerResponse = 2542,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCGetUserServerMembers", Value=2543)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCGetUserServerMembers")]
       k_EMsgGCToGCGetUserServerMembers = 2543,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCGetUserServerMembersResponse", Value=2544)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCGetUserServerMembersResponse")]
       k_EMsgGCToGCGetUserServerMembersResponse = 2544,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCGetUserPCBangNo", Value=2545)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCGetUserPCBangNo")]
       k_EMsgGCToGCGetUserPCBangNo = 2545,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCGetUserPCBangNoResponse", Value=2546)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCGetUserPCBangNoResponse")]
       k_EMsgGCToGCGetUserPCBangNoResponse = 2546,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCCanUseDropRateBonus", Value=2547)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCCanUseDropRateBonus")]
       k_EMsgGCToGCCanUseDropRateBonus = 2547,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgSQLAddDropRateBonus", Value=2548)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgSQLAddDropRateBonus")]
       k_EMsgSQLAddDropRateBonus = 2548,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCRefreshSOCache", Value=2549)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCRefreshSOCache")]
       k_EMsgGCToGCRefreshSOCache = 2549,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCApplyLocalizationDiff", Value=2550)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCApplyLocalizationDiff")]
       k_EMsgGCToGCApplyLocalizationDiff = 2550,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCApplyLocalizationDiffResponse", Value=2551)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCApplyLocalizationDiffResponse")]
       k_EMsgGCToGCApplyLocalizationDiffResponse = 2551,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCCheckAccountTradeStatus", Value=2552)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCCheckAccountTradeStatus")]
       k_EMsgGCToGCCheckAccountTradeStatus = 2552,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCCheckAccountTradeStatusResponse", Value=2553)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCCheckAccountTradeStatusResponse")]
       k_EMsgGCToGCCheckAccountTradeStatusResponse = 2553,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCGrantAccountRolledItems", Value=2554)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCGrantAccountRolledItems")]
       k_EMsgGCToGCGrantAccountRolledItems = 2554,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCGrantSelfMadeItemToAccount", Value=2555)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCGrantSelfMadeItemToAccount")]
       k_EMsgGCToGCGrantSelfMadeItemToAccount = 2555,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCPartnerBalanceRequest", Value=2557)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCPartnerBalanceRequest")]
       k_EMsgGCPartnerBalanceRequest = 2557,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCPartnerBalanceResponse", Value=2558)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCPartnerBalanceResponse")]
       k_EMsgGCPartnerBalanceResponse = 2558,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCPartnerRechargeRedirectURLRequest", Value=2559)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCPartnerRechargeRedirectURLRequest")]
       k_EMsgGCPartnerRechargeRedirectURLRequest = 2559,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCPartnerRechargeRedirectURLResponse", Value=2560)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCPartnerRechargeRedirectURLResponse")]
       k_EMsgGCPartnerRechargeRedirectURLResponse = 2560,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCStatueCraft", Value=2561)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCStatueCraft")]
       k_EMsgGCStatueCraft = 2561,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRedeemCode", Value=2562)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRedeemCode")]
       k_EMsgGCRedeemCode = 2562,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRedeemCodeResponse", Value=2563)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCRedeemCodeResponse")]
       k_EMsgGCRedeemCodeResponse = 2563,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCItemConsumptionRollback", Value=2564)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCItemConsumptionRollback")]
       k_EMsgGCToGCItemConsumptionRollback = 2564,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCWrapAndDeliverGift", Value=2565)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCWrapAndDeliverGift")]
       k_EMsgClientToGCWrapAndDeliverGift = 2565,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCWrapAndDeliverGiftResponse", Value=2566)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCWrapAndDeliverGiftResponse")]
       k_EMsgClientToGCWrapAndDeliverGiftResponse = 2566,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCUnpackBundleResponse", Value=2567)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCUnpackBundleResponse")]
       k_EMsgClientToGCUnpackBundleResponse = 2567,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToClientStoreTransactionCompleted", Value=2568)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToClientStoreTransactionCompleted")]
       k_EMsgGCToClientStoreTransactionCompleted = 2568,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCEquipItems", Value=2569)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCEquipItems")]
       k_EMsgClientToGCEquipItems = 2569,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCEquipItemsResponse", Value=2570)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCEquipItemsResponse")]
       k_EMsgClientToGCEquipItemsResponse = 2570,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCUnlockItemStyle", Value=2571)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCUnlockItemStyle")]
       k_EMsgClientToGCUnlockItemStyle = 2571,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCUnlockItemStyleResponse", Value=2572)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCUnlockItemStyleResponse")]
       k_EMsgClientToGCUnlockItemStyleResponse = 2572,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCSetItemInventoryCategory", Value=2573)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCSetItemInventoryCategory")]
       k_EMsgClientToGCSetItemInventoryCategory = 2573,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCUnlockCrate", Value=2574)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCUnlockCrate")]
       k_EMsgClientToGCUnlockCrate = 2574,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCUnlockCrateResponse", Value=2575)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCUnlockCrateResponse")]
       k_EMsgClientToGCUnlockCrateResponse = 2575,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCUnpackBundle", Value=2576)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCUnpackBundle")]
       k_EMsgClientToGCUnpackBundle = 2576,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCSetItemStyle", Value=2577)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCSetItemStyle")]
       k_EMsgClientToGCSetItemStyle = 2577,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCSetItemStyleResponse", Value=2578)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCSetItemStyleResponse")]
       k_EMsgClientToGCSetItemStyleResponse = 2578,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgSQLGCToGCGrantBackpackSlots", Value=2580)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgSQLGCToGCGrantBackpackSlots")]
       k_EMsgSQLGCToGCGrantBackpackSlots = 2580,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCLookupAccountName", Value=2581)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCLookupAccountName")]
       k_EMsgClientToGCLookupAccountName = 2581,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCLookupAccountNameResponse", Value=2582)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCLookupAccountNameResponse")]
       k_EMsgClientToGCLookupAccountNameResponse = 2582,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCDevRevokeUserItems", Value=2583)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCDevRevokeUserItems")]
       k_EMsgGCToGCDevRevokeUserItems = 2583,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCCreateStaticRecipe", Value=2584)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCCreateStaticRecipe")]
       k_EMsgClientToGCCreateStaticRecipe = 2584,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCCreateStaticRecipeResponse", Value=2585)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgClientToGCCreateStaticRecipeResponse")]
       k_EMsgClientToGCCreateStaticRecipeResponse = 2585,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCStoreProcessCDKeyTransaction", Value=2586)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCStoreProcessCDKeyTransaction")]
       k_EMsgGCToGCStoreProcessCDKeyTransaction = 2586,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCStoreProcessCDKeyTransactionResponse", Value=2587)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCStoreProcessCDKeyTransactionResponse")]
       k_EMsgGCToGCStoreProcessCDKeyTransactionResponse = 2587,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCStoreProcessSettlement", Value=2588)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCStoreProcessSettlement")]
       k_EMsgGCToGCStoreProcessSettlement = 2588,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCStoreProcessSettlementResponse", Value=2589)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCStoreProcessSettlementResponse")]
       k_EMsgGCToGCStoreProcessSettlementResponse = 2589,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCConsoleOutput", Value=2590)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCConsoleOutput")]
       k_EMsgGCToGCConsoleOutput = 2590,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToClientItemAges", Value=2591)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToClientItemAges")]
       k_EMsgGCToClientItemAges = 2591,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCInternalTestMsg", Value=2592)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCInternalTestMsg")]
       k_EMsgGCToGCInternalTestMsg = 2592,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCClientServerVersionsUpdated", Value=2593)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCToGCClientServerVersionsUpdated")]
       k_EMsgGCToGCClientServerVersionsUpdated = 2593,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCUseMultipleItemsRequest", Value=2594)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EMsgGCUseMultipleItemsRequest")]
       k_EMsgGCUseMultipleItemsRequest = 2594
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EItemPurgatoryResponse_Finalize", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EItemPurgatoryResponse_Finalize")]
     public enum EItemPurgatoryResponse_Finalize
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ItemPurgatoryResponse_Finalize_Succeeded", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ItemPurgatoryResponse_Finalize_Succeeded")]
       k_ItemPurgatoryResponse_Finalize_Succeeded = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ItemPurgatoryResponse_Finalize_Failed_Incomplete", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ItemPurgatoryResponse_Finalize_Failed_Incomplete")]
       k_ItemPurgatoryResponse_Finalize_Failed_Incomplete = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ItemPurgatoryResponse_Finalize_Failed_ItemsNotInPurgatory", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ItemPurgatoryResponse_Finalize_Failed_ItemsNotInPurgatory")]
       k_ItemPurgatoryResponse_Finalize_Failed_ItemsNotInPurgatory = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ItemPurgatoryResponse_Finalize_Failed_CouldNotFindItems", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ItemPurgatoryResponse_Finalize_Failed_CouldNotFindItems")]
       k_ItemPurgatoryResponse_Finalize_Failed_CouldNotFindItems = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ItemPurgatoryResponse_Finalize_Failed_NoSOCache", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ItemPurgatoryResponse_Finalize_Failed_NoSOCache")]
       k_ItemPurgatoryResponse_Finalize_Failed_NoSOCache = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ItemPurgatoryResponse_Finalize_BackpackFull", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ItemPurgatoryResponse_Finalize_BackpackFull")]
       k_ItemPurgatoryResponse_Finalize_BackpackFull = 5
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EItemPurgatoryResponse_Refund", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EItemPurgatoryResponse_Refund")]
     public enum EItemPurgatoryResponse_Refund
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ItemPurgatoryResponse_Refund_Succeeded", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ItemPurgatoryResponse_Refund_Succeeded")]
       k_ItemPurgatoryResponse_Refund_Succeeded = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ItemPurgatoryResponse_Refund_Failed_ItemNotInPurgatory", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ItemPurgatoryResponse_Refund_Failed_ItemNotInPurgatory")]
       k_ItemPurgatoryResponse_Refund_Failed_ItemNotInPurgatory = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ItemPurgatoryResponse_Refund_Failed_CouldNotFindItem", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ItemPurgatoryResponse_Refund_Failed_CouldNotFindItem")]
       k_ItemPurgatoryResponse_Refund_Failed_CouldNotFindItem = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ItemPurgatoryResponse_Refund_Failed_NoSOCache", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ItemPurgatoryResponse_Refund_Failed_NoSOCache")]
       k_ItemPurgatoryResponse_Refund_Failed_NoSOCache = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ItemPurgatoryResponse_Refund_Failed_NoDetail", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ItemPurgatoryResponse_Refund_Failed_NoDetail")]
       k_ItemPurgatoryResponse_Refund_Failed_NoDetail = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ItemPurgatoryResponse_Refund_Failed_NexonWebAPI", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ItemPurgatoryResponse_Refund_Failed_NexonWebAPI")]
       k_ItemPurgatoryResponse_Refund_Failed_NexonWebAPI = 5
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EGCMsgInitiateTradeResponse", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EGCMsgInitiateTradeResponse")]
     public enum EGCMsgInitiateTradeResponse
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_Accepted", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_Accepted")]
       k_EGCMsgInitiateTradeResponse_Accepted = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_Declined", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_Declined")]
       k_EGCMsgInitiateTradeResponse_Declined = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_VAC_Banned_Initiator", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_VAC_Banned_Initiator")]
       k_EGCMsgInitiateTradeResponse_VAC_Banned_Initiator = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_VAC_Banned_Target", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_VAC_Banned_Target")]
       k_EGCMsgInitiateTradeResponse_VAC_Banned_Target = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_Target_Already_Trading", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_Target_Already_Trading")]
       k_EGCMsgInitiateTradeResponse_Target_Already_Trading = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_Disabled", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_Disabled")]
       k_EGCMsgInitiateTradeResponse_Disabled = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_NotLoggedIn", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_NotLoggedIn")]
       k_EGCMsgInitiateTradeResponse_NotLoggedIn = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_Cancel", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_Cancel")]
       k_EGCMsgInitiateTradeResponse_Cancel = 7,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_TooSoon", Value=8)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_TooSoon")]
       k_EGCMsgInitiateTradeResponse_TooSoon = 8,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_TooSoonPenalty", Value=9)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_TooSoonPenalty")]
       k_EGCMsgInitiateTradeResponse_TooSoonPenalty = 9,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_Trade_Banned_Initiator", Value=10)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_Trade_Banned_Initiator")]
       k_EGCMsgInitiateTradeResponse_Trade_Banned_Initiator = 10,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_Trade_Banned_Target", Value=11)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_Trade_Banned_Target")]
       k_EGCMsgInitiateTradeResponse_Trade_Banned_Target = 11,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_Free_Account_Initiator_DEPRECATED", Value=12)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_Free_Account_Initiator_DEPRECATED")]
       k_EGCMsgInitiateTradeResponse_Free_Account_Initiator_DEPRECATED = 12,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_Shared_Account_Initiator", Value=13)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_Shared_Account_Initiator")]
       k_EGCMsgInitiateTradeResponse_Shared_Account_Initiator = 13,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_Service_Unavailable", Value=14)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_Service_Unavailable")]
       k_EGCMsgInitiateTradeResponse_Service_Unavailable = 14,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_Target_Blocked", Value=15)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_Target_Blocked")]
       k_EGCMsgInitiateTradeResponse_Target_Blocked = 15,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_NeedVerifiedEmail", Value=16)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_NeedVerifiedEmail")]
       k_EGCMsgInitiateTradeResponse_NeedVerifiedEmail = 16,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_NeedSteamGuard", Value=17)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_NeedSteamGuard")]
       k_EGCMsgInitiateTradeResponse_NeedSteamGuard = 17,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_SteamGuardDuration", Value=18)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_SteamGuardDuration")]
       k_EGCMsgInitiateTradeResponse_SteamGuardDuration = 18,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_TheyCannotTrade", Value=19)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_TheyCannotTrade")]
       k_EGCMsgInitiateTradeResponse_TheyCannotTrade = 19,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_Recent_Password_Reset", Value=20)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_Recent_Password_Reset")]
       k_EGCMsgInitiateTradeResponse_Recent_Password_Reset = 20,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_Using_New_Device", Value=21)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_Using_New_Device")]
       k_EGCMsgInitiateTradeResponse_Using_New_Device = 21,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_Sent_Invalid_Cookie", Value=22)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_Sent_Invalid_Cookie")]
       k_EGCMsgInitiateTradeResponse_Sent_Invalid_Cookie = 22,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_TooRecentFriend", Value=23)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_EGCMsgInitiateTradeResponse_TooRecentFriend")]
       k_EGCMsgInitiateTradeResponse_TooRecentFriend = 23
     }
   

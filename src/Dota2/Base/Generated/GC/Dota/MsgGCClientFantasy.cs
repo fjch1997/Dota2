@@ -242,23 +242,23 @@ namespace Dota2.GC.Dota.Internal
       get { return _result; }
       set { _result = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED")]
       ERROR_UNSPECIFIED = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_TOO_MANY_LEAGUES", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_TOO_MANY_LEAGUES")]
       ERROR_TOO_MANY_LEAGUES = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_INVALID_TEAM_COUNT", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_INVALID_TEAM_COUNT")]
       ERROR_INVALID_TEAM_COUNT = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_CREATION_DISABLED", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_CREATION_DISABLED")]
       ERROR_CREATION_DISABLED = 4
     }
   
@@ -702,17 +702,17 @@ namespace Dota2.GC.Dota.Internal
       get { return _result; }
       set { _result = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED")]
       ERROR_UNSPECIFIED = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION")]
       ERROR_NO_PERMISSION = 2
     }
   
@@ -781,29 +781,29 @@ namespace Dota2.GC.Dota.Internal
       get { return _commissioner_name; }
       set { _commissioner_name = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_LEAGUE_NOT_FOUND", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_LEAGUE_NOT_FOUND")]
       ERROR_LEAGUE_NOT_FOUND = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_BAD_PASSWORD", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_BAD_PASSWORD")]
       ERROR_BAD_PASSWORD = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED")]
       ERROR_UNSPECIFIED = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_FULL", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_FULL")]
       ERROR_FULL = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_ALREADY_MEMBER", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_ALREADY_MEMBER")]
       ERROR_ALREADY_MEMBER = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_LEAGUE_LOCKED", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_LEAGUE_LOCKED")]
       ERROR_LEAGUE_LOCKED = 6
     }
   
@@ -845,17 +845,17 @@ namespace Dota2.GC.Dota.Internal
       get { return _result; }
       set { _result = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED")]
       ERROR_UNSPECIFIED = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_BAD_LEAGUE_ID", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_BAD_LEAGUE_ID")]
       ERROR_BAD_LEAGUE_ID = 2
     }
   
@@ -994,20 +994,20 @@ namespace Dota2.GC.Dota.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED")]
       ERROR_UNSPECIFIED = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_BAD_LEAGUE_ID", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_BAD_LEAGUE_ID")]
       ERROR_BAD_LEAGUE_ID = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION")]
       ERROR_NO_PERMISSION = 3
     }
   
@@ -1076,23 +1076,23 @@ namespace Dota2.GC.Dota.Internal
       get { return _result; }
       set { _result = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED")]
       ERROR_UNSPECIFIED = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_INVALID_TEAM_INFO", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_INVALID_TEAM_INFO")]
       ERROR_INVALID_TEAM_INFO = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NAME_ALREADY_TAKEN", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NAME_ALREADY_TAKEN")]
       ERROR_NAME_ALREADY_TAKEN = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION")]
       ERROR_NO_PERMISSION = 4
     }
   
@@ -1367,20 +1367,20 @@ namespace Dota2.GC.Dota.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED")]
       ERROR_UNSPECIFIED = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION")]
       ERROR_NO_PERMISSION = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_OWNER_NOT_IN_LEAGUE", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_OWNER_NOT_IN_LEAGUE")]
       ERROR_OWNER_NOT_IN_LEAGUE = 3
     }
   
@@ -1592,17 +1592,17 @@ namespace Dota2.GC.Dota.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED")]
       ERROR_UNSPECIFIED = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION")]
       ERROR_NO_PERMISSION = 2
     }
   
@@ -1725,17 +1725,17 @@ namespace Dota2.GC.Dota.Internal
       get { return _score; }
       set { _score = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED")]
       ERROR_UNSPECIFIED = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION")]
       ERROR_NO_PERMISSION = 2
     }
   
@@ -1893,17 +1893,17 @@ namespace Dota2.GC.Dota.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED")]
       ERROR_UNSPECIFIED = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION")]
       ERROR_NO_PERMISSION = 2
     }
   
@@ -2028,32 +2028,32 @@ namespace Dota2.GC.Dota.Internal
       get { return _fantasy_league_id; }
       set { _fantasy_league_id = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION")]
       ERROR_NO_PERMISSION = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_BAD_SEASON_ID", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_BAD_SEASON_ID")]
       ERROR_BAD_SEASON_ID = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_BAD_LEAGUE_NAME", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_BAD_LEAGUE_NAME")]
       ERROR_BAD_LEAGUE_NAME = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_BAD_TEAM_NAME", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_BAD_TEAM_NAME")]
       ERROR_BAD_TEAM_NAME = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED")]
       ERROR_UNSPECIFIED = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_FAILED_LOGO_UPLOAD", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_FAILED_LOGO_UPLOAD")]
       ERROR_FAILED_LOGO_UPLOAD = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_TICKET", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_TICKET")]
       ERROR_NO_TICKET = 7
     }
   
@@ -2140,41 +2140,41 @@ namespace Dota2.GC.Dota.Internal
       get { return _fantasy_team_index; }
       set { _fantasy_team_index = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION")]
       ERROR_NO_PERMISSION = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_FAILED_LOGO_UPLOAD", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_FAILED_LOGO_UPLOAD")]
       ERROR_FAILED_LOGO_UPLOAD = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_BAD_FANTASY_LEAGUE_ID", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_BAD_FANTASY_LEAGUE_ID")]
       ERROR_BAD_FANTASY_LEAGUE_ID = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_BAD_NAME", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_BAD_NAME")]
       ERROR_BAD_NAME = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_FULL", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_FULL")]
       ERROR_FULL = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_ALREADY_MEMBER", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_ALREADY_MEMBER")]
       ERROR_ALREADY_MEMBER = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_BAD_PASSWORD", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_BAD_PASSWORD")]
       ERROR_BAD_PASSWORD = 7,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED", Value=8)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED")]
       ERROR_UNSPECIFIED = 8,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_TICKET", Value=9)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_TICKET")]
       ERROR_NO_TICKET = 9,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_LEAGUE_LOCKED", Value=10)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_LEAGUE_LOCKED")]
       ERROR_LEAGUE_LOCKED = 10
     }
   
@@ -2260,14 +2260,14 @@ namespace Dota2.GC.Dota.Internal
       get { return _result; }
       set { _result = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED")]
       ERROR_UNSPECIFIED = 1
     }
   
@@ -2415,35 +2415,35 @@ namespace Dota2.GC.Dota.Internal
       get { return _result; }
       set { _result = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED")]
       ERROR_UNSPECIFIED = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_INVALID_FANTASY_LEAGUE", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_INVALID_FANTASY_LEAGUE")]
       ERROR_INVALID_FANTASY_LEAGUE = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_FANTASY_LEAGUE_NOT_DRAFTING", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_FANTASY_LEAGUE_NOT_DRAFTING")]
       ERROR_FANTASY_LEAGUE_NOT_DRAFTING = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_OWNER_NOT_IN_LEAGUE", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_OWNER_NOT_IN_LEAGUE")]
       ERROR_OWNER_NOT_IN_LEAGUE = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NOT_OWNERS_TURN", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NOT_OWNERS_TURN")]
       ERROR_NOT_OWNERS_TURN = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_PLAYER_INVALID", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_PLAYER_INVALID")]
       ERROR_PLAYER_INVALID = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_PLAYER_UNAVAILABLE", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_PLAYER_UNAVAILABLE")]
       ERROR_PLAYER_UNAVAILABLE = 7,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_PLAYER_NO_VALID_SLOTS", Value=8)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_PLAYER_NO_VALID_SLOTS")]
       ERROR_PLAYER_NO_VALID_SLOTS = 8
     }
   
@@ -2521,23 +2521,23 @@ namespace Dota2.GC.Dota.Internal
       get { return _result; }
       set { _result = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED")]
       ERROR_UNSPECIFIED = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_OWNER_NOT_IN_LEAGUE", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_OWNER_NOT_IN_LEAGUE")]
       ERROR_OWNER_NOT_IN_LEAGUE = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_SLOTS_INVALID", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_SLOTS_INVALID")]
       ERROR_SLOTS_INVALID = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_SLOT_LOCKED", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_SLOT_LOCKED")]
       ERROR_SLOT_LOCKED = 4
     }
   
@@ -2606,26 +2606,26 @@ namespace Dota2.GC.Dota.Internal
       get { return _result; }
       set { _result = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED")]
       ERROR_UNSPECIFIED = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_OWNER_NOT_IN_LEAGUE", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_OWNER_NOT_IN_LEAGUE")]
       ERROR_OWNER_NOT_IN_LEAGUE = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_PLAYER_NOT_AVAILABLE", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_PLAYER_NOT_AVAILABLE")]
       ERROR_PLAYER_NOT_AVAILABLE = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_PLAYER_NOT_ON_TEAM", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_PLAYER_NOT_ON_TEAM")]
       ERROR_PLAYER_NOT_ON_TEAM = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_TRADE_ALREADY_PENDING", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_TRADE_ALREADY_PENDING")]
       ERROR_TRADE_ALREADY_PENDING = 5
     }
   
@@ -2738,17 +2738,17 @@ namespace Dota2.GC.Dota.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED")]
       ERROR_UNSPECIFIED = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION")]
       ERROR_NO_PERMISSION = 2
     }
   
@@ -2817,20 +2817,20 @@ namespace Dota2.GC.Dota.Internal
       get { return _result; }
       set { _result = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED")]
       ERROR_UNSPECIFIED = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION")]
       ERROR_NO_PERMISSION = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_TRADE", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_TRADE")]
       ERROR_NO_TRADE = 3
     }
   
@@ -2913,20 +2913,20 @@ namespace Dota2.GC.Dota.Internal
       get { return _player_locked; }
     }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED")]
       ERROR_UNSPECIFIED = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION")]
       ERROR_NO_PERMISSION = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_OWNER_NOT_IN_LEAGUE", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_OWNER_NOT_IN_LEAGUE")]
       ERROR_OWNER_NOT_IN_LEAGUE = 3
     }
   
@@ -3157,17 +3157,17 @@ namespace Dota2.GC.Dota.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED")]
       ERROR_UNSPECIFIED = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION")]
       ERROR_NO_PERMISSION = 2
     }
   
@@ -3317,17 +3317,17 @@ namespace Dota2.GC.Dota.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED")]
       ERROR_UNSPECIFIED = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION")]
       ERROR_NO_PERMISSION = 2
     }
   
@@ -3387,23 +3387,23 @@ namespace Dota2.GC.Dota.Internal
       get { return _result; }
       set { _result = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED")]
       ERROR_UNSPECIFIED = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NO_PERMISSION")]
       ERROR_NO_PERMISSION = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_LEAGUE_LOCKED", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_LEAGUE_LOCKED")]
       ERROR_LEAGUE_LOCKED = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NOT_A_MEMBER", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NOT_A_MEMBER")]
       ERROR_NOT_A_MEMBER = 4
     }
   
@@ -3485,14 +3485,14 @@ namespace Dota2.GC.Dota.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED")]
       ERROR_UNSPECIFIED = 1
     }
   
@@ -3543,23 +3543,23 @@ namespace Dota2.GC.Dota.Internal
       get { return _result; }
       set { _result = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED")]
       ERROR_UNSPECIFIED = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NOT_MEMBER", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NOT_MEMBER")]
       ERROR_NOT_MEMBER = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_LEAGUE_NOT_FOUND", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_LEAGUE_NOT_FOUND")]
       ERROR_LEAGUE_NOT_FOUND = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_DRAFT_ACTIVE", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_DRAFT_ACTIVE")]
       ERROR_DRAFT_ACTIVE = 4
     }
   
@@ -3744,17 +3744,17 @@ namespace Dota2.GC.Dota.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"EResult", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"EResult")]
     public enum EResult
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED")]
       ERROR_UNSPECIFIED = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NOT_MEMBER", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_NOT_MEMBER")]
       ERROR_NOT_MEMBER = 2
     }
   
@@ -3989,20 +3989,20 @@ namespace Dota2.GC.Dota.Internal
       get { return _percentile; }
       set { _percentile = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"Result", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"Result")]
     public enum Result
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED")]
       ERROR_UNSPECIFIED = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_INVALID_LEAGUE_ID", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_INVALID_LEAGUE_ID")]
       ERROR_INVALID_LEAGUE_ID = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_INVALID_TIMESTAMP", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_INVALID_TIMESTAMP")]
       ERROR_INVALID_TIMESTAMP = 3
     }
   
@@ -4071,35 +4071,35 @@ namespace Dota2.GC.Dota.Internal
       get { return _result; }
       set { _result = value; }
     }
-    [global::ProtoBuf.ProtoContract(Name=@"Result", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"Result")]
     public enum Result
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"SUCCESS")]
       SUCCESS = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_UNSPECIFIED")]
       ERROR_UNSPECIFIED = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_INVALID_LEAGUE_ID", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_INVALID_LEAGUE_ID")]
       ERROR_INVALID_LEAGUE_ID = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_INVALID_TIMESTAMP", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_INVALID_TIMESTAMP")]
       ERROR_INVALID_TIMESTAMP = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_PLAYER_CARD_NOT_OWNED", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_PLAYER_CARD_NOT_OWNED")]
       ERROR_PLAYER_CARD_NOT_OWNED = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_INVALID_SLOT", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_INVALID_SLOT")]
       ERROR_INVALID_SLOT = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_FAILED_CARD_INFO", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_FAILED_CARD_INFO")]
       ERROR_FAILED_CARD_INFO = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_ACCOUNT_DUPLICATE", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_ACCOUNT_DUPLICATE")]
       ERROR_ACCOUNT_DUPLICATE = 7,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_LOCKED_TIMESTAMP", Value=8)]
+      [global::ProtoBuf.ProtoEnum(Name=@"ERROR_LOCKED_TIMESTAMP")]
       ERROR_LOCKED_TIMESTAMP = 8
     }
   
@@ -4108,296 +4108,296 @@ namespace Dota2.GC.Dota.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"DOTA_2013PassportSelectionIndices", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"DOTA_2013PassportSelectionIndices")]
     public enum DOTA_2013PassportSelectionIndices
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_ALLSTAR_PLAYER_0", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_ALLSTAR_PLAYER_0")]
       PP13_SEL_ALLSTAR_PLAYER_0 = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_ALLSTAR_PLAYER_1", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_ALLSTAR_PLAYER_1")]
       PP13_SEL_ALLSTAR_PLAYER_1 = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_ALLSTAR_PLAYER_2", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_ALLSTAR_PLAYER_2")]
       PP13_SEL_ALLSTAR_PLAYER_2 = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_ALLSTAR_PLAYER_3", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_ALLSTAR_PLAYER_3")]
       PP13_SEL_ALLSTAR_PLAYER_3 = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_ALLSTAR_PLAYER_4", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_ALLSTAR_PLAYER_4")]
       PP13_SEL_ALLSTAR_PLAYER_4 = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_ALLSTAR_PLAYER_5", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_ALLSTAR_PLAYER_5")]
       PP13_SEL_ALLSTAR_PLAYER_5 = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_ALLSTAR_PLAYER_6", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_ALLSTAR_PLAYER_6")]
       PP13_SEL_ALLSTAR_PLAYER_6 = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_ALLSTAR_PLAYER_7", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_ALLSTAR_PLAYER_7")]
       PP13_SEL_ALLSTAR_PLAYER_7 = 7,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_ALLSTAR_PLAYER_8", Value=8)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_ALLSTAR_PLAYER_8")]
       PP13_SEL_ALLSTAR_PLAYER_8 = 8,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_ALLSTAR_PLAYER_9", Value=9)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_ALLSTAR_PLAYER_9")]
       PP13_SEL_ALLSTAR_PLAYER_9 = 9,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_WEST_0", Value=10)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_WEST_0")]
       PP13_SEL_QUALPRED_WEST_0 = 10,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_WEST_1", Value=11)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_WEST_1")]
       PP13_SEL_QUALPRED_WEST_1 = 11,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_WEST_2", Value=12)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_WEST_2")]
       PP13_SEL_QUALPRED_WEST_2 = 12,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_WEST_3", Value=13)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_WEST_3")]
       PP13_SEL_QUALPRED_WEST_3 = 13,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_WEST_4", Value=14)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_WEST_4")]
       PP13_SEL_QUALPRED_WEST_4 = 14,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_WEST_5", Value=15)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_WEST_5")]
       PP13_SEL_QUALPRED_WEST_5 = 15,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_WEST_6", Value=16)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_WEST_6")]
       PP13_SEL_QUALPRED_WEST_6 = 16,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_WEST_7", Value=17)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_WEST_7")]
       PP13_SEL_QUALPRED_WEST_7 = 17,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_WEST_8", Value=18)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_WEST_8")]
       PP13_SEL_QUALPRED_WEST_8 = 18,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_WEST_9", Value=19)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_WEST_9")]
       PP13_SEL_QUALPRED_WEST_9 = 19,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_WEST_10", Value=20)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_WEST_10")]
       PP13_SEL_QUALPRED_WEST_10 = 20,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_WEST_11", Value=21)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_WEST_11")]
       PP13_SEL_QUALPRED_WEST_11 = 21,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_WEST_12", Value=22)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_WEST_12")]
       PP13_SEL_QUALPRED_WEST_12 = 22,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_WEST_13", Value=23)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_WEST_13")]
       PP13_SEL_QUALPRED_WEST_13 = 23,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_WEST_14", Value=24)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_WEST_14")]
       PP13_SEL_QUALPRED_WEST_14 = 24,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_EAST_0", Value=25)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_EAST_0")]
       PP13_SEL_QUALPRED_EAST_0 = 25,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_EAST_1", Value=26)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_EAST_1")]
       PP13_SEL_QUALPRED_EAST_1 = 26,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_EAST_2", Value=27)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_EAST_2")]
       PP13_SEL_QUALPRED_EAST_2 = 27,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_EAST_3", Value=28)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_EAST_3")]
       PP13_SEL_QUALPRED_EAST_3 = 28,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_EAST_4", Value=29)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_EAST_4")]
       PP13_SEL_QUALPRED_EAST_4 = 29,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_EAST_5", Value=30)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_EAST_5")]
       PP13_SEL_QUALPRED_EAST_5 = 30,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_EAST_6", Value=31)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_EAST_6")]
       PP13_SEL_QUALPRED_EAST_6 = 31,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_EAST_7", Value=32)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_EAST_7")]
       PP13_SEL_QUALPRED_EAST_7 = 32,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_EAST_8", Value=33)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_EAST_8")]
       PP13_SEL_QUALPRED_EAST_8 = 33,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_EAST_9", Value=34)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_EAST_9")]
       PP13_SEL_QUALPRED_EAST_9 = 34,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_EAST_10", Value=35)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_EAST_10")]
       PP13_SEL_QUALPRED_EAST_10 = 35,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_EAST_11", Value=36)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_EAST_11")]
       PP13_SEL_QUALPRED_EAST_11 = 36,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_EAST_12", Value=37)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_EAST_12")]
       PP13_SEL_QUALPRED_EAST_12 = 37,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_EAST_13", Value=38)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_EAST_13")]
       PP13_SEL_QUALPRED_EAST_13 = 38,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_EAST_14", Value=39)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_QUALPRED_EAST_14")]
       PP13_SEL_QUALPRED_EAST_14 = 39,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_TEAMCUP_TEAM", Value=40)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_TEAMCUP_TEAM")]
       PP13_SEL_TEAMCUP_TEAM = 40,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_TEAMCUP_PLAYER", Value=41)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_TEAMCUP_PLAYER")]
       PP13_SEL_TEAMCUP_PLAYER = 41,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_TEAMCUP_TEAM_LOCK", Value=42)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_TEAMCUP_TEAM_LOCK")]
       PP13_SEL_TEAMCUP_TEAM_LOCK = 42,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_TEAMCUP_PLAYER_LOCK", Value=43)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_TEAMCUP_PLAYER_LOCK")]
       PP13_SEL_TEAMCUP_PLAYER_LOCK = 43,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_0", Value=44)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_0")]
       PP13_SEL_EVENTPRED_0 = 44,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_1", Value=45)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_1")]
       PP13_SEL_EVENTPRED_1 = 45,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_2", Value=46)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_2")]
       PP13_SEL_EVENTPRED_2 = 46,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_3", Value=47)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_3")]
       PP13_SEL_EVENTPRED_3 = 47,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_4", Value=48)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_4")]
       PP13_SEL_EVENTPRED_4 = 48,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_5", Value=49)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_5")]
       PP13_SEL_EVENTPRED_5 = 49,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_6", Value=50)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_6")]
       PP13_SEL_EVENTPRED_6 = 50,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_7", Value=51)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_7")]
       PP13_SEL_EVENTPRED_7 = 51,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_8", Value=52)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_8")]
       PP13_SEL_EVENTPRED_8 = 52,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_9", Value=53)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_9")]
       PP13_SEL_EVENTPRED_9 = 53,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_10", Value=54)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_10")]
       PP13_SEL_EVENTPRED_10 = 54,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_11", Value=55)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_11")]
       PP13_SEL_EVENTPRED_11 = 55,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_12", Value=56)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_12")]
       PP13_SEL_EVENTPRED_12 = 56,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_13", Value=57)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_13")]
       PP13_SEL_EVENTPRED_13 = 57,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_14", Value=58)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_14")]
       PP13_SEL_EVENTPRED_14 = 58,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_15", Value=59)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_15")]
       PP13_SEL_EVENTPRED_15 = 59,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_16", Value=60)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_16")]
       PP13_SEL_EVENTPRED_16 = 60,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_17", Value=61)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_17")]
       PP13_SEL_EVENTPRED_17 = 61,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_18", Value=62)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_18")]
       PP13_SEL_EVENTPRED_18 = 62,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_19", Value=63)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_19")]
       PP13_SEL_EVENTPRED_19 = 63,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_20", Value=64)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_20")]
       PP13_SEL_EVENTPRED_20 = 64,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_21", Value=65)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_21")]
       PP13_SEL_EVENTPRED_21 = 65,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_22", Value=66)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_22")]
       PP13_SEL_EVENTPRED_22 = 66,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_23", Value=67)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_23")]
       PP13_SEL_EVENTPRED_23 = 67,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_24", Value=68)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_24")]
       PP13_SEL_EVENTPRED_24 = 68,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_25", Value=69)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_25")]
       PP13_SEL_EVENTPRED_25 = 69,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_26", Value=70)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_26")]
       PP13_SEL_EVENTPRED_26 = 70,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_27", Value=71)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_27")]
       PP13_SEL_EVENTPRED_27 = 71,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_28", Value=72)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_28")]
       PP13_SEL_EVENTPRED_28 = 72,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_29", Value=73)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_29")]
       PP13_SEL_EVENTPRED_29 = 73,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_30", Value=74)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_30")]
       PP13_SEL_EVENTPRED_30 = 74,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_31", Value=75)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_31")]
       PP13_SEL_EVENTPRED_31 = 75,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_32", Value=76)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_32")]
       PP13_SEL_EVENTPRED_32 = 76,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_33", Value=77)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_33")]
       PP13_SEL_EVENTPRED_33 = 77,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_34", Value=78)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_34")]
       PP13_SEL_EVENTPRED_34 = 78,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_35", Value=79)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_35")]
       PP13_SEL_EVENTPRED_35 = 79,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_36", Value=80)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_36")]
       PP13_SEL_EVENTPRED_36 = 80,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_37", Value=81)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_37")]
       PP13_SEL_EVENTPRED_37 = 81,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_38", Value=82)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_38")]
       PP13_SEL_EVENTPRED_38 = 82,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_39", Value=83)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_39")]
       PP13_SEL_EVENTPRED_39 = 83,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_40", Value=84)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_40")]
       PP13_SEL_EVENTPRED_40 = 84,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_41", Value=85)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_41")]
       PP13_SEL_EVENTPRED_41 = 85,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_42", Value=86)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_42")]
       PP13_SEL_EVENTPRED_42 = 86,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_43", Value=87)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_EVENTPRED_43")]
       PP13_SEL_EVENTPRED_43 = 87,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_SOLO_0", Value=88)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_SOLO_0")]
       PP13_SEL_SOLO_0 = 88,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_SOLO_1", Value=89)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_SOLO_1")]
       PP13_SEL_SOLO_1 = 89,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_SOLO_2", Value=90)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_SOLO_2")]
       PP13_SEL_SOLO_2 = 90,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_SOLO_3", Value=91)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_SOLO_3")]
       PP13_SEL_SOLO_3 = 91,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_SOLO_4", Value=92)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_SOLO_4")]
       PP13_SEL_SOLO_4 = 92,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_SOLO_5", Value=93)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_SOLO_5")]
       PP13_SEL_SOLO_5 = 93,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_SOLO_6", Value=94)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_SOLO_6")]
       PP13_SEL_SOLO_6 = 94,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_SOLO_7", Value=95)]
+      [global::ProtoBuf.ProtoEnum(Name=@"PP13_SEL_SOLO_7")]
       PP13_SEL_SOLO_7 = 95
     }
   

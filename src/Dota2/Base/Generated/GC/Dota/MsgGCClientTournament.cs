@@ -1642,41 +1642,41 @@ namespace Dota2.GC.Dota.Internal
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-    [global::ProtoBuf.ProtoContract(Name=@"ETournamentEvent", EnumPassthru=true)]
+    [global::ProtoBuf.ProtoContract(Name=@"ETournamentEvent")]
     public enum ETournamentEvent
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentEvent_None", Value=0)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentEvent_None")]
       k_ETournamentEvent_None = 0,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentEvent_TournamentCreated", Value=1)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentEvent_TournamentCreated")]
       k_ETournamentEvent_TournamentCreated = 1,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentEvent_TournamentsMerged", Value=2)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentEvent_TournamentsMerged")]
       k_ETournamentEvent_TournamentsMerged = 2,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentEvent_GameOutcome", Value=3)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentEvent_GameOutcome")]
       k_ETournamentEvent_GameOutcome = 3,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentEvent_TeamGivenBye", Value=4)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentEvent_TeamGivenBye")]
       k_ETournamentEvent_TeamGivenBye = 4,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentEvent_TournamentCanceledByAdmin", Value=5)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentEvent_TournamentCanceledByAdmin")]
       k_ETournamentEvent_TournamentCanceledByAdmin = 5,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentEvent_TeamAbandoned", Value=6)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentEvent_TeamAbandoned")]
       k_ETournamentEvent_TeamAbandoned = 6,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentEvent_ScheduledGameStarted", Value=7)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentEvent_ScheduledGameStarted")]
       k_ETournamentEvent_ScheduledGameStarted = 7,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentEvent_Canceled", Value=8)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentEvent_Canceled")]
       k_ETournamentEvent_Canceled = 8,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentEvent_TeamParticipationTimedOut_EntryFeeRefund", Value=9)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentEvent_TeamParticipationTimedOut_EntryFeeRefund")]
       k_ETournamentEvent_TeamParticipationTimedOut_EntryFeeRefund = 9,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentEvent_TeamParticipationTimedOut_EntryFeeForfeit", Value=10)]
+      [global::ProtoBuf.ProtoEnum(Name=@"k_ETournamentEvent_TeamParticipationTimedOut_EntryFeeForfeit")]
       k_ETournamentEvent_TeamParticipationTimedOut_EntryFeeForfeit = 10
     }
   
