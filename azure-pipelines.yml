@@ -1,0 +1,34 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'windows-2022'
+
+variables:
+  solution: '**/Dota2.sln'
+  buildPlatform: 'Any CPU'
+  buildConfiguration: 'Release'
+
+steps:
+- task: NuGetToolInstaller@1
+
+- task: NuGetCommand@2
+  inputs:
+    command: 'restore'
+    restoreSolution: '$(solution)'
+    feedsToUse: 'select'
+    vstsFeed: '079d70a6-e0ad-4b26-acd8-04ca7d33bade'
+
+- task: VSBuild@1
+  inputs:
+    solution: '$(solution)'
+    msbuildArgs: '-t:build -t:pack -p:PackageVersion="0.12.0-CI-$(Build.BuildNumber)" -p:IncludeSymbols=true -p:SymbolPackageFormat=snupkg'
+    platform: '$(buildPlatform)'
+    configuration: '$(buildConfiguration)'
+
+- task: NuGetCommand@2
+  inputs:
+    command: 'push'
+    packagesToPush: '**/*.nupkg;**/*.snupkg'
+    nuGetFeedType: 'internal'
+    publishVstsFeed: '079d70a6-e0ad-4b26-acd8-04ca7d33bade'
